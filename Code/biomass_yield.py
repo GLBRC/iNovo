@@ -20,17 +20,19 @@ cobra_config = cobra.Configuration()
 cobra_config.solver = "glpk_exact"
 
 # Set paths
-model_path = '/Users/Alex/Desktop/iNovo/Model_builds/Models/iNovo.xml' # Must be an xml file
+model_path = '/Users/Alex/Desktop/iNovo/Model_builds/Models/hypothetical_demethylation_iNovo.xml' # Must be an xml file
 output_path = '/Users/Alex/Desktop/iNovo/Model_results/Model_fluxes.csv' # Must be a csv file
 
 # Note: there's a warning "Solver status infeasible" that may appear when running this script.
 # This means that a model constraint cannot be met
 # I have a constraint set on the S-type aromatic pathway, so running the model on G-type aromatics only will result in this error. No action needs to be taken in these cases.
+# It may also indicate that no loopless solution could be found. You should take a closer look at these cases.
 
 ###############
 # EDIT THIS SECTION BEFORE RUNNING
 gene_deletions = [] 	# add any gene deletions you'd like the model to perform here as a list
-substrates = {"exSRGGE": [1.0]} 	# use compound ID followed by concentration in mmol/L
+substrates = {"expHBA": [1.0]} 	# use compound ID followed by concentration in mmol/L
+# Leave substrate concentration at 1 unless you want to do some conversions with the final biomass value
 
 
 ##############
@@ -147,8 +149,6 @@ Novo_model.add_cons_vars(SA_flux)
 tracking = copy.deepcopy(media_components)
 tracking.update(enviro)
 tracking.update(outfluxes)
-
-aromatic_transport_rxns = ["A031", "A032", "t0003", "t0030", "t0031", "t0032", "t0033", "t0035", "t0036", "t0037", "t0038", "t0039", "t0023"]
 
 #############
 # Set up your gene deletions
