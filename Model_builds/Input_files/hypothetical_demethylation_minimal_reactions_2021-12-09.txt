@@ -213,7 +213,6 @@ R01230	FALSE	"""C00002"": -1, ""C00655"": -1, ""C00014"": -1, ""C00020"": 1, ""C
 R01248	TRUE	"""C00148"": -1, ""C00003"": -1, ""C03912"": 1, ""C00004"": 1, ""C00080"": 1"	L-Proline:NAD+ 5-oxidoreductase	Saro_1142	Cytoplasmic
 R01288	FALSE	"""C01118"": -1, ""C00283"": -1, ""C00155"": 1, ""C00042"": 1"	O4-succinyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase	Saro_2665	Cytoplasmic
 R01293	FALSE	"""C00633"": -1, ""C00003"": -1, ""C00001"": -1, ""C00156"": 1, ""C00004"": 1, ""C00080"": 1"	4-hydroxybenzaldehyde NAD+ oxidoreductase	none	Cytoplasmic
-R01298	TRUE	"""C00156"": -1, ""C00007"": -1, ""C00005"": -1, ""C00080"": -1, ""PCA"": 1, ""C00006"": 1, ""C00001"": 1"	4-hydroxybenzoate NADPH oxygen oxidoreductase 3-hydroxylating	Saro_2436	Cytoplasmic
 R01302	FALSE	"""C00251"": -1, ""C00022"": 1, ""C00156"": 1"	chorismate pyruvate-lyase (4-hydroxybenzoate-forming)	none	Cytoplasmic
 R01312	TRUE	"""C00157"": -1, ""C00001"": -1, ""C00080"": -1, ""C00641"": 1, ""C00588"": 1"	Phosphatidylcholine cholinephosphohydrolase	Saro_1552	Cytoplasmic
 R01321	FALSE	"""C00307"": -1, ""C00641"": -1, ""C00055"": 1, ""C00157"": 1"	"CDP-choline 1,2-diacyl-sn-glycerol cholinephosphotransferase"	none	Cytoplasmic
