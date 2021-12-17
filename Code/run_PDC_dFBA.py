@@ -39,7 +39,7 @@ starting_biomass = 0.001 			# in g/L
 gene_deletions = [] 			# add any gene deletions you'd like the model to perform here
 substrates = {sys.argv[1]: [float(sys.argv[2])], sys.argv[3]: [float(sys.argv[4])]}  # use CPD ID followed by concentration in mmol/L
 timepoint_interval = 15 			# minutes between timepoints
-n  = 250  				# number of timesteps
+n  = 150 				# number of timesteps
 
 model_path = "/Users/Alex/Desktop/iNovo/Model_builds/Models/iNovo.xml"
 output_path = "/Users/Alex/Desktop/iNovo/Model_results/PDC_"
@@ -49,9 +49,6 @@ output_path = "/Users/Alex/Desktop/iNovo/Model_results/PDC_"
 # THINGS YOU PROBABLY WON'T NEED TO EDIT BUT CAN
 # This encodes Standard Mineral Base, no carbon, from DSMZ Medium 1185. Iron, ammonia, phosphate, and sulfate.
 media_components = {"exC14818": [45.54], "exC00014": [10.], "exC00009": [26.1], "exC00059": [8.]}
-# Add co-factors that model consumes but can't make - your run may not need all of these
-# "C00229_c0": [1], "C02051_c0": [1], "C00342_c0": [1], "C00139_c0": [1], "C15972_c0": [1],
-# cofactor = {} # acyl-CoA and CoA
 # These are exchange reactions that are far in excess of others due to diffusion
 enviro = {"C00282": [10], "exC00001": [100], "exC00007": [10]}
 # These are things the model needs to be allowed to output or it will break - your run may not need all of these
@@ -75,8 +72,9 @@ def get_rate(cpd_ID):
     # S-type
     elif cpd_ID == "exSA" or cpd_ID == "exS" or cpd_ID == "exSDK":
         Vm = 0.582
-        Ks = 0.05
-        Ki = 0.05
+        #Vm = 0.902
+        Ks = 0.1
+        Ki = 0.1
     # H-type
     elif cpd_ID == "expHBA" or cpd_ID == "exPCA" or cpd_ID == "exC00633" or cpd_ID == "exC00180"or cpd_ID == "exC00156":
         Vm = 0.902
@@ -146,7 +144,8 @@ CCMA_flux = Novo_model.problem.Constraint(
     ub=0)
 Novo_model.add_cons_vars(CCMA_flux)
 
-# We don't want the SA constraint in the PDC producing version of the model because the constrained pathway was deleted in the laboratory strain
+# We don't want the SA constraint in the PDC producing version of the model because with no flux though the PDC degrading portion, all fluxes would be zero
+
 # So write the PDC-producing model to a separate item now
 Novo_model2 = copy.deepcopy(Novo_model)
 
@@ -166,6 +165,11 @@ Novo_model.reactions.get_by_id("NGAM").lower_bound = 0.00004
 Novo_model2.genes.Saro_2819.knock_out()
 Novo_model2.genes.Saro_2864.knock_out()
 Novo_model2.genes.Saro_2865.knock_out()
+
+# There's an alternative pathway for H compounds that the model attempts to use as a side pathway when PDC is blocked. This doesn't happen biologically, so I block this pathway during PDC production. HOWEVER when doing this with gene deletions, this also blocks the main H pathway, so I don't want to do this when testing expHBA. The side pathway isn't active on H compounds anyway.
+
+#if sys.argv[1] != "expHBA":
+#	Novo_model2.genes.Saro_2436.knock_out()
 
 aromatic_transport_rxns = ["A031", "A032", "t0003", "t0030", "t0031", "t0032", "t0033", "t0035", "t0036", "t0037", "t0038", "t0039", "t0023"]
 
@@ -288,6 +292,7 @@ for i in range(1,n):
              continue
         elif metabolite in outfluxes:
             exec ("tracking[metabolite].append(tracking[metabolite][i - 1] + out[i][\"DM_" + metabolite + "\"] * tracking[\"Biomass\"][i - 1] * timepoint_interval)")
+
         elif metabolite in substrates:
             exec ("tracking[metabolite].append(tracking[metabolite][i - 1] + out[i][\"EX_" + metabolite + "\"] * tracking[\"Biomass\"][i - 1] * timepoint_interval)")
 
@@ -296,14 +301,14 @@ for i in range(1,n):
 
 
     # Optional: print the fluxes at a certain iteration. Helpful for troubleshooting
-    #if i == 2 or i == 90 or i == 156:
-    #       exec("solution2.fluxes.to_csv(output_path + \"fluxes" + str(i) + ".csv\")")
+    if i == 2 or i == 90 or i == 113:
+           exec("solution2.fluxes.to_csv(output_path + \"fluxes" + str(i) + ".csv\")")
 
     # Print warning if biomass is operating in reverse
     if out[i]["biomass"] < 0.0:
         print(i)
         print("Biomass running in reverse")
-        break
+        #break
 
 
 # Output tracking dictionary as a dataframe
