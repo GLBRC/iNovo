@@ -1,7 +1,7 @@
-###This GitHub repo accompanies the manuscript “iNovo479: metabolic modeling provides a roadmap to optimize bioproduct yield from deconstructed lignin aromatics by Novosphingobium aromaticivorans”
+*This GitHub repo accompanies the manuscript “iNovo479: metabolic modeling provides a roadmap to optimize bioproduct yield from deconstructed lignin aromatics by Novosphingobium aromaticivorans”
 Alexandra M. Linz,Yanjun Ma, Daniel R. Noguera, and Timothy J. Donohue
 
-##iNovo479 is a genome-scale metabolic model intended to assist in designing pipelines for converting depolymerized lignin to bioproducts. This site contains built models, the code and input files to build models, code to run the published simulations on iNovo479, and results from the model runs.
+*iNovo479 is a genome-scale metabolic model intended to assist in designing pipelines for converting depolymerized lignin to bioproducts. This site contains built models, the code and input files to build models, code to run the published simulations on iNovo479, and results from the model runs.
 
 HOW TO BUILD A MODEL
 There are three possible model builds provide here allowing alternative aromatic demethylation pathways. Each model is built using a file of compound IDs and a file of reaction IDs. The compound IDs file is the same for all three models, “Model_builds/Input_files/minimal_compounds_2021-10-07.csv”. The reaction IDs are different for each build and are described below. To build a model, edit the input and output file paths in “Code/build_model.py”, then run this file. It will output the model object in “Model_builds/Models”.
@@ -24,27 +24,47 @@ iNovo_figures.R - This script takes output from the previous scripts and generat
 CONTENTS
 
 -Code
+
 	-biomass_yield.py	#Predicts biomass yield for given substrates
+	
 	-build_model.py	#Takes a file of compound IDs and a file of reaction IDs and builds a model object
+	
 	-run_standard_dFBA.py	#Runs dFBA on a given model and set of substrates with no modifications
+	
 	-run_PDC_dFBA.py	#Run a version of dFBA that simulates PDC production
+	
 	-iNovo_figures.R	#Generates the figures in the manuscript
 
 -Model_builds
+
 	-Input_files
+	
 		-hypothetical_demethylation_minimal_reactions_2021-12-09.txt	#Hypothetical demethylation with no energy gain
+		
 		-minimal_compounds_2021-10-07.csv	#Shared compound IDs file for all models
+		
 		-minimal_reactions_2021-12-04.txt	#Reaction IDs in the base iNovo model
+		
 		-vanAB_minimal_reactions_2021-12-09.txt	#Novo’s demethylation replaced with P. putida’s 
 	-Models
 		-hypothetical_demethylation_iNovo.json/xml	#Hypothetical demethylation with no energy gain
+		
 		-iNovo.json/xml	#Base model
+		
 		-vanAB_iNovo.json/xml	#Novo’s demethylation replaced with P. putida’s 
+		
 -Model_results
+
 	-glu_SA_VA_pHBA_dFBA_results.csv	#Co-metabolism of these substrates from run_standard_dFBA.py
+	
 	-SA_VA_pHBA_dFBA_results.csv	#See above
+	
 	-aromatic_glucose_ratios.csv	#Aggregated results from run_PDC_dFBA.py
+	
 -Plots_and_Tables
+
 	-input plots and tables from iNovo_figures.R and Excel. Used in the manuscript.
+	
 -Supplemental_Files
+
 	-Supplemental files included with the manuscript
