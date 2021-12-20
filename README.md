@@ -1,7 +1,7 @@
 *This GitHub repo accompanies the manuscript “iNovo479: metabolic modeling provides a roadmap to optimize bioproduct yield from deconstructed lignin aromatics by Novosphingobium aromaticivorans”
-Alexandra M. Linz,Yanjun Ma, Daniel R. Noguera, and Timothy J. Donohue
+Alexandra M. Linz,Yanjun Ma, Daniel R. Noguera, and Timothy J. Donohue*
 
-*iNovo479 is a genome-scale metabolic model intended to assist in designing pipelines for converting depolymerized lignin to bioproducts. This site contains built models, the code and input files to build models, code to run the published simulations on iNovo479, and results from the model runs.
+*iNovo479 is a genome-scale metabolic model intended to assist in designing pipelines for converting depolymerized lignin to bioproducts. This site contains built models, the code and input files to build models, code to run the published simulations on iNovo479, and results from the model runs.*
 
 HOW TO BUILD A MODEL
 There are three possible model builds provide here allowing alternative aromatic demethylation pathways. Each model is built using a file of compound IDs and a file of reaction IDs. The compound IDs file is the same for all three models, “Model_builds/Input_files/minimal_compounds_2021-10-07.csv”. The reaction IDs are different for each build and are described below. To build a model, edit the input and output file paths in “Code/build_model.py”, then run this file. It will output the model object in “Model_builds/Models”.
