@@ -4,9 +4,11 @@ Alexandra M. Linz,Yanjun Ma, Daniel R. Noguera, and Timothy J. Donohue*
 *iNovo479 is a genome-scale metabolic model intended to assist in designing pipelines for converting depolymerized lignin to bioproducts. This site contains built models, the code and input files to build models, code to run the published simulations on iNovo479, and results from the model runs.*
 
 HOW TO BUILD A MODEL
+
 There are three possible model builds provide here allowing alternative aromatic demethylation pathways. Each model is built using a file of compound IDs and a file of reaction IDs. The compound IDs file is the same for all three models, “Model_builds/Input_files/minimal_compounds_2021-10-07.csv”. The reaction IDs are different for each build and are described below. To build a model, edit the input and output file paths in “Code/build_model.py”, then run this file. It will output the model object in “Model_builds/Models”.
 
 HOW TO USE THE MODEL
+
 There are several Python scripts provided in “Code/“ for running the simulations described in our manuscript:
 
 biomass_yield.py - Edit the top of the script with your desired model and carbon substrate. The substrate must be a compound ID from the model with a transport reaction encoded. This will report the predicted biomass yield in mgDW/mmol substrate. This script can also handle multiple substrates.
@@ -14,9 +16,13 @@ biomass_yield.py - Edit the top of the script with your desired model and carbon
 run_standard_dFBA.py - This performs dynamic flux balance analysis (dFBA) with no fancy changes to show how substrates are consumed and biomass is generated over time. It’s used in the manuscript to investigate co-metabolism of multiple aromatic substrates. Edit the top of the script with your desired model, carbon substrates, number of timepoints, and intervals between timepoints.
 
 run_PDC_dFBA.py - This script is specific to the PDC producing strain, although it can be used with any base model. This script is configured to take command line arguments for two substrates and their concentrations in mmol/L, so you would run it like:
+
 python ./run_PDC_dFBA.py exVA 2.0 exC00031 3.0
+
 You can also use the following syntax with a file of substrate inputs to run multiple versions of the model at once:
+
 while read line; do python ./run_PDC_dFBA.py $line; done < substrate_inputs.txt
+
 Make sure you edit the timepoint interval and number of timepoints in the script. This script outputs the rate of PDC production in g/L/hr.
 
 iNovo_figures.R - This script takes output from the previous scripts and generates the figures in the manuscript. It is an R script and depends on the packages tidyverse, cowplot, and reshape2.
