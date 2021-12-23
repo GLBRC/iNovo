@@ -39,7 +39,7 @@ starting_biomass = 0.001 			# in g/L
 gene_deletions = [] 			# add any gene deletions you'd like the model to perform here
 substrates = {sys.argv[1]: [float(sys.argv[2])], sys.argv[3]: [float(sys.argv[4])]}  # use CPD ID followed by concentration in mmol/L
 timepoint_interval = 15 			# minutes between timepoints
-n  = 139 				# number of timesteps
+n  = 500				# number of timesteps
 
 model_path = "/Users/Alex/Desktop/iNovo/Model_builds/Models/iNovo.xml"
 output_path = "/Users/Alex/Desktop/iNovo/Model_results/PDC_"
@@ -54,7 +54,6 @@ enviro = {"C00282": [10], "exC00001": [100], "exC00007": [10]}
 # These are things the model needs to be allowed to output or it will break - your run may not need all of these
 outfluxes = {"C00162": [1], "C00010": [1], "C00132": [0], "C00054": [0], "PDC": [0], "C00011": [0], "C05198": [0], "C04425": [0], "C00266": [0], "C00153": [0], "PDC": [0]}
 # You could change the objective function to something else like ATP or PDC, but may get non-biologically relevant results
-#aromatic_fluxes = ["A003", "A004", "A005", "A006", "A007", "A008", "A009", "A010", "A011", "A012", "A013", "A014", "A015", "A017", "A018", "A019", "A020", "A021", "A022", "A023", "A024", "A025", "A026", "A027", "A028", "A029", "A030"]
 
 
 # Kinetic parameters in mM per min - these are estimates from related bacteria in the literature and not experimentally verified
@@ -188,9 +187,15 @@ out2 = {}
 track_rates = copy.deepcopy(substrates)
 track_rates.update(media_components)
 
+stop_condition = 0
+
 for i in range(1,n):
-    if i%50 == 0:
-        print("Timepoint: ", i)
+    if stop_condition == 1:
+        print("All aromatic consumed: ", i)
+        break
+
+    #if i%10 == 0:
+        #print("Timepoint: ", i)
 
     for metabolite in tracking:
 
@@ -211,6 +216,8 @@ for i in range(1,n):
             if tracking[metabolite][i - 1] < (r *  tracking["Biomass"][i-1] * timepoint_interval):
                 print("Maximum allowed rate exceeds remaining concentration of substrate - resetting max rate ", i, "; ", metabolite, "; ", r)
                 r = tracking[metabolite][i - 1] / (tracking["Biomass"][i-1] * timepoint_interval)
+                if metabolite == sys.argv[1]:
+                    stop_condition = 1
 
 
             exec ("Novo_model.reactions.EX_" + metabolite + ".lower_bound = -1 * r")
