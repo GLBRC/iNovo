@@ -7,6 +7,7 @@
 ###################
 
 # Import packages
+import sys
 import cobra
 from cobra.flux_analysis.loopless import loopless_solution
 import logging
@@ -20,7 +21,7 @@ cobra_config = cobra.Configuration()
 cobra_config.solver = "glpk_exact"
 
 # Set paths
-model_path = '/Users/Alex/Desktop/iNovo/Model_builds/Models/hypothetical_demethylation_iNovo.xml' # Must be an xml file
+model_path = '/Users/Alex/Desktop/iNovo/Model_builds/Models/iNovo.xml' # Must be an xml file
 output_path = '/Users/Alex/Desktop/iNovo/Model_results/Model_fluxes.csv' # Must be a csv file
 
 # Note: there's a warning "Solver status infeasible" that may appear when running this script.
@@ -31,7 +32,7 @@ output_path = '/Users/Alex/Desktop/iNovo/Model_results/Model_fluxes.csv' # Must 
 ###############
 # EDIT THIS SECTION BEFORE RUNNING
 gene_deletions = [] 	# add any gene deletions you'd like the model to perform here as a list
-substrates = {"expHBA": [1.0]} 	# use compound ID followed by concentration in mmol/L
+substrates = {sys.argv[1]: [1.0]} 	# use compound ID followed by concentration in mmol/L
 # Leave substrate concentration at 1 unless you want to do some conversions with the final biomass value
 
 
@@ -129,15 +130,7 @@ Novo_model.reactions.get_by_id("NGAM").upper_bound = 0.00004
 Novo_model.reactions.get_by_id("NGAM").lower_bound = 0.00004
 
 # Add any constraints
-# Constraint 1: CCMA pathway is 5% of the PDC pathway
 
-CCMA_flux = Novo_model.problem.Constraint(
-    Novo_model.reactions.A033.flux_expression - Novo_model.reactions.A005.flux_expression * 0.15,
-    lb=0,
-    ub=0)
-Novo_model.add_cons_vars(CCMA_flux)
-
-# Constraint 2
 # S pathway from Perez et al. 2021 should operate at 15% flux of the main pathway
 SA_flux = Novo_model.problem.Constraint(
     Novo_model.reactions.A031.flux_expression - Novo_model.reactions.A015.flux_expression * 0.15,

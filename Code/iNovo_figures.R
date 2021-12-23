@@ -9,6 +9,8 @@ library(reshape2)
 # Load data
 cometabolism1 <- read_csv("/Users/Alex/Desktop/iNovo/Model_results/SA_VA_pHBA_dFBA_results.csv")
 cometabolism2 <- read_csv("/Users/Alex/Desktop/iNovo/Model_results/glu_SA_VA_pHBA_dFBA_results.csv")
+cometabolism3 <- read_csv("/Users/Alex/Desktop/iNovo/Model_results/hypothetical_SA_VA_pHBA_dFBA_results.csv")
+cometabolism4 <- read_csv("/Users/Alex/Desktop/iNovo/Model_results/vanAB_SA_VA_pHBA_dFBA_results.csv")
 glucose_ratios <- read_csv("/Users/Alex/Desktop/iNovo/Model_results/aromatic_glucose_ratios.csv")
 
 ####### Co-metabolism - dFBA results
@@ -66,6 +68,42 @@ cometabolism_plot <- plot_grid(p1, p2, legend, b1, b2, nrow = 2, ncol = 3, label
 
 save_plot("/Users/Alex/Desktop/iNovo/Plots_and_Tables/cometabolism_plot.pdf", cometabolism_plot)
 
+# Supplemental panels
+# Repeat with alternative demethylations
+to_plot <- c("exSA", "exVA", "expHBA")
+
+# Add Time columns for hours and days
+cometabolism3$Hours <- cometabolism3$Time / 60
+cometabolism3$Days <- cometabolism3$Hours / 24
+cometabolism3 <- cometabolism3[which(cometabolism3$Days < 1.2), ]
+
+# Pull out and reshape the variables for plotting
+reshaped3 <- cometabolism3[, c("Time", to_plot)]
+reshaped3 <- melt(reshaped3, id = "Time")
+reshaped3$Hours <- reshaped3$Time / 60
+reshaped3$Days <- reshaped3$Hours / 24
+
+pS1 <- ggplot(reshaped3, aes(x = Days, y = value, color = variable)) + geom_line(size = 1) + labs(x = NULL, y = "mmol/L", color = "Substrate") + scale_color_manual(values = c("gold2", "darkturquoise", "olivedrab3"), labels = c("Syringic acid", "Vanillic acid", "p-HBA")) + scale_x_continuous(expand = c(0.01, 0.01), limits = c(0, 0.6)) + scale_y_continuous(expand = c(0.01, 0.01)) + theme_bw() + theme(panel.grid.minor = element_blank())
+legend2 <- get_legend(pS1)
+pS1 <- ggplot(reshaped3, aes(x = Days, y = value, color = variable)) + geom_line(size = 1) + labs(x = NULL, y = "mmol/L") + scale_color_manual(values = c("gold2", "darkturquoise", "olivedrab3")) + scale_x_continuous(expand = c(0.01, 0.01), limits = c(0, 0.6)) + scale_y_continuous(expand = c(0.01, 0.01)) + theme_bw() + theme(panel.grid.minor = element_blank(), legend.position = "none")
+
+
+# Add Time columns for hours and days
+cometabolism4$Hours <- cometabolism4$Time / 60
+cometabolism4$Days <- cometabolism4$Hours / 24
+cometabolism4 <- cometabolism4[which(cometabolism4$Days < 1.2), ]
+
+# Pull out and reshape the variables for plotting
+reshaped4 <- cometabolism4[, c("Time", to_plot)]
+reshaped4 <- melt(reshaped4, id = "Time")
+reshaped4$Hours <- reshaped4$Time / 60
+reshaped4$Days <- reshaped4$Hours / 24
+
+pS2 <- ggplot(reshaped4, aes(x = Days, y = value, color = variable)) + geom_line(size = 1) + labs(x = NULL, y = "mmol/L") + scale_color_manual(values = c("gold2", "darkturquoise", "olivedrab3")) + scale_x_continuous(expand = c(0.01, 0.01), limits = c(0, 0.6)) + scale_y_continuous(expand = c(0.01, 0.01)) + theme_bw() + theme(panel.grid.minor = element_blank(), legend.position = "none")
+
+supp_cometabolism_plot <- plot_grid(pS1, pS2, legend2, nrow = 1, ncol = 3, labels = c("A", "B"), rel_widths = c(1, 1, 0.5))
+
+save_plot("/Users/Alex/Desktop/iNovo/Plots_and_Tables/supp_cometabolism_plot.pdf", supp_cometabolism_plot)
 
 ####### Plot aromatic:glucose ratios
 # Pull out needed data and convert to long format

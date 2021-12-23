@@ -14,8 +14,8 @@ import cobra
 
 # Set file paths
 cpd_path = '/Users/Alex/Desktop/iNovo/Model_builds/Input_files/minimal_compounds_2021-10-07.csv'
-rxn_path = '/Users/Alex/Desktop/iNovo/Model_builds/Input_files/minimal_reactions_2021-12-04.txt'
-output_path = '/Users/Alex/Desktop/iNovo/Model_builds/Models/iNovo'
+rxn_path = '/Users/Alex/Desktop/iNovo/Model_builds/Input_files/engineered_minimal_reactions_2021-06-02.txt'
+output_path = '/Users/Alex/Desktop/iNovo/Model_builds/Models/engineered_iNovo'
 
 # Set up model object
 model = cobra.Model('Novo')

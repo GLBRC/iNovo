@@ -39,7 +39,7 @@ starting_biomass = 0.001 			# in g/L
 gene_deletions = [] 			# add any gene deletions you'd like the model to perform here
 substrates = {sys.argv[1]: [float(sys.argv[2])], sys.argv[3]: [float(sys.argv[4])]}  # use CPD ID followed by concentration in mmol/L
 timepoint_interval = 15 			# minutes between timepoints
-n  = 150 				# number of timesteps
+n  = 139 				# number of timesteps
 
 model_path = "/Users/Alex/Desktop/iNovo/Model_builds/Models/iNovo.xml"
 output_path = "/Users/Alex/Desktop/iNovo/Model_results/PDC_"
@@ -136,13 +136,6 @@ for item in outfluxes:
 Novo_model.objective = Novo_model.reactions.get_by_id("biomass")
 
 # Add any constraints
-# Constraint 1: CCMA pathway is 5% of the PDC pathway
-
-CCMA_flux = Novo_model.problem.Constraint(
-    Novo_model.reactions.A033.flux_expression - Novo_model.reactions.A005.flux_expression * 0.15,
-    lb=0,
-    ub=0)
-Novo_model.add_cons_vars(CCMA_flux)
 
 # We don't want the SA constraint in the PDC producing version of the model because with no flux though the PDC degrading portion, all fluxes would be zero
 
@@ -165,11 +158,6 @@ Novo_model.reactions.get_by_id("NGAM").lower_bound = 0.00004
 Novo_model2.genes.Saro_2819.knock_out()
 Novo_model2.genes.Saro_2864.knock_out()
 Novo_model2.genes.Saro_2865.knock_out()
-
-# There's an alternative pathway for H compounds that the model attempts to use as a side pathway when PDC is blocked. This doesn't happen biologically, so I block this pathway during PDC production. HOWEVER when doing this with gene deletions, this also blocks the main H pathway, so I don't want to do this when testing expHBA. The side pathway isn't active on H compounds anyway.
-
-#if sys.argv[1] != "expHBA":
-#	Novo_model2.genes.Saro_2436.knock_out()
 
 aromatic_transport_rxns = ["A031", "A032", "t0003", "t0030", "t0031", "t0032", "t0033", "t0035", "t0036", "t0037", "t0038", "t0039", "t0023"]
 
