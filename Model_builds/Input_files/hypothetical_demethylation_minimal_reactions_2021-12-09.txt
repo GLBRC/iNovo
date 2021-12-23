@@ -28,7 +28,6 @@ A029	FALSE	"""RRGGE"": -1, ""C00003"": -1, ""RMPHPV"": 1, ""C00004"": 1"	rxn3	Sa
 A030	FALSE	"""SSGGE"": -1, ""C00003"": -1, ""SMPHPV"": 1, ""C00004"": 1"	rxn4	Saro_0794	Cytoplasmic
 A031	FALSE	"""CHMOD"": -1, ""C00101"": -1, ""C00440"": 1,  ""GA"": 1"	CHMOD to gallic acid	Saro_2861 or Saro_1872	Cytoplasmic
 A032	FALSE	"""GA"": -1, ""C00007"": -1, ""OMA"": 1"	Gallic acid to OMA	Saro_2812 and Saro_2813 or Saro_1233 and Saro_1234	Cytoplasmic
-A033	FALSE	"""PCA"": -1, ""C00090"": 1, ""C00011"": 1"	PCA to catechol	Saro_3877	Cytoplasmic
 A034	FALSE	"""S"": -1, ""C00001"": -1, ""C00003"": -1, ""SA"": 1, ""C00004"": 1, ""C00080"": 1"	syringaldehyde dehydrogenase	Saro_1668	Cytoplasmic
 A035	FALSE	"""GDK"": -1, ""C00004"": -1, ""C00080"": -1, ""GP-2"": 1, ""C00003"": 1"	G-diketone reduction	ligLNDO	Cytoplasmic
 A036	TRUE	"""GP-1"": -1, ""GP-2"": 1"	GP isomerization	spontaneous	Cytoplasmic
