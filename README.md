@@ -5,7 +5,17 @@ Alexandra M. Linz,Yanjun Ma, Samuel Scholz, Daniel R. Noguera, and Timothy J. Do
 
 HOW TO BUILD A MODEL
 
-There are three possible model builds provide here allowing alternative aromatic demethylation pathways. Each model is built using a file of compound IDs and a file of reaction IDs. The compound IDs file is the same for all three models, “Model_builds/Input_files/minimal_compounds_2021-10-07.csv”. The reaction IDs are different for each build and are described below. To build a model, edit the input and output file paths in “Code/build_model.py”, then run this file. It will output the model object in “Model_builds/Models”.
+Go to the folder Model_builds/. Inside you'll find a Python script, build_iNovo.py. You'll need Python 3 installed as well as the packages cobra, ast, and pandas - another package, logging, is optional but helps with error reporting. This script takes three arguments in this order:
+1. the path to the file of compound IDs
+2. the path to the file of reaction IDs
+3. the output path of the resulting model (do not specify a file extension)
+
+For example:
+> python build_iNovo.py Input_files/minimal_compounds_2022-03-03.csv Input_files/minimal_reactions_2022-02-11.txt Model_builds/iNovo_base_2022
+
+This will write model in both XML (SBML) format and JSON format. The XML file is used in our scripts and is the more common format. The JSON format is helpful for plotting fluxes in Escher.
+
+The input files and models used in this paper are included in Model_builds/. If you would like to modify iNovo479, you can edit the provided input files and use build_iNovo.py to make a new model version.
 
 HOW TO USE THE MODEL
 
