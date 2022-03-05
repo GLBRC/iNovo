@@ -19,23 +19,7 @@ The input files and models used in this paper are included in Model_builds/. If 
 
 HOW TO USE THE MODEL
 
-There are several Python scripts provided in “Code/“ for running the simulations described in our manuscript:
-
-biomass_yield.py - Edit the top of the script with your desired model and carbon substrate. The substrate must be a compound ID from the model with a transport reaction encoded. This will report the predicted biomass yield in mgDW/mmol substrate. This script can also handle multiple substrates.
-
-run_standard_dFBA.py - This performs dynamic flux balance analysis (dFBA) with no fancy changes to show how substrates are consumed and biomass is generated over time. It’s used in the manuscript to investigate co-metabolism of multiple aromatic substrates. Edit the top of the script with your desired model, carbon substrates, number of timepoints, and intervals between timepoints.
-
-run_PDC_dFBA.py - This script is specific to the PDC producing strain, although it can be used with any base model. This script is configured to take command line arguments for two substrates and their concentrations in mmol/L, so you would run it like:
-
-python ./run_PDC_dFBA.py exVA 2.0 exC00031 3.0
-
-You can also use the following syntax with a file of substrate inputs to run multiple versions of the model at once:
-
-while read line; do python ./run_PDC_dFBA.py $line; done < substrate_inputs.txt
-
-Make sure you edit the timepoint interval and number of timepoints in the script. This script outputs the rate of PDC production in g/L/hr.
-
-iNovo_figures.R - This script takes output from the previous scripts and generates the figures in the manuscript. It is an R script and depends on the packages tidyverse, cowplot, and reshape2.
+There are several Python scripts provided in Code/ for running the simulations described in our manuscript. Inside this folder, you'll find more detailed directions for running the scripts.
 
 CONTENTS
 
