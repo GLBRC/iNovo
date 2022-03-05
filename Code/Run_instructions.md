@@ -31,7 +31,9 @@ The arguments:
 
 Some examples:
 > python cometabolism_dFBA.py iNovo_base_2022.xml exVA
+> 
 > python cometabolism_dFBA.py iNovo_base_2022.xml exC00031 exVA exSA expHBA
+> 
 > python cometabolism_dFBA.py iNovo_vanAB_2022.xml exVA exSA expHBA
 
  It outputs a file called "dFBA_results.csv" with the concentrations of all tracked compounds at each timepoint. Currently, the default time interval is 30 minutes and this is encoded in the script. The script automatically stops when the total concentration of the provided substrates is zero.
