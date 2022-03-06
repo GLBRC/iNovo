@@ -8976,8 +8976,8 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_C00001" stoichiometry="43.8511019735204" constant="true"/>
-          <speciesReference species="M_C00002" stoichiometry="43.8812489060816" constant="true"/>
+          <speciesReference species="M_C00001" stoichiometry="47.41" constant="true"/>
+          <speciesReference species="M_C00002" stoichiometry="47.4425936181397" constant="true"/>
           <speciesReference species="M_C00010" stoichiometry="0.00545710823969142" constant="true"/>
           <speciesReference species="M_C00013" stoichiometry="0.262681142385146" constant="true"/>
           <speciesReference species="M_C00016" stoichiometry="5.54960159968619e-05" constant="true"/>
@@ -9036,8 +9036,8 @@
           <speciesReference species="M_SGL__45__1" stoichiometry="0.0077139462235638" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_C00008" stoichiometry="43.8511019735204" constant="true"/>
-          <speciesReference species="M_C00009" stoichiometry="43.8511019735204" constant="true"/>
+          <speciesReference species="M_C00008" stoichiometry="47.41" constant="true"/>
+          <speciesReference species="M_C00009" stoichiometry="47.41" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_not_added"/>
@@ -23807,19 +23807,6 @@
       </fbc:objective>
     </fbc:listOfObjectives>
     <fbc:listOfGeneProducts>
-      <fbc:geneProduct metaid="meta_G_SARO_RS14290" sboTerm="SBO:0000243" fbc:id="G_SARO_RS14290" fbc:name="G_SARO_RS14290" fbc:label="G_SARO_RS14290">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS14290">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS14290"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS14275" sboTerm="SBO:0000243" fbc:id="G_SARO_RS14275" fbc:name="G_SARO_RS14275" fbc:label="G_SARO_RS14275">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -23840,6 +23827,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS14300"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS14290" sboTerm="SBO:0000243" fbc:id="G_SARO_RS14290" fbc:name="G_SARO_RS14290" fbc:label="G_SARO_RS14290">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS14290">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS14290"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24067,19 +24067,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS12100" sboTerm="SBO:0000243" fbc:id="G_SARO_RS12100" fbc:name="G_SARO_RS12100" fbc:label="G_SARO_RS12100">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS12100">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS12100"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS14565" sboTerm="SBO:0000243" fbc:id="G_SARO_RS14565" fbc:name="G_SARO_RS14565" fbc:label="G_SARO_RS14565">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -24087,6 +24074,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS14565"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS12100" sboTerm="SBO:0000243" fbc:id="G_SARO_RS12100" fbc:name="G_SARO_RS12100" fbc:label="G_SARO_RS12100">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS12100">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS12100"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24119,19 +24119,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS03960" sboTerm="SBO:0000243" fbc:id="G_SARO_RS03960" fbc:name="G_SARO_RS03960" fbc:label="G_SARO_RS03960">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS03960">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS03960"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS01025" sboTerm="SBO:0000243" fbc:id="G_SARO_RS01025" fbc:name="G_SARO_RS01025" fbc:label="G_SARO_RS01025">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -24139,6 +24126,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS01025"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS03960" sboTerm="SBO:0000243" fbc:id="G_SARO_RS03960" fbc:name="G_SARO_RS03960" fbc:label="G_SARO_RS03960">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS03960">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS03960"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24158,19 +24158,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_Saro_1233" sboTerm="SBO:0000243" fbc:id="G_Saro_1233" fbc:name="G_Saro_1233" fbc:label="G_Saro_1233">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_Saro_1233">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/Saro_1233"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS06175" sboTerm="SBO:0000243" fbc:id="G_SARO_RS06175" fbc:name="G_SARO_RS06175" fbc:label="G_SARO_RS06175">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -24178,6 +24165,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS06175"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_Saro_1233" sboTerm="SBO:0000243" fbc:id="G_Saro_1233" fbc:name="G_Saro_1233" fbc:label="G_Saro_1233">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_Saro_1233">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/Saro_1233"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24210,13 +24210,26 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS15440" sboTerm="SBO:0000243" fbc:id="G_SARO_RS15440" fbc:name="G_SARO_RS15440" fbc:label="G_SARO_RS15440">
+      <fbc:geneProduct metaid="meta_G_SARO_RS10715" sboTerm="SBO:0000243" fbc:id="G_SARO_RS10715" fbc:name="G_SARO_RS10715" fbc:label="G_SARO_RS10715">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS15440">
+            <rdf:Description rdf:about="#meta_G_SARO_RS10715">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS15440"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS10715"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS09735" sboTerm="SBO:0000243" fbc:id="G_SARO_RS09735" fbc:name="G_SARO_RS09735" fbc:label="G_SARO_RS09735">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS09735">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS09735"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24249,26 +24262,13 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS10715" sboTerm="SBO:0000243" fbc:id="G_SARO_RS10715" fbc:name="G_SARO_RS10715" fbc:label="G_SARO_RS10715">
+      <fbc:geneProduct metaid="meta_G_SARO_RS15440" sboTerm="SBO:0000243" fbc:id="G_SARO_RS15440" fbc:name="G_SARO_RS15440" fbc:label="G_SARO_RS15440">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS10715">
+            <rdf:Description rdf:about="#meta_G_SARO_RS15440">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS10715"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS09735" sboTerm="SBO:0000243" fbc:id="G_SARO_RS09735" fbc:name="G_SARO_RS09735" fbc:label="G_SARO_RS09735">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS09735">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS09735"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS15440"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24301,6 +24301,58 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS05875" sboTerm="SBO:0000243" fbc:id="G_SARO_RS05875" fbc:name="G_SARO_RS05875" fbc:label="G_SARO_RS05875">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS05875">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS05875"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS09570" sboTerm="SBO:0000243" fbc:id="G_SARO_RS09570" fbc:name="G_SARO_RS09570" fbc:label="G_SARO_RS09570">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS09570">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS09570"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS09760" sboTerm="SBO:0000243" fbc:id="G_SARO_RS09760" fbc:name="G_SARO_RS09760" fbc:label="G_SARO_RS09760">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS09760">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS09760"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS19585" sboTerm="SBO:0000243" fbc:id="G_SARO_RS19585" fbc:name="G_SARO_RS19585" fbc:label="G_SARO_RS19585">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS19585">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS19585"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS18665" sboTerm="SBO:0000243" fbc:id="G_SARO_RS18665" fbc:name="G_SARO_RS18665" fbc:label="G_SARO_RS18665">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -24327,32 +24379,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS09565" sboTerm="SBO:0000243" fbc:id="G_SARO_RS09565" fbc:name="G_SARO_RS09565" fbc:label="G_SARO_RS09565">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS09565">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS09565"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS19580" sboTerm="SBO:0000243" fbc:id="G_SARO_RS19580" fbc:name="G_SARO_RS19580" fbc:label="G_SARO_RS19580">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS19580">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS19580"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS18675" sboTerm="SBO:0000243" fbc:id="G_SARO_RS18675" fbc:name="G_SARO_RS18675" fbc:label="G_SARO_RS18675">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -24360,32 +24386,6 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS18675"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS19585" sboTerm="SBO:0000243" fbc:id="G_SARO_RS19585" fbc:name="G_SARO_RS19585" fbc:label="G_SARO_RS19585">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS19585">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS19585"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS09760" sboTerm="SBO:0000243" fbc:id="G_SARO_RS09760" fbc:name="G_SARO_RS09760" fbc:label="G_SARO_RS09760">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS09760">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS09760"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24405,26 +24405,26 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS05875" sboTerm="SBO:0000243" fbc:id="G_SARO_RS05875" fbc:name="G_SARO_RS05875" fbc:label="G_SARO_RS05875">
+      <fbc:geneProduct metaid="meta_G_SARO_RS19580" sboTerm="SBO:0000243" fbc:id="G_SARO_RS19580" fbc:name="G_SARO_RS19580" fbc:label="G_SARO_RS19580">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS05875">
+            <rdf:Description rdf:about="#meta_G_SARO_RS19580">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS05875"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS19580"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS09570" sboTerm="SBO:0000243" fbc:id="G_SARO_RS09570" fbc:name="G_SARO_RS09570" fbc:label="G_SARO_RS09570">
+      <fbc:geneProduct metaid="meta_G_SARO_RS09565" sboTerm="SBO:0000243" fbc:id="G_SARO_RS09565" fbc:name="G_SARO_RS09565" fbc:label="G_SARO_RS09565">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS09570">
+            <rdf:Description rdf:about="#meta_G_SARO_RS09565">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS09570"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS09565"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24496,19 +24496,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS09470" sboTerm="SBO:0000243" fbc:id="G_SARO_RS09470" fbc:name="G_SARO_RS09470" fbc:label="G_SARO_RS09470">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS09470">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS09470"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS09475" sboTerm="SBO:0000243" fbc:id="G_SARO_RS09475" fbc:name="G_SARO_RS09475" fbc:label="G_SARO_RS09475">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -24529,6 +24516,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS12310"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS09470" sboTerm="SBO:0000243" fbc:id="G_SARO_RS09470" fbc:name="G_SARO_RS09470" fbc:label="G_SARO_RS09470">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS09470">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS09470"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24626,19 +24626,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS09235" sboTerm="SBO:0000243" fbc:id="G_SARO_RS09235" fbc:name="G_SARO_RS09235" fbc:label="G_SARO_RS09235">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS09235">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS09235"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS09225" sboTerm="SBO:0000243" fbc:id="G_SARO_RS09225" fbc:name="G_SARO_RS09225" fbc:label="G_SARO_RS09225">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -24646,6 +24633,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS09225"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS09235" sboTerm="SBO:0000243" fbc:id="G_SARO_RS09235" fbc:name="G_SARO_RS09235" fbc:label="G_SARO_RS09235">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS09235">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS09235"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24860,13 +24860,13 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS11375" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11375" fbc:name="G_SARO_RS11375" fbc:label="G_SARO_RS11375">
+      <fbc:geneProduct metaid="meta_G_SARO_RS11380" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11380" fbc:name="G_SARO_RS11380" fbc:label="G_SARO_RS11380">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS11375">
+            <rdf:Description rdf:about="#meta_G_SARO_RS11380">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11375"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11380"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24886,13 +24886,13 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS11380" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11380" fbc:name="G_SARO_RS11380" fbc:label="G_SARO_RS11380">
+      <fbc:geneProduct metaid="meta_G_SARO_RS11375" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11375" fbc:name="G_SARO_RS11375" fbc:label="G_SARO_RS11375">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS11380">
+            <rdf:Description rdf:about="#meta_G_SARO_RS11375">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11380"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11375"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24912,39 +24912,13 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS19705" sboTerm="SBO:0000243" fbc:id="G_SARO_RS19705" fbc:name="G_SARO_RS19705" fbc:label="G_SARO_RS19705">
+      <fbc:geneProduct metaid="meta_G_SARO_RS04040" sboTerm="SBO:0000243" fbc:id="G_SARO_RS04040" fbc:name="G_SARO_RS04040" fbc:label="G_SARO_RS04040">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS19705">
+            <rdf:Description rdf:about="#meta_G_SARO_RS04040">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS19705"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS11610" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11610" fbc:name="G_SARO_RS11610" fbc:label="G_SARO_RS11610">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS11610">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11610"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS04340" sboTerm="SBO:0000243" fbc:id="G_SARO_RS04340" fbc:name="G_SARO_RS04340" fbc:label="G_SARO_RS04340">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS04340">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS04340"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS04040"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24958,6 +24932,32 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS05335"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS12600" sboTerm="SBO:0000243" fbc:id="G_SARO_RS12600" fbc:name="G_SARO_RS12600" fbc:label="G_SARO_RS12600">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS12600">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS12600"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS06110" sboTerm="SBO:0000243" fbc:id="G_SARO_RS06110" fbc:name="G_SARO_RS06110" fbc:label="G_SARO_RS06110">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS06110">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS06110"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -24990,39 +24990,39 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS04040" sboTerm="SBO:0000243" fbc:id="G_SARO_RS04040" fbc:name="G_SARO_RS04040" fbc:label="G_SARO_RS04040">
+      <fbc:geneProduct metaid="meta_G_SARO_RS11610" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11610" fbc:name="G_SARO_RS11610" fbc:label="G_SARO_RS11610">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS04040">
+            <rdf:Description rdf:about="#meta_G_SARO_RS11610">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS04040"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11610"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS06110" sboTerm="SBO:0000243" fbc:id="G_SARO_RS06110" fbc:name="G_SARO_RS06110" fbc:label="G_SARO_RS06110">
+      <fbc:geneProduct metaid="meta_G_SARO_RS19705" sboTerm="SBO:0000243" fbc:id="G_SARO_RS19705" fbc:name="G_SARO_RS19705" fbc:label="G_SARO_RS19705">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS06110">
+            <rdf:Description rdf:about="#meta_G_SARO_RS19705">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS06110"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS19705"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS12600" sboTerm="SBO:0000243" fbc:id="G_SARO_RS12600" fbc:name="G_SARO_RS12600" fbc:label="G_SARO_RS12600">
+      <fbc:geneProduct metaid="meta_G_SARO_RS04340" sboTerm="SBO:0000243" fbc:id="G_SARO_RS04340" fbc:name="G_SARO_RS04340" fbc:label="G_SARO_RS04340">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS12600">
+            <rdf:Description rdf:about="#meta_G_SARO_RS04340">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS12600"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS04340"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -25224,19 +25224,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS08655" sboTerm="SBO:0000243" fbc:id="G_SARO_RS08655" fbc:name="G_SARO_RS08655" fbc:label="G_SARO_RS08655">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS08655">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS08655"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS08075" sboTerm="SBO:0000243" fbc:id="G_SARO_RS08075" fbc:name="G_SARO_RS08075" fbc:label="G_SARO_RS08075">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -25244,19 +25231,6 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS08075"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS03935" sboTerm="SBO:0000243" fbc:id="G_SARO_RS03935" fbc:name="G_SARO_RS03935" fbc:label="G_SARO_RS03935">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS03935">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS03935"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -25276,6 +25250,19 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS12175" sboTerm="SBO:0000243" fbc:id="G_SARO_RS12175" fbc:name="G_SARO_RS12175" fbc:label="G_SARO_RS12175">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS12175">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS12175"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS08605" sboTerm="SBO:0000243" fbc:id="G_SARO_RS08605" fbc:name="G_SARO_RS08605" fbc:label="G_SARO_RS08605">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -25289,13 +25276,26 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS12175" sboTerm="SBO:0000243" fbc:id="G_SARO_RS12175" fbc:name="G_SARO_RS12175" fbc:label="G_SARO_RS12175">
+      <fbc:geneProduct metaid="meta_G_SARO_RS03935" sboTerm="SBO:0000243" fbc:id="G_SARO_RS03935" fbc:name="G_SARO_RS03935" fbc:label="G_SARO_RS03935">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS12175">
+            <rdf:Description rdf:about="#meta_G_SARO_RS03935">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS12175"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS03935"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS08655" sboTerm="SBO:0000243" fbc:id="G_SARO_RS08655" fbc:name="G_SARO_RS08655" fbc:label="G_SARO_RS08655">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS08655">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS08655"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -25445,6 +25445,19 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS02825" sboTerm="SBO:0000243" fbc:id="G_SARO_RS02825" fbc:name="G_SARO_RS02825" fbc:label="G_SARO_RS02825">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS02825">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS02825"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS02835" sboTerm="SBO:0000243" fbc:id="G_SARO_RS02835" fbc:name="G_SARO_RS02835" fbc:label="G_SARO_RS02835">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -25465,19 +25478,6 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS19990"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS02825" sboTerm="SBO:0000243" fbc:id="G_SARO_RS02825" fbc:name="G_SARO_RS02825" fbc:label="G_SARO_RS02825">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS02825">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS02825"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -25510,13 +25510,13 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS10090" sboTerm="SBO:0000243" fbc:id="G_SARO_RS10090" fbc:name="G_SARO_RS10090" fbc:label="G_SARO_RS10090">
+      <fbc:geneProduct metaid="meta_G_SARO_RS19050" sboTerm="SBO:0000243" fbc:id="G_SARO_RS19050" fbc:name="G_SARO_RS19050" fbc:label="G_SARO_RS19050">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS10090">
+            <rdf:Description rdf:about="#meta_G_SARO_RS19050">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS10090"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS19050"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -25536,26 +25536,13 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS19050" sboTerm="SBO:0000243" fbc:id="G_SARO_RS19050" fbc:name="G_SARO_RS19050" fbc:label="G_SARO_RS19050">
+      <fbc:geneProduct metaid="meta_G_SARO_RS10090" sboTerm="SBO:0000243" fbc:id="G_SARO_RS10090" fbc:name="G_SARO_RS10090" fbc:label="G_SARO_RS10090">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS19050">
+            <rdf:Description rdf:about="#meta_G_SARO_RS10090">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS19050"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS07925" sboTerm="SBO:0000243" fbc:id="G_SARO_RS07925" fbc:name="G_SARO_RS07925" fbc:label="G_SARO_RS07925">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS07925">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS07925"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS10090"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -25582,6 +25569,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS16205"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS07925" sboTerm="SBO:0000243" fbc:id="G_SARO_RS07925" fbc:name="G_SARO_RS07925" fbc:label="G_SARO_RS07925">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS07925">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS07925"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -25666,19 +25666,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS16455" sboTerm="SBO:0000243" fbc:id="G_SARO_RS16455" fbc:name="G_SARO_RS16455" fbc:label="G_SARO_RS16455">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS16455">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS16455"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS11710" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11710" fbc:name="G_SARO_RS11710" fbc:label="G_SARO_RS11710">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -25686,6 +25673,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11710"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS16455" sboTerm="SBO:0000243" fbc:id="G_SARO_RS16455" fbc:name="G_SARO_RS16455" fbc:label="G_SARO_RS16455">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS16455">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS16455"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -25757,19 +25757,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS03665" sboTerm="SBO:0000243" fbc:id="G_SARO_RS03665" fbc:name="G_SARO_RS03665" fbc:label="G_SARO_RS03665">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS03665">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS03665"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_Saro_0736" sboTerm="SBO:0000243" fbc:id="G_Saro_0736" fbc:name="G_Saro_0736" fbc:label="G_Saro_0736">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -25790,6 +25777,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS03675"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS03665" sboTerm="SBO:0000243" fbc:id="G_SARO_RS03665" fbc:name="G_SARO_RS03665" fbc:label="G_SARO_RS03665">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS03665">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS03665"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -25822,19 +25822,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS00725" sboTerm="SBO:0000243" fbc:id="G_SARO_RS00725" fbc:name="G_SARO_RS00725" fbc:label="G_SARO_RS00725">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS00725">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS00725"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS10145" sboTerm="SBO:0000243" fbc:id="G_SARO_RS10145" fbc:name="G_SARO_RS10145" fbc:label="G_SARO_RS10145">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -25848,13 +25835,13 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS11220" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11220" fbc:name="G_SARO_RS11220" fbc:label="G_SARO_RS11220">
+      <fbc:geneProduct metaid="meta_G_SARO_RS00725" sboTerm="SBO:0000243" fbc:id="G_SARO_RS00725" fbc:name="G_SARO_RS00725" fbc:label="G_SARO_RS00725">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS11220">
+            <rdf:Description rdf:about="#meta_G_SARO_RS00725">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11220"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS00725"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -25868,6 +25855,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11225"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS11220" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11220" fbc:name="G_SARO_RS11220" fbc:label="G_SARO_RS11220">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS11220">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11220"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -25952,19 +25952,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS06515" sboTerm="SBO:0000243" fbc:id="G_SARO_RS06515" fbc:name="G_SARO_RS06515" fbc:label="G_SARO_RS06515">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS06515">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS06515"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS06510" sboTerm="SBO:0000243" fbc:id="G_SARO_RS06510" fbc:name="G_SARO_RS06510" fbc:label="G_SARO_RS06510">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -25972,6 +25959,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS06510"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS06515" sboTerm="SBO:0000243" fbc:id="G_SARO_RS06515" fbc:name="G_SARO_RS06515" fbc:label="G_SARO_RS06515">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS06515">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS06515"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -25991,19 +25991,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS03470" sboTerm="SBO:0000243" fbc:id="G_SARO_RS03470" fbc:name="G_SARO_RS03470" fbc:label="G_SARO_RS03470">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS03470">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS03470"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS03955" sboTerm="SBO:0000243" fbc:id="G_SARO_RS03955" fbc:name="G_SARO_RS03955" fbc:label="G_SARO_RS03955">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -26017,13 +26004,13 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS12150" sboTerm="SBO:0000243" fbc:id="G_SARO_RS12150" fbc:name="G_SARO_RS12150" fbc:label="G_SARO_RS12150">
+      <fbc:geneProduct metaid="meta_G_SARO_RS03470" sboTerm="SBO:0000243" fbc:id="G_SARO_RS03470" fbc:name="G_SARO_RS03470" fbc:label="G_SARO_RS03470">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS12150">
+            <rdf:Description rdf:about="#meta_G_SARO_RS03470">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS12150"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS03470"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -26043,13 +26030,13 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS14945" sboTerm="SBO:0000243" fbc:id="G_SARO_RS14945" fbc:name="G_SARO_RS14945" fbc:label="G_SARO_RS14945">
+      <fbc:geneProduct metaid="meta_G_SARO_RS12150" sboTerm="SBO:0000243" fbc:id="G_SARO_RS12150" fbc:name="G_SARO_RS12150" fbc:label="G_SARO_RS12150">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS14945">
+            <rdf:Description rdf:about="#meta_G_SARO_RS12150">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS14945"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS12150"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -26063,6 +26050,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11620"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS14945" sboTerm="SBO:0000243" fbc:id="G_SARO_RS14945" fbc:name="G_SARO_RS14945" fbc:label="G_SARO_RS14945">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS14945">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS14945"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -26095,13 +26095,13 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS09315" sboTerm="SBO:0000243" fbc:id="G_SARO_RS09315" fbc:name="G_SARO_RS09315" fbc:label="G_SARO_RS09315">
+      <fbc:geneProduct metaid="meta_G_SARO_RS09320" sboTerm="SBO:0000243" fbc:id="G_SARO_RS09320" fbc:name="G_SARO_RS09320" fbc:label="G_SARO_RS09320">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS09315">
+            <rdf:Description rdf:about="#meta_G_SARO_RS09320">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS09315"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS09320"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -26121,6 +26121,19 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS09315" sboTerm="SBO:0000243" fbc:id="G_SARO_RS09315" fbc:name="G_SARO_RS09315" fbc:label="G_SARO_RS09315">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS09315">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS09315"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS06505" sboTerm="SBO:0000243" fbc:id="G_SARO_RS06505" fbc:name="G_SARO_RS06505" fbc:label="G_SARO_RS06505">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -26128,19 +26141,6 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS06505"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS09320" sboTerm="SBO:0000243" fbc:id="G_SARO_RS09320" fbc:name="G_SARO_RS09320" fbc:label="G_SARO_RS09320">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS09320">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS09320"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -26160,19 +26160,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS17065" sboTerm="SBO:0000243" fbc:id="G_SARO_RS17065" fbc:name="G_SARO_RS17065" fbc:label="G_SARO_RS17065">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS17065">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS17065"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS19305" sboTerm="SBO:0000243" fbc:id="G_SARO_RS19305" fbc:name="G_SARO_RS19305" fbc:label="G_SARO_RS19305">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -26180,6 +26167,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS19305"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS17065" sboTerm="SBO:0000243" fbc:id="G_SARO_RS17065" fbc:name="G_SARO_RS17065" fbc:label="G_SARO_RS17065">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS17065">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS17065"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -26225,19 +26225,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS16990" sboTerm="SBO:0000243" fbc:id="G_SARO_RS16990" fbc:name="G_SARO_RS16990" fbc:label="G_SARO_RS16990">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS16990">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS16990"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS02690" sboTerm="SBO:0000243" fbc:id="G_SARO_RS02690" fbc:name="G_SARO_RS02690" fbc:label="G_SARO_RS02690">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -26245,6 +26232,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS02690"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS16990" sboTerm="SBO:0000243" fbc:id="G_SARO_RS16990" fbc:name="G_SARO_RS16990" fbc:label="G_SARO_RS16990">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS16990">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS16990"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -26303,13 +26303,13 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS12290" sboTerm="SBO:0000243" fbc:id="G_SARO_RS12290" fbc:name="G_SARO_RS12290" fbc:label="G_SARO_RS12290">
+      <fbc:geneProduct metaid="meta_G_SARO_RS00425" sboTerm="SBO:0000243" fbc:id="G_SARO_RS00425" fbc:name="G_SARO_RS00425" fbc:label="G_SARO_RS00425">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS12290">
+            <rdf:Description rdf:about="#meta_G_SARO_RS00425">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS12290"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS00425"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -26329,13 +26329,13 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS00425" sboTerm="SBO:0000243" fbc:id="G_SARO_RS00425" fbc:name="G_SARO_RS00425" fbc:label="G_SARO_RS00425">
+      <fbc:geneProduct metaid="meta_G_SARO_RS12290" sboTerm="SBO:0000243" fbc:id="G_SARO_RS12290" fbc:name="G_SARO_RS12290" fbc:label="G_SARO_RS12290">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS00425">
+            <rdf:Description rdf:about="#meta_G_SARO_RS12290">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS00425"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS12290"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -26420,13 +26420,13 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS10575" sboTerm="SBO:0000243" fbc:id="G_SARO_RS10575" fbc:name="G_SARO_RS10575" fbc:label="G_SARO_RS10575">
+      <fbc:geneProduct metaid="meta_G_SARO_RS05295" sboTerm="SBO:0000243" fbc:id="G_SARO_RS05295" fbc:name="G_SARO_RS05295" fbc:label="G_SARO_RS05295">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS10575">
+            <rdf:Description rdf:about="#meta_G_SARO_RS05295">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS10575"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS05295"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -26446,26 +26446,13 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS05295" sboTerm="SBO:0000243" fbc:id="G_SARO_RS05295" fbc:name="G_SARO_RS05295" fbc:label="G_SARO_RS05295">
+      <fbc:geneProduct metaid="meta_G_SARO_RS10575" sboTerm="SBO:0000243" fbc:id="G_SARO_RS10575" fbc:name="G_SARO_RS10575" fbc:label="G_SARO_RS10575">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS05295">
+            <rdf:Description rdf:about="#meta_G_SARO_RS10575">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS05295"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS02220" sboTerm="SBO:0000243" fbc:id="G_SARO_RS02220" fbc:name="G_SARO_RS02220" fbc:label="G_SARO_RS02220">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS02220">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS02220"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS10575"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -26485,19 +26472,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS04455" sboTerm="SBO:0000243" fbc:id="G_SARO_RS04455" fbc:name="G_SARO_RS04455" fbc:label="G_SARO_RS04455">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS04455">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS04455"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS16605" sboTerm="SBO:0000243" fbc:id="G_SARO_RS16605" fbc:name="G_SARO_RS16605" fbc:label="G_SARO_RS16605">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -26505,6 +26479,32 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS16605"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS02220" sboTerm="SBO:0000243" fbc:id="G_SARO_RS02220" fbc:name="G_SARO_RS02220" fbc:label="G_SARO_RS02220">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS02220">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS02220"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS04455" sboTerm="SBO:0000243" fbc:id="G_SARO_RS04455" fbc:name="G_SARO_RS04455" fbc:label="G_SARO_RS04455">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS04455">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS04455"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -26576,19 +26576,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS12120" sboTerm="SBO:0000243" fbc:id="G_SARO_RS12120" fbc:name="G_SARO_RS12120" fbc:label="G_SARO_RS12120">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS12120">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS12120"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS16280" sboTerm="SBO:0000243" fbc:id="G_SARO_RS16280" fbc:name="G_SARO_RS16280" fbc:label="G_SARO_RS16280">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -26596,6 +26583,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS16280"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS12120" sboTerm="SBO:0000243" fbc:id="G_SARO_RS12120" fbc:name="G_SARO_RS12120" fbc:label="G_SARO_RS12120">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS12120">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS12120"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -26771,19 +26771,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS14800" sboTerm="SBO:0000243" fbc:id="G_SARO_RS14800" fbc:name="G_SARO_RS14800" fbc:label="G_SARO_RS14800">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS14800">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS14800"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS13610" sboTerm="SBO:0000243" fbc:id="G_SARO_RS13610" fbc:name="G_SARO_RS13610" fbc:label="G_SARO_RS13610">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -26791,6 +26778,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS13610"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS14800" sboTerm="SBO:0000243" fbc:id="G_SARO_RS14800" fbc:name="G_SARO_RS14800" fbc:label="G_SARO_RS14800">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS14800">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS14800"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -26849,19 +26849,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS00935" sboTerm="SBO:0000243" fbc:id="G_SARO_RS00935" fbc:name="G_SARO_RS00935" fbc:label="G_SARO_RS00935">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS00935">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS00935"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS08500" sboTerm="SBO:0000243" fbc:id="G_SARO_RS08500" fbc:name="G_SARO_RS08500" fbc:label="G_SARO_RS08500">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -26869,6 +26856,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS08500"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS00935" sboTerm="SBO:0000243" fbc:id="G_SARO_RS00935" fbc:name="G_SARO_RS00935" fbc:label="G_SARO_RS00935">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS00935">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS00935"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -26979,19 +26979,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS08795" sboTerm="SBO:0000243" fbc:id="G_SARO_RS08795" fbc:name="G_SARO_RS08795" fbc:label="G_SARO_RS08795">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS08795">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS08795"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS08800" sboTerm="SBO:0000243" fbc:id="G_SARO_RS08800" fbc:name="G_SARO_RS08800" fbc:label="G_SARO_RS08800">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -26999,6 +26986,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS08800"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS08795" sboTerm="SBO:0000243" fbc:id="G_SARO_RS08795" fbc:name="G_SARO_RS08795" fbc:label="G_SARO_RS08795">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS08795">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS08795"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -27083,19 +27083,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS02740" sboTerm="SBO:0000243" fbc:id="G_SARO_RS02740" fbc:name="G_SARO_RS02740" fbc:label="G_SARO_RS02740">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS02740">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS02740"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS13140" sboTerm="SBO:0000243" fbc:id="G_SARO_RS13140" fbc:name="G_SARO_RS13140" fbc:label="G_SARO_RS13140">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -27103,6 +27090,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS13140"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS02740" sboTerm="SBO:0000243" fbc:id="G_SARO_RS02740" fbc:name="G_SARO_RS02740" fbc:label="G_SARO_RS02740">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS02740">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS02740"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -27304,19 +27304,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS19240" sboTerm="SBO:0000243" fbc:id="G_SARO_RS19240" fbc:name="G_SARO_RS19240" fbc:label="G_SARO_RS19240">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS19240">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS19240"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS18455" sboTerm="SBO:0000243" fbc:id="G_SARO_RS18455" fbc:name="G_SARO_RS18455" fbc:label="G_SARO_RS18455">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -27324,6 +27311,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS18455"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS19240" sboTerm="SBO:0000243" fbc:id="G_SARO_RS19240" fbc:name="G_SARO_RS19240" fbc:label="G_SARO_RS19240">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS19240">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS19240"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -27421,19 +27421,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS12200" sboTerm="SBO:0000243" fbc:id="G_SARO_RS12200" fbc:name="G_SARO_RS12200" fbc:label="G_SARO_RS12200">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS12200">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS12200"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS19220" sboTerm="SBO:0000243" fbc:id="G_SARO_RS19220" fbc:name="G_SARO_RS19220" fbc:label="G_SARO_RS19220">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -27441,6 +27428,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS19220"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS12200" sboTerm="SBO:0000243" fbc:id="G_SARO_RS12200" fbc:name="G_SARO_RS12200" fbc:label="G_SARO_RS12200">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS12200">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS12200"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -27577,19 +27577,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS03715" sboTerm="SBO:0000243" fbc:id="G_SARO_RS03715" fbc:name="G_SARO_RS03715" fbc:label="G_SARO_RS03715">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS03715">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS03715"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS03710" sboTerm="SBO:0000243" fbc:id="G_SARO_RS03710" fbc:name="G_SARO_RS03710" fbc:label="G_SARO_RS03710">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -27597,6 +27584,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS03710"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS03715" sboTerm="SBO:0000243" fbc:id="G_SARO_RS03715" fbc:name="G_SARO_RS03715" fbc:label="G_SARO_RS03715">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS03715">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS03715"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -27629,19 +27629,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS04070" sboTerm="SBO:0000243" fbc:id="G_SARO_RS04070" fbc:name="G_SARO_RS04070" fbc:label="G_SARO_RS04070">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS04070">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS04070"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS13070" sboTerm="SBO:0000243" fbc:id="G_SARO_RS13070" fbc:name="G_SARO_RS13070" fbc:label="G_SARO_RS13070">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -27649,6 +27636,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS13070"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS04070" sboTerm="SBO:0000243" fbc:id="G_SARO_RS04070" fbc:name="G_SARO_RS04070" fbc:label="G_SARO_RS04070">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS04070">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS04070"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -27720,19 +27720,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS04670" sboTerm="SBO:0000243" fbc:id="G_SARO_RS04670" fbc:name="G_SARO_RS04670" fbc:label="G_SARO_RS04670">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS04670">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS04670"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS15550" sboTerm="SBO:0000243" fbc:id="G_SARO_RS15550" fbc:name="G_SARO_RS15550" fbc:label="G_SARO_RS15550">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -27746,13 +27733,13 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS11790" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11790" fbc:name="G_SARO_RS11790" fbc:label="G_SARO_RS11790">
+      <fbc:geneProduct metaid="meta_G_SARO_RS04670" sboTerm="SBO:0000243" fbc:id="G_SARO_RS04670" fbc:name="G_SARO_RS04670" fbc:label="G_SARO_RS04670">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS11790">
+            <rdf:Description rdf:about="#meta_G_SARO_RS04670">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11790"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS04670"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -27766,6 +27753,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS08085"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS11790" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11790" fbc:name="G_SARO_RS11790" fbc:label="G_SARO_RS11790">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS11790">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11790"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -27954,19 +27954,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS08740" sboTerm="SBO:0000243" fbc:id="G_SARO_RS08740" fbc:name="G_SARO_RS08740" fbc:label="G_SARO_RS08740">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS08740">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS08740"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS08735" sboTerm="SBO:0000243" fbc:id="G_SARO_RS08735" fbc:name="G_SARO_RS08735" fbc:label="G_SARO_RS08735">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -27974,6 +27961,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS08735"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS08740" sboTerm="SBO:0000243" fbc:id="G_SARO_RS08740" fbc:name="G_SARO_RS08740" fbc:label="G_SARO_RS08740">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS08740">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS08740"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -28110,19 +28110,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS19265" sboTerm="SBO:0000243" fbc:id="G_SARO_RS19265" fbc:name="G_SARO_RS19265" fbc:label="G_SARO_RS19265">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS19265">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS19265"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS18495" sboTerm="SBO:0000243" fbc:id="G_SARO_RS18495" fbc:name="G_SARO_RS18495" fbc:label="G_SARO_RS18495">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -28130,6 +28117,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS18495"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS19265" sboTerm="SBO:0000243" fbc:id="G_SARO_RS19265" fbc:name="G_SARO_RS19265" fbc:label="G_SARO_RS19265">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS19265">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS19265"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -28188,19 +28188,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS17075" sboTerm="SBO:0000243" fbc:id="G_SARO_RS17075" fbc:name="G_SARO_RS17075" fbc:label="G_SARO_RS17075">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS17075">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS17075"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS19315" sboTerm="SBO:0000243" fbc:id="G_SARO_RS19315" fbc:name="G_SARO_RS19315" fbc:label="G_SARO_RS19315">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -28208,6 +28195,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS19315"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS17075" sboTerm="SBO:0000243" fbc:id="G_SARO_RS17075" fbc:name="G_SARO_RS17075" fbc:label="G_SARO_RS17075">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS17075">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS17075"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -28253,19 +28253,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS12645" sboTerm="SBO:0000243" fbc:id="G_SARO_RS12645" fbc:name="G_SARO_RS12645" fbc:label="G_SARO_RS12645">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS12645">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS12645"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS08545" sboTerm="SBO:0000243" fbc:id="G_SARO_RS08545" fbc:name="G_SARO_RS08545" fbc:label="G_SARO_RS08545">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -28273,6 +28260,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS08545"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS12645" sboTerm="SBO:0000243" fbc:id="G_SARO_RS12645" fbc:name="G_SARO_RS12645" fbc:label="G_SARO_RS12645">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS12645">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS12645"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -28539,19 +28539,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS05655" sboTerm="SBO:0000243" fbc:id="G_SARO_RS05655" fbc:name="G_SARO_RS05655" fbc:label="G_SARO_RS05655">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS05655">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS05655"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS07145" sboTerm="SBO:0000243" fbc:id="G_SARO_RS07145" fbc:name="G_SARO_RS07145" fbc:label="G_SARO_RS07145">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -28559,6 +28546,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS07145"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS05655" sboTerm="SBO:0000243" fbc:id="G_SARO_RS05655" fbc:name="G_SARO_RS05655" fbc:label="G_SARO_RS05655">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS05655">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS05655"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -28578,13 +28578,13 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS12950" sboTerm="SBO:0000243" fbc:id="G_SARO_RS12950" fbc:name="G_SARO_RS12950" fbc:label="G_SARO_RS12950">
+      <fbc:geneProduct metaid="meta_G_SARO_RS12770" sboTerm="SBO:0000243" fbc:id="G_SARO_RS12770" fbc:name="G_SARO_RS12770" fbc:label="G_SARO_RS12770">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS12950">
+            <rdf:Description rdf:about="#meta_G_SARO_RS12770">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS12950"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS12770"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -28604,13 +28604,13 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS12770" sboTerm="SBO:0000243" fbc:id="G_SARO_RS12770" fbc:name="G_SARO_RS12770" fbc:label="G_SARO_RS12770">
+      <fbc:geneProduct metaid="meta_G_SARO_RS12950" sboTerm="SBO:0000243" fbc:id="G_SARO_RS12950" fbc:name="G_SARO_RS12950" fbc:label="G_SARO_RS12950">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS12770">
+            <rdf:Description rdf:about="#meta_G_SARO_RS12950">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS12770"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS12950"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -28708,19 +28708,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS09275" sboTerm="SBO:0000243" fbc:id="G_SARO_RS09275" fbc:name="G_SARO_RS09275" fbc:label="G_SARO_RS09275">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS09275">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS09275"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS09270" sboTerm="SBO:0000243" fbc:id="G_SARO_RS09270" fbc:name="G_SARO_RS09270" fbc:label="G_SARO_RS09270">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -28728,6 +28715,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS09270"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS09275" sboTerm="SBO:0000243" fbc:id="G_SARO_RS09275" fbc:name="G_SARO_RS09275" fbc:label="G_SARO_RS09275">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS09275">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS09275"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -28929,19 +28929,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS02590" sboTerm="SBO:0000243" fbc:id="G_SARO_RS02590" fbc:name="G_SARO_RS02590" fbc:label="G_SARO_RS02590">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS02590">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS02590"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS06415" sboTerm="SBO:0000243" fbc:id="G_SARO_RS06415" fbc:name="G_SARO_RS06415" fbc:label="G_SARO_RS06415">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -28949,45 +28936,6 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS06415"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS07680" sboTerm="SBO:0000243" fbc:id="G_SARO_RS07680" fbc:name="G_SARO_RS07680" fbc:label="G_SARO_RS07680">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS07680">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS07680"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS07825" sboTerm="SBO:0000243" fbc:id="G_SARO_RS07825" fbc:name="G_SARO_RS07825" fbc:label="G_SARO_RS07825">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS07825">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS07825"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS04300" sboTerm="SBO:0000243" fbc:id="G_SARO_RS04300" fbc:name="G_SARO_RS04300" fbc:label="G_SARO_RS04300">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS04300">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS04300"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -29007,39 +28955,13 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS19650" sboTerm="SBO:0000243" fbc:id="G_SARO_RS19650" fbc:name="G_SARO_RS19650" fbc:label="G_SARO_RS19650">
+      <fbc:geneProduct metaid="meta_G_SARO_RS07680" sboTerm="SBO:0000243" fbc:id="G_SARO_RS07680" fbc:name="G_SARO_RS07680" fbc:label="G_SARO_RS07680">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS19650">
+            <rdf:Description rdf:about="#meta_G_SARO_RS07680">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS19650"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS07105" sboTerm="SBO:0000243" fbc:id="G_SARO_RS07105" fbc:name="G_SARO_RS07105" fbc:label="G_SARO_RS07105">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS07105">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS07105"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS07345" sboTerm="SBO:0000243" fbc:id="G_SARO_RS07345" fbc:name="G_SARO_RS07345" fbc:label="G_SARO_RS07345">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS07345">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS07345"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS07680"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -29059,13 +28981,78 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS08235" sboTerm="SBO:0000243" fbc:id="G_SARO_RS08235" fbc:name="G_SARO_RS08235" fbc:label="G_SARO_RS08235">
+      <fbc:geneProduct metaid="meta_G_SARO_RS07345" sboTerm="SBO:0000243" fbc:id="G_SARO_RS07345" fbc:name="G_SARO_RS07345" fbc:label="G_SARO_RS07345">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS08235">
+            <rdf:Description rdf:about="#meta_G_SARO_RS07345">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS08235"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS07345"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS07105" sboTerm="SBO:0000243" fbc:id="G_SARO_RS07105" fbc:name="G_SARO_RS07105" fbc:label="G_SARO_RS07105">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS07105">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS07105"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS19650" sboTerm="SBO:0000243" fbc:id="G_SARO_RS19650" fbc:name="G_SARO_RS19650" fbc:label="G_SARO_RS19650">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS19650">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS19650"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS04300" sboTerm="SBO:0000243" fbc:id="G_SARO_RS04300" fbc:name="G_SARO_RS04300" fbc:label="G_SARO_RS04300">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS04300">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS04300"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS02590" sboTerm="SBO:0000243" fbc:id="G_SARO_RS02590" fbc:name="G_SARO_RS02590" fbc:label="G_SARO_RS02590">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS02590">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS02590"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS07825" sboTerm="SBO:0000243" fbc:id="G_SARO_RS07825" fbc:name="G_SARO_RS07825" fbc:label="G_SARO_RS07825">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS07825">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS07825"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -29079,6 +29066,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS08240"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS08235" sboTerm="SBO:0000243" fbc:id="G_SARO_RS08235" fbc:name="G_SARO_RS08235" fbc:label="G_SARO_RS08235">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS08235">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS08235"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -29189,19 +29189,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS16790" sboTerm="SBO:0000243" fbc:id="G_SARO_RS16790" fbc:name="G_SARO_RS16790" fbc:label="G_SARO_RS16790">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS16790">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS16790"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS00255" sboTerm="SBO:0000243" fbc:id="G_SARO_RS00255" fbc:name="G_SARO_RS00255" fbc:label="G_SARO_RS00255">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -29209,6 +29196,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS00255"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS16790" sboTerm="SBO:0000243" fbc:id="G_SARO_RS16790" fbc:name="G_SARO_RS16790" fbc:label="G_SARO_RS16790">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS16790">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS16790"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -29254,13 +29254,13 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS11350" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11350" fbc:name="G_SARO_RS11350" fbc:label="G_SARO_RS11350">
+      <fbc:geneProduct metaid="meta_G_SARO_RS05150" sboTerm="SBO:0000243" fbc:id="G_SARO_RS05150" fbc:name="G_SARO_RS05150" fbc:label="G_SARO_RS05150">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS11350">
+            <rdf:Description rdf:about="#meta_G_SARO_RS05150">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11350"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS05150"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -29280,13 +29280,13 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS05150" sboTerm="SBO:0000243" fbc:id="G_SARO_RS05150" fbc:name="G_SARO_RS05150" fbc:label="G_SARO_RS05150">
+      <fbc:geneProduct metaid="meta_G_SARO_RS11350" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11350" fbc:name="G_SARO_RS11350" fbc:label="G_SARO_RS11350">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS05150">
+            <rdf:Description rdf:about="#meta_G_SARO_RS11350">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS05150"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11350"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -29501,19 +29501,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS05480" sboTerm="SBO:0000243" fbc:id="G_SARO_RS05480" fbc:name="G_SARO_RS05480" fbc:label="G_SARO_RS05480">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS05480">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS05480"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS04310" sboTerm="SBO:0000243" fbc:id="G_SARO_RS04310" fbc:name="G_SARO_RS04310" fbc:label="G_SARO_RS04310">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -29521,6 +29508,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS04310"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS05480" sboTerm="SBO:0000243" fbc:id="G_SARO_RS05480" fbc:name="G_SARO_RS05480" fbc:label="G_SARO_RS05480">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS05480">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS05480"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -29566,19 +29566,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS02685" sboTerm="SBO:0000243" fbc:id="G_SARO_RS02685" fbc:name="G_SARO_RS02685" fbc:label="G_SARO_RS02685">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS02685">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS02685"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS08425" sboTerm="SBO:0000243" fbc:id="G_SARO_RS08425" fbc:name="G_SARO_RS08425" fbc:label="G_SARO_RS08425">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -29586,6 +29573,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS08425"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS02685" sboTerm="SBO:0000243" fbc:id="G_SARO_RS02685" fbc:name="G_SARO_RS02685" fbc:label="G_SARO_RS02685">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS02685">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS02685"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -29605,13 +29605,13 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS02680" sboTerm="SBO:0000243" fbc:id="G_SARO_RS02680" fbc:name="G_SARO_RS02680" fbc:label="G_SARO_RS02680">
+      <fbc:geneProduct metaid="meta_G_SARO_RS08420" sboTerm="SBO:0000243" fbc:id="G_SARO_RS08420" fbc:name="G_SARO_RS08420" fbc:label="G_SARO_RS08420">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS02680">
+            <rdf:Description rdf:about="#meta_G_SARO_RS08420">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS02680"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS08420"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -29631,13 +29631,13 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS08420" sboTerm="SBO:0000243" fbc:id="G_SARO_RS08420" fbc:name="G_SARO_RS08420" fbc:label="G_SARO_RS08420">
+      <fbc:geneProduct metaid="meta_G_SARO_RS02680" sboTerm="SBO:0000243" fbc:id="G_SARO_RS02680" fbc:name="G_SARO_RS02680" fbc:label="G_SARO_RS02680">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS08420">
+            <rdf:Description rdf:about="#meta_G_SARO_RS02680">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS08420"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS02680"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -29904,13 +29904,13 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS09925" sboTerm="SBO:0000243" fbc:id="G_SARO_RS09925" fbc:name="G_SARO_RS09925" fbc:label="G_SARO_RS09925">
+      <fbc:geneProduct metaid="meta_G_SARO_RS09920" sboTerm="SBO:0000243" fbc:id="G_SARO_RS09920" fbc:name="G_SARO_RS09920" fbc:label="G_SARO_RS09920">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS09925">
+            <rdf:Description rdf:about="#meta_G_SARO_RS09920">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS09925"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS09920"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -29930,13 +29930,13 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS09920" sboTerm="SBO:0000243" fbc:id="G_SARO_RS09920" fbc:name="G_SARO_RS09920" fbc:label="G_SARO_RS09920">
+      <fbc:geneProduct metaid="meta_G_SARO_RS09925" sboTerm="SBO:0000243" fbc:id="G_SARO_RS09925" fbc:name="G_SARO_RS09925" fbc:label="G_SARO_RS09925">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS09920">
+            <rdf:Description rdf:about="#meta_G_SARO_RS09925">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS09920"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS09925"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -29995,19 +29995,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS13195" sboTerm="SBO:0000243" fbc:id="G_SARO_RS13195" fbc:name="G_SARO_RS13195" fbc:label="G_SARO_RS13195">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS13195">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS13195"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS09625" sboTerm="SBO:0000243" fbc:id="G_SARO_RS09625" fbc:name="G_SARO_RS09625" fbc:label="G_SARO_RS09625">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -30021,6 +30008,19 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS13195" sboTerm="SBO:0000243" fbc:id="G_SARO_RS13195" fbc:name="G_SARO_RS13195" fbc:label="G_SARO_RS13195">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS13195">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS13195"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS19910" sboTerm="SBO:0000243" fbc:id="G_SARO_RS19910" fbc:name="G_SARO_RS19910" fbc:label="G_SARO_RS19910">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -30028,19 +30028,6 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS19910"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS19690" sboTerm="SBO:0000243" fbc:id="G_SARO_RS19690" fbc:name="G_SARO_RS19690" fbc:label="G_SARO_RS19690">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS19690">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS19690"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -30073,19 +30060,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS18915" sboTerm="SBO:0000243" fbc:id="G_SARO_RS18915" fbc:name="G_SARO_RS18915" fbc:label="G_SARO_RS18915">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS18915">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS18915"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS18250" sboTerm="SBO:0000243" fbc:id="G_SARO_RS18250" fbc:name="G_SARO_RS18250" fbc:label="G_SARO_RS18250">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -30112,13 +30086,26 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS03590" sboTerm="SBO:0000243" fbc:id="G_SARO_RS03590" fbc:name="G_SARO_RS03590" fbc:label="G_SARO_RS03590">
+      <fbc:geneProduct metaid="meta_G_SARO_RS18915" sboTerm="SBO:0000243" fbc:id="G_SARO_RS18915" fbc:name="G_SARO_RS18915" fbc:label="G_SARO_RS18915">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS03590">
+            <rdf:Description rdf:about="#meta_G_SARO_RS18915">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS03590"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS18915"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS19690" sboTerm="SBO:0000243" fbc:id="G_SARO_RS19690" fbc:name="G_SARO_RS19690" fbc:label="G_SARO_RS19690">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS19690">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS19690"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -30138,13 +30125,13 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS07235" sboTerm="SBO:0000243" fbc:id="G_SARO_RS07235" fbc:name="G_SARO_RS07235" fbc:label="G_SARO_RS07235">
+      <fbc:geneProduct metaid="meta_G_SARO_RS03590" sboTerm="SBO:0000243" fbc:id="G_SARO_RS03590" fbc:name="G_SARO_RS03590" fbc:label="G_SARO_RS03590">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS07235">
+            <rdf:Description rdf:about="#meta_G_SARO_RS03590">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS07235"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS03590"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -30158,6 +30145,19 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS17290"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS07235" sboTerm="SBO:0000243" fbc:id="G_SARO_RS07235" fbc:name="G_SARO_RS07235" fbc:label="G_SARO_RS07235">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS07235">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS07235"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -30190,19 +30190,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS09845" sboTerm="SBO:0000243" fbc:id="G_SARO_RS09845" fbc:name="G_SARO_RS09845" fbc:label="G_SARO_RS09845">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS09845">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS09845"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_SARO_RS02175" sboTerm="SBO:0000243" fbc:id="G_SARO_RS02175" fbc:name="G_SARO_RS02175" fbc:label="G_SARO_RS02175">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -30216,39 +30203,13 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS15645" sboTerm="SBO:0000243" fbc:id="G_SARO_RS15645" fbc:name="G_SARO_RS15645" fbc:label="G_SARO_RS15645">
+      <fbc:geneProduct metaid="meta_G_SARO_RS09845" sboTerm="SBO:0000243" fbc:id="G_SARO_RS09845" fbc:name="G_SARO_RS09845" fbc:label="G_SARO_RS09845">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS15645">
+            <rdf:Description rdf:about="#meta_G_SARO_RS09845">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS15645"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS11530" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11530" fbc:name="G_SARO_RS11530" fbc:label="G_SARO_RS11530">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS11530">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11530"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS11595" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11595" fbc:name="G_SARO_RS11595" fbc:label="G_SARO_RS11595">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS11595">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11595"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS09845"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -30268,91 +30229,13 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS11580" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11580" fbc:name="G_SARO_RS11580" fbc:label="G_SARO_RS11580">
+      <fbc:geneProduct metaid="meta_G_SARO_RS15645" sboTerm="SBO:0000243" fbc:id="G_SARO_RS15645" fbc:name="G_SARO_RS15645" fbc:label="G_SARO_RS15645">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS11580">
+            <rdf:Description rdf:about="#meta_G_SARO_RS15645">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11580"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS11590" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11590" fbc:name="G_SARO_RS11590" fbc:label="G_SARO_RS11590">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS11590">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11590"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS11585" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11585" fbc:name="G_SARO_RS11585" fbc:label="G_SARO_RS11585">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS11585">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11585"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS11525" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11525" fbc:name="G_SARO_RS11525" fbc:label="G_SARO_RS11525">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS11525">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11525"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS11550" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11550" fbc:name="G_SARO_RS11550" fbc:label="G_SARO_RS11550">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS11550">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11550"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS11560" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11560" fbc:name="G_SARO_RS11560" fbc:label="G_SARO_RS11560">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS11560">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11560"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS11535" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11535" fbc:name="G_SARO_RS11535" fbc:label="G_SARO_RS11535">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS11535">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11535"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS15645"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -30372,26 +30255,39 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS11545" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11545" fbc:name="G_SARO_RS11545" fbc:label="G_SARO_RS11545">
+      <fbc:geneProduct metaid="meta_G_SARO_RS11590" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11590" fbc:name="G_SARO_RS11590" fbc:label="G_SARO_RS11590">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS11545">
+            <rdf:Description rdf:about="#meta_G_SARO_RS11590">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11545"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11590"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS11520" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11520" fbc:name="G_SARO_RS11520" fbc:label="G_SARO_RS11520">
+      <fbc:geneProduct metaid="meta_G_SARO_RS11515" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11515" fbc:name="G_SARO_RS11515" fbc:label="G_SARO_RS11515">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS11520">
+            <rdf:Description rdf:about="#meta_G_SARO_RS11515">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11520"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11515"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS11530" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11530" fbc:name="G_SARO_RS11530" fbc:label="G_SARO_RS11530">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS11530">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11530"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -30411,13 +30307,117 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_SARO_RS11515" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11515" fbc:name="G_SARO_RS11515" fbc:label="G_SARO_RS11515">
+      <fbc:geneProduct metaid="meta_G_SARO_RS11560" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11560" fbc:name="G_SARO_RS11560" fbc:label="G_SARO_RS11560">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_SARO_RS11515">
+            <rdf:Description rdf:about="#meta_G_SARO_RS11560">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11515"/>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11560"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS11520" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11520" fbc:name="G_SARO_RS11520" fbc:label="G_SARO_RS11520">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS11520">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11520"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS11525" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11525" fbc:name="G_SARO_RS11525" fbc:label="G_SARO_RS11525">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS11525">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11525"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS11545" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11545" fbc:name="G_SARO_RS11545" fbc:label="G_SARO_RS11545">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS11545">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11545"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS11580" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11580" fbc:name="G_SARO_RS11580" fbc:label="G_SARO_RS11580">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS11580">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11580"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS11585" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11585" fbc:name="G_SARO_RS11585" fbc:label="G_SARO_RS11585">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS11585">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11585"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS11595" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11595" fbc:name="G_SARO_RS11595" fbc:label="G_SARO_RS11595">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS11595">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11595"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS11535" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11535" fbc:name="G_SARO_RS11535" fbc:label="G_SARO_RS11535">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS11535">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11535"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="meta_G_SARO_RS11550" sboTerm="SBO:0000243" fbc:id="G_SARO_RS11550" fbc:name="G_SARO_RS11550" fbc:label="G_SARO_RS11550">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_SARO_RS11550">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/SARO_RS11550"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
