@@ -1,0 +1,624 @@
+A001	FALSE	"""OMA"": -1, ""C00001"": -1, ""C00022"": 1, ""C00036"": 1"	OMA degradation	Saro_2819 and Saro_2814 and Saro_2817	SBO:0000176
+A002	FALSE	"""PDC"": -1, ""C00001"": -1, ""OMA"": 1"	PDC to OMA	Saro_2819	SBO:0000176
+A003	FALSE	"""CHMS_hemiacetal"": -1, ""C00006"": -1, ""C00005"": 1, ""PDC"": 1"	CHMS_hemiacetal to PDC	Saro_2811	SBO:0000176
+A004	TRUE	"""CHMS"": -1, ""CHMS_hemiacetal"": 1"	CHMS conversion	spontaneous	SBO:0000176
+A005	FALSE	"""PCA"": -1, ""C00007"": -1, ""C00080"": 1, ""CHMS"": 1"	PCA ring opening	Saro_2812 and Saro_2813	SBO:0000176
+A006	FALSE	"""pHBA"": -1, ""C00007"": -1, ""C00080"": -2, ""PCA"": 1, ""C00001"": 1"	PHB hydroxyl attachment	Saro_2436	SBO:0000176
+A007	FALSE	"""VA"": -1, ""C00101"": -1, ""C00440"": 1, ""PCA"": 1"	Vanillic acid demethylation1	Saro_2861	SBO:0000176
+A008	FALSE	"""C00440"": -1, ""C00003"": -1, ""C00080"": 1, ""C00004"": 1, ""C00143"": 1"	Vanillic acid demethylation2	Saro_2860	SBO:0000176
+A011	FALSE	"""C00234"": -1, ""C00001"": -1, ""C00101"": 1, ""C00058"": 1"	Vanillic acid demethylation5	Saro_2862	SBO:0000176
+A012	FALSE	"""V"": -1, ""C00001"": -1, ""C00003"": -1, ""VA"": 1, ""C00004"": 1, ""C00080"": 1"	vanillin dehydrogenase	Saro_1668	SBO:0000176
+A013	FALSE	"""FA"": -1, ""C00010"": -1, ""C00002"": -1, ""C00080"": 1, ""FACoA"": 1, ""C00013"": 1, ""C00020"": 1"	ferulate CoA ligase	Saro_0674	SBO:0000176
+A014	FALSE	"""FACoA"": -1, ""C00080"": -1, ""C00001"": -1, ""V"": 1, ""C00024"": 1"	ferulate hydratase	Saro_1669	SBO:0000176
+A015	FALSE	"""CHMOD"": -1, ""PDC"": 1, ""C00132"": 1"	CHMOD to PDC	spontaneous	SBO:0000176
+A016	FALSE	"""CHMOD"": -1, ""C00001"": -1, ""OMA"":1, ""C00132"": 1"	CHMOD to OMA	Saro_2864 and Saro_2865	SBO:0000176
+A017	FALSE	"""3MGA"": -1, ""C00007"": -1, ""CHMOD"": 1"	3-MGA to CHMOD	Saro_2812 and Saro_2813	SBO:0000176
+A018	FALSE	"""SA"": -1, ""C00101"": -1, ""C00440"": 1, ""3MGA"": 1"	SA to 3-MGA	Saro_2404	SBO:0000176
+A019	FALSE	"""VAACoA"": -1, ""VA"": 1, ""C00024"": 1"	VAA to VAA-CoA	unknown	SBO:0000176
+A020	FALSE	"""VAA"": -1, ""C00010"": -1, ""VAACoA"": 1"	VAA-CoA to VA	unknown	SBO:0000176
+A021	FALSE	"""VAL"": -1, ""C00001p"": -1, ""VAA"": 1, ""C00080p"": 2"	VAL to VAA	unknown	SBO:0000176
+A022	FALSE	"""HPV"": -1, ""C00080p"": 2, ""VAL"": 1"	HPV to VAL	unknown	SBO:0000176
+A023	FALSE	"""RGSHPV"": -1, ""C00051"": -1, ""HPV"": 1, ""C00127"": 1, ""C00080"": 1, "	R-GS-HPV to HPV	Saro_2595	SBO:0000176
+A024	FALSE	"""SGSHPV"": -1, ""C00051"": -1, ""HPV"": 1, ""C00127"": 1, ""C00080"": 1, "	S-GS-HPV to HPV	Saro_2595	SBO:0000176
+A025	FALSE	"""RMPHPV"": -1, ""C00051"": -1, ""C00080"": -1, ""SGSHPV"": 1, ""Guaiacol"": 1"	S-MPHPV to R-GS-HPV	Saro_2405 and Saro_2873 and Saro_2872	SBO:0000176
+A026	FALSE	"""SMPHPV"": -1, ""C00051"": -1, ""C00080"": -1, ""RGSHPV"": 1, ""Guaiacol"": 1"	S-MPHPV to R-GS-HPV	Saro_2091 and Saro_2865	SBO:0000176
+A027	FALSE	"""SRGGE"": -1, ""C00003"": -1, ""RMPHPV"": 1, ""C00004"": 1"	rxn1	Saro_0794	SBO:0000176
+A028	FALSE	"""RSGGE"": -1, ""C00003"": -1, ""SMPHPV"": 1, ""C00004"": 1"	rxn2	Saro_0205 or Saro_0793	SBO:0000176
+A029	FALSE	"""RRGGE"": -1, ""C00003"": -1, ""RMPHPV"": 1, ""C00004"": 1"	rxn3	Saro_0205 or Saro_0793	SBO:0000176
+A030	FALSE	"""SSGGE"": -1, ""C00003"": -1, ""SMPHPV"": 1, ""C00004"": 1"	rxn4	Saro_0794	SBO:0000176
+A031	FALSE	"""CHMOD"": -1, ""C00101"": -1, ""C00007"": 1, ""C00440"": 1,  ""GA"": 1"	CHMOD to gallic acid	Saro_2861 or Saro_1872	SBO:0000176
+A032	FALSE	"""GA"": -1, ""C00007"": -1, ""OMA"": 1"	Gallic acid to OMA	Saro_2812 and Saro_2813 or Saro_1233 and Saro_1234	SBO:0000176
+A034	FALSE	"""S"": -1, ""C00001"": -1, ""C00003"": -1, ""SA"": 1, ""C00004"": 1, ""C00080"": 1"	syringaldehyde dehydrogenase	Saro_1668	SBO:0000176
+A035	FALSE	"""GDK"": -1, ""C00004"": -1, ""C00080"": -1, ""GP-2"": 1, ""C00003"": 1"	G-diketone reduction	SARO_RS09390 or SARO_RS03965 or SARO_RS01025 or SARO_RS03960	SBO:0000176
+A036	TRUE	"""GP-1"": -1, ""GP-2"": 1"	GP isomerization	spontaneous	SBO:0000176
+A037	FALSE	"""GP-1"": -1, ""C00004"": -1,  ""C00080"": -1, ""C00003"": 1, ""GD"": 1"	GP reduction	RS_009390	SBO:0000176
+A038	FALSE	"""GD"": -1, ""V"": 1, ""C00084"": 1, ""C00080"": 2"	GD to vanillin	unknown	SBO:0000176
+A039	FALSE	"""SDK"": -1, ""C00004"": -1, ""C00080"": -1, ""SP-2"": 1, ""C00003"": 1"	S-diketone reduction	SARO_RS09390 or SARO_RS03965 or SARO_RS_01025 or SARO_RS03960	SBO:0000176
+A040	TRUE	"""SP-1"": -1, ""SP-2"": 1"	SP isomerization	spontaneous	SBO:0000176
+A041	FALSE	"""SP-1"": -1, ""C00004"": -1, ""C00080"": -1, ""C00003"": 1, ""SD"": 1"	SP reduction	SARO_RS09390	SBO:0000176
+A042	FALSE	"""SD"": -1, ""S"": 1, ""C00084"": 1, ""C00080"": 2"	SD to vanillin	unknown	SBO:0000176
+A045	FALSE	"""Guaiacol"": -1, ""C00101"": -1, ""C00440"": 1, ""C00090"": 1"	guaiacol demethylation	unknown	SBO:0000176
+altEC34164	FALSE	"""C05898"": -10, ""C00007"": -30, ""C00889"": 1, ""C00041"": 20, ""C04574"": 10, ""C00001"": 10, ""C00011"": 20"	Peptidoglycan synthesis	Saro_3043 or Saro_2316 or Saro_3329 or Saro_2131 or Saro_1127 or Saro_1942	SBO:0000176
+altR01625	FALSE	"""C00010"": -1, ""C00001"": -1, ""C00080"": -1, ""C00229"": 1, ""C00054"": 1"	alt acp formation	Saro_0910	SBO:0000176
+altR01699	FALSE	"""C00022"": -1, ""C00010"": -1, ""C00024"": 1, ""C00011"": 1, ""C00080"": 2"	fake pyruvate to acetyl-coa	Saro_1908 or Saro_1909 or Saro_3558 or Saro_3559 or Saro_3741 or Saro_3742 or Saro_1946 or Saro_3560 or Saro_1178 or Saro_1945	SBO:0000176
+biomass	FALSE	"""C00001"": -47.41, ""C00002"": -47.4425936181397, ""C00008"": 47.41, ""C00009"": 47.41, ""C00010"": -0.00545710823969142, ""C00013"": -0.262681142385146, ""C00016"": -5.54960159968619E-05, ""C00018"": -5.54960159968619E-05, ""C00019"": -5.54960159968619E-05, ""C00020"": -0.000924933599947698, ""C00024"": -4.62466799973849E-05, ""C00025"": -0.347738642488466, ""C00037"": -0.479962617326895, ""C00041"": -0.710053156423486, ""C00044"": -0.0611580625958471, ""C00047"": -0.14471757876017, ""C00049"": -0.289955724350413, ""C00051"": -5.54960159968619E-05, ""C00062"": -0.373766983992095, ""C00063"": -0.0593698151515241, ""C00064"": -0.138991343629372, ""C00065"": -0.237378474513085, ""C00068"": -5.54960159968619E-05, ""C00073"": -0.137429643139155, ""C00075"": -0.0286119591091682, ""C00078"": -0.0546595171576183, ""C00079"": -0.176992722224669, ""C00082"": -0.104633932844583, ""C00091"": -2.77480079984309E-06, ""C00097"": -0.0619474527786341, ""C00103"": -0.00277480079984309, ""C00123"": -0.477880350006606, ""C00131"": -0.00887857055584257, ""C00135"": -0.11816867042647, ""C00148"": -0.28110608823918, ""C00152"": -0.123374338727196, ""C00157"": -0.0163726125001356, ""C00183"": -0.392507389874706, ""C00188"": -0.271735885297873, ""C00206"": -0.00887857055584257, ""C00249"": -0.0458767065574058, ""C00255"": -5.54960159968619E-05, ""C00286"": -0.0165706517104459, ""C00315"": -0.0388472111978033, ""C00344"": -0.0368383781253051, ""C00350"": -0.0327452250002712, ""C00407"": -0.251954345755116, ""C00440"": -0.0462466799973849, ""C00458"": -0.0165706517104459, ""C00459"": -0.00887857055584256, ""C00692"": -0.0253431806385669, ""C01530"": -0.0837989841552614, ""C04574"": -5.45710823969142E-05, ""C05921"": -5.54960159968619E-05, ""C05980"": -0.00102328828125847, ""C06098"": -6.47453519963388E-05, ""C06424"": -0.0458767065574058, ""C17569"": -5.54960159968619E-05, ""C15672"": -5.54960159968619E-05, ""SGL-1"": -0.0077139462235638"	biomass	NA	SBO:0000629
+ETC1	FALSE	"""C00080"": -5, ""C00004"": -1, ""C17569"": -1, ""C00080p"": 4, ""C00003"": 1, ""C17569b"": 1"	NADH dehydrogenase B/A (ubiquinone)	none	SBO:0000176
+ETC2	FALSE	"""C00042"": -1, ""C17569"": -1, ""C00122"": 1, ""C17569b"": 1"	Succinate dehydrogense/fumarate reductase	none	SBO:0000176
+ETC3	TRUE	"""cytc-red"": -1, ""C00080"": -4, ""C00007"": -0.5, ""cytc-ox"": 1, ""C00080p"": 4, ""C00001"": 1"	Cytochrome c oxidase B/A	none	SBO:0000176
+ETC4	TRUE	"""cytc-ox"": -2, ""C00080"": -4, ""C17569b"": -1, ""cytc-red"": 2, ""C00080p"": 2, ""C17569"": 1"	Cytochrome c reductase E/B/A	none	SBO:0000176
+ETC5	TRUE	"""C00080"": -2, ""C17569b"": -1, ""cytcbb-ox"": -1, ""C00080p"": 2, ""C17569"": 1, ""cytcbb-red"": 1"	"Cytochrome c oxidase, cbb3-type"	none	SBO:0000176
+ETC6	TRUE	"""C00080"": -2, ""C17569b"": -1, ""cytbd-ox"": -1, ""C00080p"": 2, ""C17569"": 1, ""cytbd-red"": 1"	Cytochrome bd reductase	none	SBO:0000176
+ETC7	TRUE	"""C00080"": -2, ""C00007"": -0.5, ""cytbd-red"": -1, ""C00080p"": 2, ""C00001"": 1, ""cytbd-ox"": 1"	Cytochrome bd oxidase	none	SBO:0000176
+ETC8	FALSE	"""C00008"": -1, ""C00009"": -1, ""C00080p"": -3, ""C00002"": 1, ""C00080"": 3, ""C00001"": 1"	F-type ATPase	none	SBO:0000176
+NGAM	FALSE	"""C00002"": -1, ""C00001"": -1, ""C00008"": 1, ""C00009"": 1"	ATP non-growth associated maintenance	none	SBO:0000176
+R00004	TRUE	"""C00013"": -1, ""C00001"": -1, ""C00009"": 2"	diphosphate phosphohydrolase	spontaneous	SBO:0000176
+R00005	FALSE	"""C01010"": -1 , ""C00001"": -1, ""C00011"": 2, ""C00014"": 2"	urea-1-carboxylate amidohydrolase	Saro_0605	SBO:0000176
+R00009	FALSE	"""C00027"": -2, ""C00007"": 1, ""C00001"": 2"	hydrogen-peroxide:hydrogen-peroxide oxidoreductase	Saro_3563	SBO:0000176
+R00014	TRUE	"""C00022"": -1, ""C00068"": -1, ""C05125"": 1, ""C00011"": 1"	pyruvate:thiamin diphosphate acetaldehydetransferase (decarboxylating)	Saro_1908 or Saro_1909 or Saro_3558 or Saro_3559 or Saro_3741 or Saro_3742	SBO:0000176
+R00019	TRUE	"""C00138p"": -2, ""C00080p"": -2, ""C00282"": 1, ""C00139p"": 2"	hydrogen:ferredoxin oxidoreductase	none	SBO:0000176
+R00022	FALSE	"""C01674"": -1, ""C00001"": -1, ""C00140"": 2"	chitobiose N-acetylglucosaminohydrolase	Saro_1091 or Saro_2417	SBO:0000176
+R00028	FALSE	"""C00208p"": -1, ""C00001p"": -1, ""C00031p"": 2"	maltose to glucose	Saro_2446 or Saro_1891 and Saro_1892	SBO:0000176
+R00036	FALSE	"""C00430"": -2, ""C00931"": 1, ""C00001"": 2"	5-aminolevulinate hydro-lyase (adding 5-aminolevulinate and cyclizing; porphobilinogen-forming)	Saro_0073	SBO:0000176
+R00066	FALSE	"""C04332"": -2, ""C00255"": 1, ""C04732"": 1"	"6,7-Dimethyl-8-(1-D-ribityl)lumazine:6,7-dimethyl-8-(1-D-ribityl)lumazine 2,3-butanediyltransferase"	Saro_2858	SBO:0000176
+R00084	FALSE	"""C00931"": -4, ""C00001"": -1, ""C01024"": 1, ""C00014"": 4"	porphobilinogen:(4-[2-carboxyethyl]-3-[carboxymethyl]pyrrol-2-yl)methyltransferase (hydrolysing)	Saro_2786	SBO:0000176
+R00093	FALSE	"""C00025"": -2, ""C00003"": -1, ""C00064"": 1, ""C00026"": 1, ""C00004"": 1, ""C00080"": 1"	L-glutamate:NAD+ oxidoreductase (transaminating)	Saro_3175 or Saro_3176	SBO:0000176
+R00103	FALSE	"""C00003"": -1, ""C00001"": -1, ""C00080"": 1, ""C00020"": 1, ""C00455"": 1"	NAD+ phosphohydrolase	Saro_0962	SBO:0000176
+R00104	FALSE	"""C00002"": -1, ""C00003"": -1, ""C00008"": 1, ""C00006"": 1"	ATP:NAD+ 2'-phosphotransferase	Saro_1984	SBO:0000176
+R00112	FALSE	"""C00005"": -1, ""C00003"": -1, ""C00006"": 1, ""C00004"": 1"	NADPH:NAD+ oxidoreductase	Saro_1843 or Saro_1844 or Saro_1845	SBO:0000176
+R00115	FALSE	"""C00051"": 2, ""C00006"": 1, ""C00127"": -1, ""C00005"": -1, ""C00080"": -1"	glutathione NADP oxidoreductase	Saro_1810	SBO:0000176
+R00130	FALSE	"""C00002"": -1, ""C00882"": -1, ""C00008"": 1, ""C00010"": 1"	ATP:dephospho-CoA 3'-phosphotransferase	Saro_0114	SBO:0000176
+R00137	TRUE	"""C00080"": -1, ""C00002"": -1, ""C00455"": -1, ""C00013"": 1, ""C00003"": 1"	ATP:nicotinamide-nucleotide adenylyltransferase1	Saro_0059	SBO:0000176
+R00138	TRUE	"""C00536"": -1, ""C00001"": -1, ""C00013"": 1, ""C00009"": 1"	Triphosphate phosphohydrolase	spontaneous	SBO:0000176
+R00156	TRUE	"""C00002"": -1, ""C00015"": -1, ""C00008"": 1, ""C00075"": 1"	ATP:UDP phosphotransferase	Saro_0894	SBO:0000176
+R00158	TRUE	"""C00002"": -1, ""C00105"": -1, ""C00008"": 1, ""C00015"": 1"	ATP:UMP phosphotransferase	Saro_1371 or Saro_1324	SBO:0000176
+R00161	FALSE	"""C00002"": -1, ""C00061"": -1, ""C00013"": 1, ""C00016"": 1"	ATP:FMN adenylyltransferase	Saro_3260	SBO:0000176
+R00174	TRUE	"""C00002"": -1, ""C00250"": -1, ""C00008"": 1, ""C00018"": 1"	ATP:pyridoxal 5'-phosphotransferase	none	SBO:0000176
+R00177	FALSE	"""C00002"": -1, ""C00073"": -1, ""C00001"": -1, ""C00009"": 1, ""C00013"": 1, ""C00019"": 1"	ATP:L-methionine S-adenosyltransferase	Saro_0284	SBO:0000176
+R00182	FALSE	"""C00020"": -1, ""C00001"": -1, ""C00147"": 1, ""C00117"": 1"	AMP phosphoribohydrolase	Saro_0559	SBO:0000176
+R00183	FALSE	"""C00020"": -1, ""C00001"": -1, ""C00212"": 1, ""C00009"": 1"	adenosine 5'-monophosphate phosphohydrolase	Saro_1413	SBO:0000176
+R00189	FALSE	"""C00002"": -1, ""C00857"": -1, ""C00014"": -1, ""C00020"": 1, ""C00013"": 1, ""C00003"": 1"	deamido-NAD+:ammonia ligase (AMP-forming)	Saro_0970	SBO:0000176
+R00190	TRUE	"""C00020"": -1, ""C00013"": -1, ""C00147"": 1, ""C00119"": 1"	AMP:diphosphate phospho-D-ribosyltransferase	Saro_0675	SBO:0000176
+R00192	FALSE	"""C00021"": -1, ""C00001"": -1, ""C00212"": 1, ""C00155"": 1"	S-Adenosyl-L-homocysteine hydrolase	Saro_2003	SBO:0000176
+R00200	TRUE	"""C00002"": -1, ""C00022"": -1, ""C00008"": 1, ""C00074"": 1"	ATP:pyruvate 2-O-phosphotransferase	Saro_0432	SBO:0000176
+R00220	TRUE	"""C00065"": -1, ""C00022"": 1, ""C00014"": 1"	L-serine ammonia-lyase	Saro_1100	SBO:0000176
+R00226	FALSE	"""C00022"": -2, ""C06010"": 1, ""C00011"": 1"	pyruvate pyruvate acetaldehydetransferase	Saro_2261 or Saro_2262 or Saro_2379	SBO:0000176
+R00235	FALSE	"""C00002"": -1 ,""C00033"": -1, ""C00010"": -1, ""C00020"": 1, ""C00013"": 1, ""C00024"": 1"	acetate CoA ligase	Saro_2625	SBO:0000176
+R00238	TRUE	"""C00024"": -2, ""C00010"": 1, ""C00332"": 1"	acetyl-CoA:acetyl-CoA C-acetyltransferase	Saro_0809 or Saro_0867 or Saro_1069 or Saro_1222 or Saro_2306 or Saro_2349 or Saro_2502 or Saro_3758 or Saro_3766	SBO:0000176
+R00239	FALSE	"""C00002"": -1, ""C00025"": -1, ""C00008"": 1, ""C03287"": 1"	ATP:L-glutamate 5-phosphotransferase	Saro_1146	SBO:0000176
+R00243	TRUE	"""C00025"": -1, ""C00003"": -1, ""C00001"": -1, ""C00026"": 1, ""C00014"": 1, ""C00004"": 1, ""C00080"": 1"	L-glutamate:NAD+ oxidoreductase (deaminating)	Saro_0211 or Saro_1272	SBO:0000176
+R00245	TRUE	"""C01165"": -1, ""C00003"": -1, ""C00001"": -1, ""C00025"": 1, ""C00004"": 1, ""C00080"": 1"	L-glutamate gamma-semialdehyde:NAD+ oxidoreductase	Saro_0704	SBO:0000176
+R00253	FALSE	"""C00002"": -1, ""C00025"": -1, ""C00014"": -1, ""C00008"": 1, ""C00009"": 1, ""C00064"": 1"	L-Glutamate:ammonia ligase (ADP-forming)	Saro_1108 or Saro_2609	SBO:0000176
+R00259	FALSE	"""C00024"": -1, ""C00025"": -1, ""C00010"": 1, ""C00624"": 1"	acetyl-CoA:L-glutamate N-acetyltransferase	Saro_1993	SBO:0000176
+R00268	TRUE	"""C05379"": -1, ""C00026"": 1, ""C00011"": 1"	oxalosuccinate carboxy-lyase (2-oxoglutarate-forming)	Saro_1282	SBO:0000176
+R00274	FALSE	"""C00027"": -1, ""C00051"": -2, ""C00127"": 1, ""C00001"": 2"	glutathione hydrogen peroxide oxidoreductase	Saro_0565 or Saro_1769	SBO:0000176
+R00276	TRUE	"""C00011"": -1, ""C00027"": -1, ""C00237"": 1, ""C00001"": 1, ""C00007"": 1"	Carbon-monoxide:oxygen oxidoreductase	none	SBO:0000176
+R00286	TRUE	"""C00029"": -1, ""C00001"": -1, ""C00003"": -2, ""C00167"": 1, ""C00004"": 2, ""C00080"": 2"	UDP-glucose:NAD+ 6-oxidoreductase	Saro_3255	SBO:0000176
+R00287	FALSE	"""C00029"": -1, ""C00001"": -1, ""C00105"": 1, ""C00103"": 1"	UDP-glucose glucophosphohydrolase	Saro_1933	SBO:0000176
+R00289	FALSE	"""C00075"": -1, ""C00103"": -1, ""C00013"": 1, ""C00029"": 1"	UTP:alpha-D-glucose-1-phosphate uridylyltransferase	Saro_0450	SBO:0000176
+R00291	TRUE	"""C00029"": -1, ""C00052"": 1"	UDP-glucose 4-epimerase	Saro_1618 or Saro_3275	SBO:0000176
+R00306	FALSE	"""C00185p"": -1, ""C00001p"": -1, ""C00031p"": 2"	cellobiose glucohydrolase	Saro_0542 or Saro_0789 or Saro_1611 or Saro_1719 or Saro_1729 or Saro_2419	SBO:0000176
+R00310	FALSE	"""C02191"": -1, ""C14818"": -1, ""C00032"": 1, ""C00080"": 2"	protoheme ferro-lyase (protoporphyrin-forming)	Saro_3336	SBO:0000176
+R00330	TRUE	"""C00002"": -1, ""C00035"": -1, ""C00008"": 1, ""C00044"": 1"	ATP:GDP phosphotransferase	Saro_0432 or Saro_0894	SBO:0000176
+R00332	TRUE	"""C00002"": -1, ""C00144"": -1, ""C00008"": 1, ""C00035"": 1"	ATP:GMP phosphotransferase	Saro_1003	SBO:0000176
+R00341	FALSE	"""C00002"": -1, ""C00036"": -1, ""C00008"": 1, ""C00074"": 1, ""C00011"": 1"	ATP:oxaloacetate carboxy-lyase	Saro_2908	SBO:0000176
+R00342	TRUE	"""C00149"": -1, ""C00003"": -1, ""C00036"": 1, ""C00004"": 1, ""C00080"": 1"	(S)-malate:NAD+ oxidoreductase	Saro_1182	SBO:0000176
+R00344	FALSE	"""C00002"": -1, ""C00022"": -1, ""C00288"": -1, ""C00080"": -1, ""C00008"": 1, ""C00009"": 1, ""C00036"": 1"	pyruvic carboxylase	NA	SBO:0000176
+R00352	FALSE	" ""C00024"": -1, ""C00008"": -1, ""C00009"": -1, ""C00036"": -1, ""C00002"": 1, ""C00158"": 1, ""C00010"": 1,"	acetyl-CoA:oxaloacetate C-acetyltransferase (thioester-hydrolysing)	Saro_2032	SBO:0000176
+R00355	TRUE	"""C00049"": -1, ""C00026"": -1, ""C00036"": 1, ""C00025"": 1"	L-Aspartate:2-oxoglutarate aminotransferase	Saro_0446 or Saro_0410	SBO:0000176
+R00383	TRUE	"""C00040"": -1, ""C00001"": -1, ""C00010"": 1, ""C01134"": 1, ""C00011"": 1, ""C00080"": 1"	acyl-CoA synthesis	none	SBO:0000176
+R00396	FALSE	"""C00022"": -1, ""C00014"": -1, ""C00004"": -1, ""C00080"": -1, ""C00041"": 1, ""C00003"": 1, ""C00001"": 1"	L-alanine:NAD+ oxidoreductase (deaminating)	Saro_1682	SBO:0000176
+R00405	TRUE	"""C00002"": -1, ""C00042"": -1, ""C00010"": -1, ""C00008"": 1, ""C00009"": 1, ""C00091"": 1"	Succinate:CoA ligase (ADP-forming)	Saro_1181 or Saro_3170	SBO:0000176
+R00410	TRUE	"""C00091"": -1, ""C00164"": -1, ""C00042"": 1, ""C00332"": 1"	succinyl-CoA:acetoacetate CoA-transferase	Saro_0566 or Saro_0568 or Saro_3823 or Saro_3824	SBO:0000176
+R00416	FALSE	"""C00075"": -1, ""C04501"": -1, ""C00013"": 1, ""C00043"": 1"	UTP:N-acetyl-alpha-D-glucosamine-1-phosphate uridylyltransferase	Saro_1199	SBO:0000176
+R00420	FALSE	"""C00043"": -1, ""C01170"": 1"	UDP-N-acetyl-D-glucosamine 2-epimerase	Saro_3149	SBO:0000176
+R00424	FALSE	"""C00044"": -1, ""C00001"": -1, ""C04895"": 1, ""C00058"": 1"	"GTP 7,8-8,9-dihydrolase"	Saro_1230 or Saro_2007 or Saro_3635	SBO:0000176
+R00425	FALSE	"""C00044"": -1, ""C00001"": -3, ""C00058"": 1, ""C01304"":1, ""C00013"": 1"	"GTP 7,8-8,9-dihydrolase (diphosphate-forming)"	Saro_0520 or Saro_1473 or Saro_1582 or Saro_3191	SBO:0000176
+R00429	TRUE	"""C00002"": -1, ""C00044"": -1, ""C00020"": 1, ""C04494"": 1"	ATP:GTP 3'-diphosphotransferase	Saro_2533	SBO:0000176
+R00451	FALSE	"""C00680"": -1, ""C00047"": 1, ""C00011"": 1"	"meso-2,6-diaminoheptanedioate carboxy-lyase"	Saro_2337 or Saro_2675	SBO:0000176
+R00479	FALSE	"""C00311"": -1, ""C00042"": 1, ""C00048"": 1"	isocitrate glyoxylate-lyase (succinate-forming)	Saro_1029	SBO:0000176
+R00480	FALSE	"""C00002"": -1, ""C00049"": -1, ""C00008"": 1, ""C03082"": 1"	ATP:L-aspartate 4-phosphotransferase	Saro_3304	SBO:0000176
+R00481	FALSE	"""C00049"": -1, ""C00007"": -1, ""C05840"": 1, ""C00027"": 1"	L-aspartate:oxygen oxidoreductase	Saro_0410	SBO:0000176
+R00483	TRUE	"""C00002"": -1, ""C00049"": -1, ""C00014"": -1, ""C00020"": 1, ""C00013"": 1, ""C00152"": 1"	L-aspartate:ammonia ligase (AMP-forming)	Saro_0548 or Saro_2327 or Saro_3241	SBO:0000176
+R00494	FALSE	"""C00051"": -1, ""C00001"": -1, ""C01419"": 1, ""C00025"": 1"	glutathione gamma-glutamylaminopeptidase	Saro_0192	SBO:0000176
+R00497	FALSE	"""C00002"": -1, ""C00669"": -1, ""C00037"": -1, ""C00008"": 1, ""C00009"": 1, ""C00051"": 1"	gamma-L-glutamyl-L-cysteine:glycine ligase (ADP-forming)	Saro_2081	SBO:0000176
+R00509	FALSE	"""C00002"": -1, ""C00224"": -1, ""C00008"": 1, ""C00053"": 1"	ATP:adenylylsulfate 3'-phosphotransferase	Saro_3253	SBO:0000176
+R00511	TRUE	"""C00055"": -1, ""C00001"": -1, ""C00475"": 1, ""C00009"": 1"	cytidine-5'-monophosphate phosphohydrolase	Saro_0559	SBO:0000176
+R00512	TRUE	"""C00002"": -1, ""C00055"": -1, ""C00008"": 1, ""C00112"": 1"	ATP:CMP phosphotransferase	Saro_1324	SBO:0000176
+R00519	FALSE	"""C00058"": -1, ""C00003"": -1, ""C00080"": 1, ""C00011"": 1, ""C00004"": 1"	formate:NAD+ oxidoreductase	Saro_0732 or Saro_0733 or Saro_0735 or Saro_0736	SBO:0000176
+R00527	FALSE	"""C01031"": -1, ""C00001"": -1, ""C00058"": 1, ""C00051"": 1"	S-formylglutathione hydrolase	Saro_2922	SBO:0000176
+R00529	FALSE	"""C00002"": -1, ""C00059"": -1, ""C00013"": 1, ""C00224"": 1"	ATP:sulfate adenylyltransferase	Saro_3252 and Saro_3253	SBO:0000176
+R00549	FALSE	"""C00002"": -1, ""C00255"": -1, ""C00008"": 1, ""C00061"": 1"	ATP:riboflavin 5'-phosphotransferase	Saro_3260	SBO:0000176
+R00551	FALSE	"""C00062"": -1, ""C00001"": -1, ""C00077"": 1, ""C00086"":1"	L-Arginine amidinohydrolase	none	SBO:0000176
+R00570	TRUE	"""C00002"": -1, ""C00112"": -1, ""C00008"": 1, ""C00063"": 1"	ATP:CDP phosphotransferase	Saro_0894	SBO:0000176
+R00571	TRUE	"""C00002"": -1, ""C00075"": -1, ""C00014"": -1, ""C00008"": 1, ""C00009"": 1, ""C00063"": 1"	UTP:ammonia ligase (ADP-forming)	Saro_2017 or Saro_0146	SBO:0000176
+R00575	FALSE	"""C00002"": -2, ""C00064"": -1, ""C00288"": -1, ""C00001"": -1, ""C00080"": -1, ""C00008"": 2, ""C00009"":1, ""C00025"": 1, ""C00169"": 1"	L-glutamine amido-ligase	Saro_2230 or Saro_2231	SBO:0000176
+R00582	FALSE	"""C01005"": -1, ""C00001"": -1, ""C00065"": 1, ""C00009"": 1"	O-phospho-L-serine phosphohydrolase	Saro_2259	SBO:0000176
+R00586	TRUE	"""C00065"": -1, ""C00024"": -1, ""C00979"": 1, ""C00010"": 1"	acetyl-CoA:L-serine O-acetyltransferase	Saro_0902	SBO:0000176
+R00616	FALSE	"""C00002"": -1, ""C00068"": -1, ""C00008"": 1, ""C03028"": 1"	ATP:thiamine-diphosphate phosphotransferase	none	SBO:0000176
+R00617	FALSE	"""C00002"": -1, ""C01081"": -1, ""C00008"": 1, ""C00068"": 1"	ATP:thiamin-phosphate phosphotransferase	Saro_1068	SBO:0000176
+R00658	TRUE	"""C00631"": -1, ""C00074"": 1, ""C00001"": 1"	phospho-D-glycerate hydro-lyase	Saro_2223	SBO:0000176
+R00660	FALSE	"""C00074"": -1, ""C00043"": -1, ""C04631"": 1, ""C00009"": 1"	Phosphoenolpyruvate:UDP-N-acetyl-D-glucosamine 1-carboxyvinyl-transferase	Saro_0449	SBO:0000176
+R00670	FALSE	"""C00077"": -1, ""C00134"": 1, ""C00011"": 1"	L-ornithine carboxy-lyase (putrescine-forming)	Saro_1794	SBO:0000176
+R00674	FALSE	"""C00065"": -1, ""C00463"": -1, ""C00078"": 1, ""C00001"": 1"	L-serine hydro-lyase	Saro_1301 or Saro_1302	SBO:0000176
+R00691	FALSE	"""C00826"": -1, ""C00079"": 1, ""C00001"": 1, ""C00011"": 1"	L-arogenate hydro-lyase	Saro_0467	SBO:0000176
+R00694	TRUE	"""C00079"": -1, ""C00026"": -1, ""C00166"": 1, ""C00025"": 1"	L-Phenylalanine:2-oxoglutarate aminotransferase	Saro_0446 or Saro_0695 or Saro_0792	SBO:0000176
+R00707	TRUE	"""C03912"": -1, ""C00003"": -1, ""C00001"": -2, ""C00025"": 1, ""C00004"": 1, ""C00080"": 1"	(S)-1-pyrroline-5-carboxylate:NAD+ oxidoreductase	Saro_1202 or Saro_2415	SBO:0000176
+R00717	TRUE	"""C00160"": -1, ""C00003"": -1, ""C00048"": 1, ""C00004"": 1, ""C00080"": 1"	Glycolate:NAD+ oxidoreductase	Saro_2308 or Saro_2948	SBO:0000176
+R00732	FALSE	"""C00826"": -1, ""C00003"": -1, ""C00082"": 1, ""C00011"": 1, ""C00004"": 1, ""C00080"": 1"	L-arogenate:NAD+ oxidoreductase	Saro_0696	SBO:0000176
+R00734	TRUE	"""C00082"": -1, ""C00026"": -1, ""C01179"": 1, ""C00025"": 1"	L-tyrosine:2-oxoglutarate aminotransferase	Saro_0446 or Saro_0695 or Saro_0792	SBO:0000176
+R00742	FALSE	"""C00002"": -1, ""C00024"": -1, ""C00288"": -1, ""C00080"": -1, ""C00008"": 1, ""C00009"": 1, ""C00083"": 1"	acetyl-CoA:carbon-dioxide ligase (ADP-forming)	Saro_1300 or Saro_1860 or Saro_1861 or Saro_1903 or Saro_2078 or Saro_2079	SBO:0000176
+R00750	FALSE	"""C03589"": -1, ""C00084"": 1, ""C00022"": 1"	4-hydroxy-2-pentanoate pyruvate-lyase	Saro_3852 or Saro_3687	SBO:0000176
+R00751	TRUE	"""C00188"": -1, ""C00037"": 1, ""C00084"": 1"	L-threonine acetaldehyde-lyase	Saro_3267	SBO:0000176
+R00768	TRUE	"""C00064"": -1, ""C05345"": -1, ""C00025"": 1, ""C00352"": 1"	L-glutamine:D-fructose-6-phosphate isomerase	Saro_1202 or Saro_2415	SBO:0000176
+R00774	TRUE	"""C00080"": -1, ""C00002"": -1, ""C00086"": -1, ""C00288"": -1, ""C00008"": 1, ""C00009"": 1, ""C01010"": 1"	Urea:carbon-dioxide ligase (ADP-forming)	Saro_0606	SBO:0000176
+R00782	TRUE	"""C00097"": -1, ""C00001"": -1, ""C00283"": 1, ""C00022"": 1, ""C00014"": 1"	L-cysteine hydrogen-sulfide-lyase	Saro_2554	SBO:0000176
+R00813	FALSE	"""C06321"": -1, ""C00003"": -1, ""C00090"": 1, ""C00004"": 1, ""C00011"": 1, ""C00080"": 1"	"1R,6S-1,6-dihydroxycyclohexa-2,4-diene-1-carboxylate NAD oxidoreductase decarboxylating"	Saro_0540 or Saro_3837	SBO:0000176
+R00816	FALSE	"""C00090"": -1, ""C00007"": -1, ""C00682"": 1"	"catechol oxygen 2,3 oxidoreductase"	Saro_3857	SBO:0000176
+R00817	FALSE	"""C00090"": -1, ""C00007"": -1, ""C02480"": 1"	"catechol oxygen 1,2-oxidoreductase"	Saro_3830	SBO:0000176
+R00829	FALSE	"""C00010"": -1, ""C02232"": -1, ""C00091"": 1, ""C00024"": 1"	succinyl-CoA acetyl-CoA C-acyltransferase	Saro_0867	SBO:0000176
+R00830	FALSE	"""C00091"": -1, ""C00037"": -1, ""C00430"": 1, ""C00010"": 1, ""C00011"": 1"	succinyl-CoA:glycine C-succinyltransferase (decarboxylating)	Saro_1797	SBO:0000176
+R00833	TRUE	"""C01213"": -1, ""C00091"": 1"	(R)-Methylmalonyl-CoA CoA-carbonylmutase	Saro_0811	SBO:0000176
+R00842	TRUE	"""C00093"": -1, ""C00003"": -1, ""C00111"": 1, ""C00004"": 1, ""C00080"":1"	sn-Glycerol-3-phosphate:NAD+ 2-oxidoreductase	Saro_2784 or Saro_0085 or Saro_2442	SBO:0000176
+R00851	FALSE	"""C00093"": -1, ""C00040"": -1, ""C00681"": 1, ""C00010"": 1"	acyl-CoA:sn-glycerol-3-phosphate 1-O-acyltransferase	Saro_1800 or Saro_2367	SBO:0000176
+R00858	FALSE	"""C00094"": -1, ""C00005"": -3, ""C00080"": -3, ""C00283"": 1, ""C00006"": 3, ""C00001"": 3"	hydrogen-sulfide:NADP+ oxidoreductase	Saro_2558	SBO:0000176
+R00867	FALSE	"""C00002"": -1, ""C00095"": -1, ""C00008"": 1, ""C05345"": 1"	ATP:D-fructose 6-phosphotransferase	Saro_1885	SBO:0000176
+R00878	FALSE	"""C00095p"": -1, ""C00031p"": 1"	fructose to glucose	Saro_0757	SBO:0000176
+R00894	FALSE	"""C00002"": -1, ""C00025"": -1, ""C00097"": -1, ""C00008"": 1, ""C00009"": 1, ""C00669"": 1"	L-glutamate:L-cysteine gamma-ligase (ADP-forming)	Saro_0949	SBO:0000176
+R00895	TRUE	"""C00097"": -1, ""C00026"": -1, ""C00957"": 1, ""C00025"": 1"	L-Cysteine:2-oxoglutarate aminotransferase	Saro_0446	SBO:0000176
+R00897	FALSE	"""C00979"": -1, ""C00283"": -1, ""C00097"": 1, ""C00033"": 1"	O3-acetyl-L-serine:hydrogen-sulfide 2-amino-2-carboxyethyltransferase	Saro_1061 or Saro_1121 or Saro_2103	SBO:0000176
+R00899	FALSE	"""C01419"": -1, ""C00001"": -1, ""C00097"": 1, ""C00037"": 1"	L-cysteinylglycine dipeptidase	Saro_0443 or Saro_3270 or Saro_0890 or Saro_1112	SBO:0000176
+R00925	TRUE	"""C00002"": -1, ""C00163"": -1, ""C00010"": -1, ""C00020"": 1, ""C00013"": 1, ""C00100"": 1"	Propanoate:CoA ligase (AMP-forming)	Saro_2622 or Saro_2625	SBO:0000176
+R00927	FALSE	"""C00010"": -1, ""C03344"": -1, ""C00024"": 1, ""C00100"": 1"	acetyl-CoA:propanoyl-CoA 2-C-acetyltransferase	Saro_0867	SBO:0000176
+R00935	FALSE	"""C06002"": -1, ""C00010"": -1, ""C00003"": -1, ""C00100"": 1, ""C00011"": 1, ""C00004"": 1, ""C00080"": 1"	S)-Methylmalonate semialdehyde:NAD+ oxidoreductase	Saro_0855	SBO:0000176
+R00939	TRUE	"""C00101"": -1, ""C00006"": -1, ""C00415"": 1, ""C00005"": 1, ""C00080"": 1"	"5,6,7,8-tetrahydrofolate:NADP+ oxidoreductase"	Saro_3262	SBO:0000176
+R00944	FALSE	"""C00234"": -1, ""C00001"": -1, ""C00058"": 1, ""C00101"": 1"	10-Formyltetrahydrofolate amidohydrolase	Saro_2862	SBO:0000176
+R00945	TRUE	"""C00143"": -1, ""C00037"": -1, ""C00001"": -1, ""C00101"": 1, ""C00065"": 1"	"5,10-Methylenetetrahydrofolate:glycine hydroxymethyltransferase"	Saro_2240	SBO:0000176
+R00946	FALSE	"""C00440"": -1, ""C00155"": -1, ""C00101"": 1, ""C00073"": 1"	unnamed1	Saro_3206 or Saro_3207 or Saro_2409	SBO:0000176
+R00955	TRUE	"""C00029"": -1, ""C00446"": -1, ""C00103"": 1, ""C00052"": 1"	UDP-glucose:alpha-D-galactose-1-phosphate uridylyltransferase	Saro_0543	SBO:0000176
+R00959	TRUE	"""C00103"": -1, ""C00668"": 1"	alpha-D-Glucose 1-phosphate 1-6-phosphomutase	Saro_1655	SBO:0000176
+R00963	TRUE	"""C00105"": -1, ""C00001"": -1, ""C00299"": 1, ""C00009"": 1"	uridine 5'-monophosphate phosphohydrolase	Saro_0559	SBO:0000176
+R00965	FALSE	"""C01103"": -1, ""C00105"": 1, ""C00011"": 1"	orotidine-5'-phosphate carboxy-lyase	Saro_1307	SBO:0000176
+R00986	FALSE	"""C00251"": -1, ""C00064"": -1, ""C00108"": 1, ""C00022"": 1, ""C00025"": 1"	chorismate pyruvate-lyase	Saro_2021 or Saro_2022	SBO:0000176
+R00994	FALSE	"""C06032"": -1, ""C00003"": -1, ""C00109"": 1, ""C00011"": 1, ""C00004"": 1, ""C00080"": 1"	"2R,3S-3-methylmalate:NAD+ oxidoreductase"	Saro_2662	SBO:0000176
+R00996	FALSE	"""C00188"": -1, ""C00109"": 1, ""C00014"": 1"	L-threonine ammonia-lyase	Saro_1100	SBO:0000176
+R00999	FALSE	"""C01118"": -1, ""C00001"": -1, ""C00109"": 1, ""C00042"": 1, ""C00014"": 1"	O-Succinyl-L-homoserine succinate-lyase	Saro_2665	SBO:0000176
+R01015	TRUE	"""C00118"": -1, ""C00111"": 1"	D-glyceraldehyde-3-phosphate aldose-ketose-isomerase	Saro_2019	SBO:0000176
+R01049	TRUE	"""C00002"": -1, ""C00117"": -1, ""C00020"": 1, ""C00119"": 1"	ATP:D-ribose-5-phosphate diphosphotransferase	Saro_0971 or Saro_3582	SBO:0000176
+R01056	TRUE	"""C00117"": -1, ""C00199"": 1"	D-ribose-5-phosphate aldose-ketose-isomerase	Saro_2239	SBO:0000176
+R01057	TRUE	"""C00620"": -1, ""C00117"": 1"	"D-Ribose 1,5-phosphomutase"	Saro_1655	SBO:0000176
+R01061	TRUE	"""C00118"": -1, ""C00009"": -1, ""C00003"": -1, ""C00236"": 1, ""C00004"": 1, ""C00080"": 1"	D-glyceraldehyde-3-phosphate:NAD+ oxidoreductase	Saro_1967	SBO:0000176
+R01070	TRUE	"""C05378"": -1, ""C00111"": 1, ""C00118"": 1"	beta-D-fructose-1-6-bisphosphate	Saro_1964	SBO:0000176
+R01071	TRUE	"""C02739"": -1, ""C00013"": -1, ""C00002"": 1, ""C00119"": 1"	1-(5-phospho-D-ribosyl)-ATP:diphosphate phospho-alpha-D-ribosyl-transferase	Saro_2681 or Saro_2919	SBO:0000176
+R01072	FALSE	"""C00064"": -1, ""C00119"": -1, ""C00001"": -1, ""C03090"": 1, ""C00013"": 1, ""C00025"": 1"	5-phosphoribosylamine:diphosphate phospho-alpha-D-ribosyltransferase (glutamate-amidating)	Saro_1763	SBO:0000176
+R01073	TRUE	"""C04302"": -1, ""C00013"": -1, ""C00108"": 1, ""C00119"": 1"	N-(5-Phospho-D-ribosyl)anthranilate:pyrophosphate phosphoribosyl-transferase	Saro_2023	SBO:0000176
+R01074	FALSE	"""C00002"": -1, ""C00120"": -1, ""C00013"": 1, ""C05921"": 1"	biotinyl-5'-AMP	Saro_2286	SBO:0000176
+R01078	FALSE	"""C01909"": -1, ""C00283"": -1, ""C00019"": -2, ""C00120"": 1, ""C00073"": 2, ""C05198"": 2,"	dethiobiotin:sulfur sulfurtransferase	Saro_0719	SBO:0000176
+R01082	TRUE	"""C00149"": -1, ""C00122"": 1, ""C00001"": 1"	(S)-malate hydro-lyase (fumarate-forming)	Saro_0188 or Saro_1696	SBO:0000176
+R01083	FALSE	"""C03794"": -1, ""C00122"": 1, ""C00020"": 1"	"N6-(1,2-dicarboxyethyl)AMP AMP-lyase (fumarate-forming)"	Saro_1309	SBO:0000176
+R01086	FALSE	"""C03406"": -1, ""C00122"": 1, ""C00062"": 1"	2-(Nomega-L-arginino)succinate arginine-lyase (fumarate-forming)	Saro_2677	SBO:0000176
+R01090	TRUE	"""C00123"": -1, ""C00026"": -1, ""C00233"": 1, ""C00025"": 1"	L-Leucine:2-oxoglutarate aminotransferase	Saro_2671	SBO:0000176
+R01092	FALSE	"""C00002"": -1, ""C00984p"": -1, ""C00008"": 1, ""C00446"": 1"	ATP galactose 1-phosphotransferase	Saro_0544	SBO:0000176
+R01127	TRUE	"""C00130"": -1, ""C00001"": -1, ""C04734"": 1"	"IMP 1,2-hydrolase (decyclizing)"	Saro_0106	SBO:0000176
+R01130	FALSE	"""C00130"": -1, ""C00003"": -1, ""C00001"": -1, ""C00655"": 1, ""C00004"": 1, ""C00080"": 1"	IMP:NAD+ oxidoreductase	Saro_1752	SBO:0000176
+R01135	FALSE	"""C00044"": -1, ""C00130"": -1, ""C00049"": -1, ""C00035"": 1, ""C00009"": 1, ""C03794"": 1"	IMP:L-aspartate ligase (GDP-forming)	Saro_2683	SBO:0000176
+R01137	TRUE	"""C00002"": -1, ""C00206"": -1, ""C00008"": 1, ""C00131"": 1"	ATP:dADP phosphotransferase	Saro_1933 or Saro_0894 or Saro_0432	SBO:0000176
+R01158	FALSE	"""C00860"": -1, ""C00003"": -2, ""C00001"": -1, ""C00135"": 1, ""C00004"": 2, ""C00080"": 2"	L-histidinol:NAD+ oxidoreductase	Saro_2920	SBO:0000176
+R01196	TRUE	"""C00138"": -2, ""C00024"": -1, ""C00011"": -1, ""C00080"": -2, ""C00139"": 2, ""C00022"": 1, ""C00010"": 1"	pyruvate:ferredoxin 2-oxidoreductase (CoA-acetylating)	Saro_1757 or Saro_1758	SBO:0000176
+R01197	FALSE	"""C00139"": -2, ""C00026"": -1, ""C00010"": -1, ""C00138"": 2, ""C00091"": 1, ""C00011"": 1, ""C00080"": 2, "	2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating)	Saro_1757 or Saro_1758	SBO:0000176
+R01201	FALSE	"""C00002"": -1, ""C00140"": -1, ""C00008"": 1, ""C00357"": 1"	ATP:N-acetyl-D-glucosamine 6-phosphotransferase	Saro_2412	SBO:0000176
+R01213	FALSE	"""C00024"": -1, ""C00141"": -1, ""C00001"": -1, ""C02504"": 1, ""C00010"": 1"	acetyl-CoA:3-methyl-2-oxobutanoate C-acetyltransferase	Saro_2267	SBO:0000176
+R01214	FALSE	"""C00141"": -1, ""C00025"": -1, ""C00183"": 1, ""C00026"": 1"	L-Valine 2-oxoglutarate aminotransferase	Saro_2671	SBO:0000176
+R01220	TRUE	"""C00143"": -1, ""C00006"": -1, ""C00445"": 1, ""C00005"": 1"	"5,10-methylenetetrahydrofolate:NADP+ oxidoreductase"	Saro_3300 or Saro_3791	SBO:0000176
+R01226	FALSE	"""C00143"": -1, ""C00141"": -1, ""C00001"": -1, ""C00101"": 1, ""C00966"": 1"	"5,10-Methylenetetrahydrofolate:3-methyl-2-oxobutanoate hydroxymethyltransferase"	Saro_2043	SBO:0000176
+R01230	FALSE	"""C00002"": -1, ""C00655"": -1, ""C00014"": -1, ""C00020"": 1, ""C00013"": 1, ""C00144"": 1"	Xanthosine-5'-phosphate:ammonia ligase (AMP-forming)	Saro_0550 or Saro_2606 or Saro_2974	SBO:0000176
+R01248	TRUE	"""C00148"": -1, ""C00003"": -1, ""C03912"": 1, ""C00004"": 1, ""C00080"": 1"	L-Proline:NAD+ 5-oxidoreductase	Saro_1142	SBO:0000176
+R01288	FALSE	"""C01118"": -1, ""C00283"": -1, ""C00155"": 1, ""C00042"": 1"	O4-succinyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase	Saro_2665	SBO:0000176
+R01293	FALSE	"""C00633"": -1, ""C00003"": -1, ""C00001"": -1, ""C00156"": 1, ""C00004"": 1, ""C00080"": 1"	4-hydroxybenzaldehyde NAD+ oxidoreductase	none	SBO:0000176
+R01302	FALSE	"""C00251"": -1, ""C00022"": 1, ""C00156"": 1"	chorismate pyruvate-lyase (4-hydroxybenzoate-forming)	none	SBO:0000176
+R01312	TRUE	"""C00157"": -1, ""C00001"": -1, ""C00080"": -1, ""C00641"": 1, ""C00588"": 1"	Phosphatidylcholine cholinephosphohydrolase	Saro_1552	SBO:0000176
+R01321	FALSE	"""C00307"": -1, ""C00641"": -1, ""C00055"": 1, ""C00157"": 1"	"CDP-choline 1,2-diacyl-sn-glycerol cholinephosphotransferase"	none	SBO:0000176
+R01325	TRUE	"""C00158"": -1, ""C00417"": 1, ""C00001"": 1"	citrate hydro-lyase (cis-aconitate-forming)	Saro_0425	SBO:0000176
+R01333	FALSE	"""C00266"": -1, ""C00003"": -1, ""C00001"": -1, ""C00160"": 1, ""C00004"": 1, ""C00080"": 1"	glycolaldehyde:NAD+ oxidoreductase	none	SBO:0000176
+R01360	FALSE	"""C00356"": -1, ""C00024"": 1, ""C00164"": 1"	(S)-3-hydroxy-3-methylglutaryl-CoA acetoacetate-lyase (acetyl-CoA-forming)	Saro_0177	SBO:0000176
+R01373	TRUE	"""C00254"": -1, ""C00166"": 1, ""C00001"": 1, ""C00011"": 1"	prephenate hydro-lyase	Saro_0467	SBO:0000176
+R01385	TRUE	"""C00167"": -1, ""C00617"": 1"	UDP-glucuronate 4-epimerase	Saro_3151	SBO:0000176
+R01397	FALSE	"""C00169"": -1, ""C00049"": -1, ""C00009"": 1, ""C00438"": 1"	carbamoyl-phosphate:L-aspartate carbamoyltransferase	Saro_3061	SBO:0000176
+R01398	FALSE	"""C00169"": -1, ""C00077"": -1, ""C00009"": 1, ""C00327"": 1"	Carbamoyl-phosphate:L-ornithine carbamoyltransferase	Saro_3140	SBO:0000176
+R01432	TRUE	"""C00181"": -1, ""C00310"": 1"	D-xylose aldose-ketose-isomerase	Saro_0757	SBO:0000176
+R01466	FALSE	"""C01102"": -1, ""C00001"": -1, ""C00188"": 1, ""C00009"": 1"	O-phospho-L-homoserine phosphate-lyase	Saro_0921	SBO:0000176
+R01468	TRUE	"""C00002"": -1, ""C00189"": -1, ""C00008"": 1, ""C00346"": 1"	ATP ethanolamine O-phosphotransferase	none	SBO:0000176
+R01470	FALSE	"""C01233"": -1, ""C00001"": -1, ""C00189"": 1, ""C00093"": 1"	sn-Glycero-3-phosphoethanolamine glycerophosphohydrolase	none	SBO:0000176
+R01482	TRUE	"""C00191"": -1, ""C00905"": 1"	D-glucuronate aldose-ketose-isomerase	Saro_3523 or Saro_3677	SBO:0000176
+R01512	TRUE	"""C00002"": -1, ""C00197"": -1, ""C00008"": 1, ""C00236"": 1"	ATP:3-phospho-D-glycerate 1-phosphotransferase	Saro_1965	SBO:0000176
+R01513	TRUE	"""C00197"": -1, ""C00003"": -1, ""C03232"": 1, ""C00004"": 1, ""C00080"": 1"	3-Phospho-D-glycerate:NAD+ 2-oxidoreductase	Saro_2680	SBO:0000176
+R01518	TRUE	"""C00631"": -1, ""C00197"": 1"	"D-phosphoglycerate 2,3-phosphomutase"	Saro_3265 or Saro_1440	SBO:0000176
+R01529	TRUE	"""C00199"": -1, ""C00231"": 1"	D-Ribulose-5-phosphate 3-epimerase	Saro_0104	SBO:0000176
+R01541	FALSE	"""C00002"": -1, ""C00204"": -1, ""C00008"": 1, ""C04442"": 1"	ATP:2-dehydro-3-deoxy-D-gluconate 6-phosphotransferase	Saro_3516 or Saro_3673	SBO:0000176
+R01547	TRUE	"""C00002"": -1, ""C00360"": -1, ""C00008"": 1, ""C00206"": 1"	ATP:dAMP phosphotransferase	Saro_1270	SBO:0000176
+R01561	TRUE	"""C00212"": -1, ""C00009"": -1, ""C00147"": 1, ""C00620"": 1"	adenosine:phosphate alpha-D-ribosyltransferase	none	SBO:0000176
+R01569	TRUE	"""C00364"": -1, ""C00001"": -1, ""C00214"": 1, ""C00009"": 1"	thymidylate 5'-phosphohydrolase	Saro_2487 or Saro_0559	SBO:0000176
+R01570	FALSE	"""C00214"": -1, ""C00009"": -1, ""C00178"": 1, ""C00672"": 1"	thymidine:phosphate deoxy-alpha-D-ribosyltransferase	Saro_3581	SBO:0000176
+R01600	FALSE	"""C00002"": -1, ""C00031p"": -1, ""C00008"": 1, ""C01172"": 1"	ATP:beta-D-glucose 6-phosphotransferase	Saro_1896	SBO:0000176
+R01626	FALSE	"""C00083"": -1, ""C00229"": -1, ""C00010"": 1, ""C01209"": 1"	Malonyl-CoA:[acyl-carrier-protein] S-malonyltransferase	none	SBO:0000176
+R01639	TRUE	"""C00002"": -1, ""C00310"": -1, ""C00008"": 1, ""C00231"": 1"	ATP:D-xylulose 5-phosphotransferase	Saro_0756	SBO:0000176
+R01641	TRUE	"""C05382"": -1, ""C00118"": -1, ""C00117"": 1, ""C00231"": 1"	sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycolaldehyde transferase	Saro_1968	SBO:0000176
+R01652	FALSE	"""C04236"": -1, ""C00233"": 1, ""C00011"": 1"	unnamed2	spontaneous	SBO:0000176
+R01655	TRUE	"""C00445"": -1, ""C00001"": -1, ""C00234"": 1, ""C00080"": 1"	"5,10-Methenyltetrahydrofolate 5-hydrolase (decyclizing)"	Saro_3300 or Saro_3791	SBO:0000176
+R01658	FALSE	"""C00235"": -1, ""C00129"": -1, ""C00013"": 1, ""C00341"": 1"	Dimethylallyl-diphosphate:isopentenyl-diphosphate dimethylallyltranstransferase	Saro_2253	SBO:0000176
+R01664	FALSE	"""C00239"": -1, ""C00001"": -1, ""C00881"": 1, ""C00009"": 1"	2'-deoxycytidine 5'-monophosphate phosphohydrolase	Saro_0559	SBO:0000176
+R01665	TRUE	"""C00002"": -1, ""C00239"": -1, ""C00008"": 1, ""C00705"": 1"	ATP:dCMP phosphotransferase	Saro_1324	SBO:0000176
+R01678	FALSE	"""C00243p"": -1, ""C00001p"": -1, ""C00031p"": 1, ""C00124p"": 1"	lactose galactohydrolase	Saro_2424 or Saro_3669	SBO:0000176
+R01706	FALSE	"""C05764"": -1, ""C00001"": -1, ""C00229"": 1, ""C00249"": 1"	hexadecanoyl-[acyl-carrier protein] hydrolase	unknown	SBO:0000176
+R01711	TRUE	"""C00314"": -1, ""C00007"": -1, ""C00250"": 1, ""C00027"": 1"	pyridoxine:oxygen oxidoreductase (deaminating)	Saro_0048	SBO:0000176
+R01714	FALSE	"""C01269"": -1, ""C00251"": 1, ""C00009"": 1"	5-O-(1-Carboxyvinyl)-3-phosphoshikimate phosphate-lyase	Saro_0009	SBO:0000176
+R01715	TRUE	"""C00251"": -1, ""C00254"": 1"	Chorismate pyruvatemutase	Saro_1352	SBO:0000176
+R01716	FALSE	"""C00251"": -1, ""C00064"": -1, ""C11355"": 1, ""C00025"": 1"	chorismate:L-glutamine aminotransferase	Saro_0445	SBO:0000176
+R01728	TRUE	"""C00254"": -1, ""C00003"": -1, ""C01179"": 1, ""C00011"": 1, ""C00004"": 1, ""C00080"": 1"	Prephenate:NAD+ oxidoreductase	Saro_0696	SBO:0000176
+R01731	FALSE	"""C00049"": -1, ""C00254"": -1, ""C00036"": 1, ""C00826"": 1"	L-arogenate:2-oxoglutarate aminotransferase	Saro_0792	SBO:0000176
+R01771	FALSE	"""C00002"": -1, ""C00263"": -1, ""C00008"": 1, ""C01102"": 1"	ATP:L-homoserine O-phosphotransferase	Saro_1086	SBO:0000176
+R01773	TRUE	"""C00263"": -1, ""C00003"": -1, ""C00441"": 1, ""C00004"": 1, ""C00080"": 1"	L-Homoserine:NAD+ oxidoreductase	Saro_0019	SBO:0000176
+R01777	FALSE	"""C00091"": -1, ""C00263"": -1, ""C00010"": 1, ""C01118"": 1"	Succinyl-CoA:L-homoserine O-succinyltransferase	Saro_0684	SBO:0000176
+R01786	FALSE	"""C00002"": -1, ""C00031p"": -1, ""C00008"":1, ""C00668"": 1 "	ATP:alpha-D-glucose 6-phosphotransferase	Saro_1896	SBO:0000176
+R01799	FALSE	"""C00063"": -1, ""C00416"": -1, ""C00013"": 1, ""C00269"": 1"	CTP:phosphatidate cytidyltransferase	Saro_1374	SBO:0000176
+R01800	FALSE	"""C00269"": -1, ""C00065"": -1, ""C00055"": 1, ""C02737"": 1"	CDP-diacylglycerol:L-serine 3-phosphatidyltransferase	Saro_1367	SBO:0000176
+R01801	FALSE	"""C00269"": -1, ""C00093"": -1, ""C00055"": 1, ""C03892"": 1"	CDP-diacylglycerol:sn-glycerol-3-phosphate 3-phosphatidyltransferase	Saro_1335	SBO:0000176
+R01819	TRUE	"""C00275"": -1, ""C05345"": 1"	D-mannose-6-phosphate aldose-ketose-isomerase	Saro_0742 or Saro_0743	SBO:0000176
+R01826	FALSE	"""C00074"": -1, ""C00279"": -1, ""C00001"": -1, ""C04691"": 1, ""C00009"": 1"	Phosphoenolpyruvate:D-erythrose-4-phosphate C-(1-carboxyvinyl)transferase	Saro_0991	SBO:0000176
+R01827	TRUE	"""C05382"": -1, ""C00118"": -1, ""C00279"": 1, ""C05345"": 1"	sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glyceronetransferase	Saro_1968	SBO:0000176
+R01830	TRUE	"""C05345"": -1, ""C00118"": -1, ""C00279"": 1, ""C00231"": 1"	beta D-Fructose 6-phosphate:D-glyceraldehyde-3-phosphate glycolaldehyde transferase	Saro_1968	SBO:0000176
+R01856	FALSE	"""C00286"": -1, ""C00001"": -1, ""C00330"": 1, ""C00536"": 1"	dGTP triphosphohydrolase	Saro_1848	SBO:0000176
+R01858	TRUE	"""C00286"": -1, ""C00022"": -1, ""C00361"": 1, ""C00074"": 1"	dGTP:pyruvate 2-O-phosphotransferase	Saro_0894 or Saro_0432	SBO:0000176
+R01859	FALSE	"""C00002"": -1, ""C00100"": -1, ""C00288"": -1, ""C00008"": 1, ""C00009"": 1, ""C00683"": 1, ""C00080"": -1"	propanoyl-CoA:carbon-dioxide ligase (ADP-forming)	Saro_0808 or Saro_0815 or Saro_2593	SBO:0000176
+R01868	TRUE	"""C00337"": -1, ""C17569"": -1, ""C00295"": 1, ""C17569b"": 1"	(S)-dihydroorotate:quinone oxidoreductase	Saro_0193	SBO:0000176
+R01870	TRUE	"""C01103"": -1, ""C00013"": -1, ""C00295"": 1, ""C00119"": 1"	diphosphate phospho-alpha-D-ribosyl-transferase	Saro_0912	SBO:0000176
+R01878	FALSE	"""C00475"": -1, ""C00001"": -1, ""C00299"": 1, ""C00014"": 1"	Cytidine aminohydrolase	Saro_0145	SBO:0000176
+R01890	FALSE	"""C00063"": -1, ""C00588"": -1, ""C00080"": 1, ""C00013"": 1, ""C00307"": 1"	CTP choline-phosphate cytidylyltransferase	none	SBO:0000176
+R01899	FALSE	"""C00311"": -1, ""C00003"": -1, ""C00026"": 1, ""C00011"": 1, ""C00004"": 1, ""C00080"": 1"	Isocitrate:NADP+ oxidoreductase (decarboxylating)	Saro_1282	SBO:0000176
+R01900	TRUE	"""C00311"": -1, ""C00417"": 1, ""C00001"": 1"	isocitrate hydro-lyase (cis-aconitate-forming)	Saro_0425	SBO:0000176
+R01954	FALSE	"""C00002"": -1, ""C00327"": -1, ""C00049"": -1, ""C00020"": 1, ""C00013"": 1, ""C03406"": 1"	L-Citrulline:L-aspartate ligase (AMP-forming)	Saro_1195	SBO:0000176
+R01968	TRUE	"""C00362"": -1, ""C00001"": -1, ""C00330"": 1, ""C00009"": 1"	2'-deoxyguanosine 5'-monophosphate phosphohydrolase	Saro_0559	SBO:0000176
+R01993	TRUE	"""C00337"": -1, ""C00001"": -1, ""C00438"": 1"	(S)-dihydroorotate amidohydrolase	Saro_0935 or Saro_3062	SBO:0000176
+R02003	FALSE	"""C00341"": -1, ""C00129"": -1, ""C00013"": 1, ""C00448"": 1"	Geranyl-diphosphate:isopentenyl-diphosphate geranyltrans-transferase	Saro_2253	SBO:0000176
+R02016	FALSE	"""C00343"": -1, ""C00005"": -1, ""C00080"": -1, ""C00342"": 1, ""C00006"": 1"	NADPH:oxidized-thioredoxin oxidoreductase	Saro_1613 or Saro_2343	SBO:0000176
+R02017	FALSE	"""C00342"": -1, ""C00008"": -1, ""C00001"": 1, ""C00343"": 1, ""C00206"": 1"	2'-Deoxyadenosine 5'-diphosphate:oxidized-thioredoxin 2'-oxidoreductase	Saro_0271 or Saro_0274	SBO:0000176
+R02018	FALSE	"""C01346"": -1, ""C00343"": -1, ""C00001"": -1, ""C00342"": 1, ""C00015"": 1"	2'-Deoxyuridine 5'-diphosphate:oxidized-thioredoxin 2'-oxidoreductase	Saro_0271 or Saro_0274	SBO:0000176
+R02019	FALSE	"""C00361"": 1, ""C00343"": 1, ""C00001"": 1, ""C00035"": -1, ""C00342"": -1"	2'-Deoxyguanosine 5'-diphosphate:oxidized-thioredoxin 2'-oxidoreductase	Saro_0271 or Saro_0274	SBO:0000176
+R02021	FALSE	"""C00342"": -1, ""C00053"": -1, ""C00343"": 1, ""C00094"": 1, ""C00054"": 1"	"adenosine 3',5'-bisphosphate,sulfite:oxidized-thioredoxin oxidoreductase (3'-phosphoadenosine-5'-phosphosulfate -forming)"	Saro_2560	SBO:0000176
+R02024	FALSE	"""C00342"": -1, ""C00112"": -1, ""C00705"": 1, ""C00343"": 1, ""C00001"": 1"	2'-Deoxycytidine diphosphate:oxidized-thioredoxin 2'-oxidoreductase	Saro_0271 or Saro_0274	SBO:0000176
+R02027	FALSE	"""C00344"": -1, ""C00001"": -1, ""C00641"": 1, ""C00093"": 1"	Phosphatidylglycerol cholinephosphohydrolase	Saro_1552	SBO:0000176
+R02029	FALSE	"""C03892"": -1, ""C00001"": -1, ""C00344"": 1, ""C00009"": 1"	Phosphatidylglycerophosphate phosphohydrolase	none	SBO:0000176
+R02030	FALSE	"""C00344"": -1, ""C00269"": -1, ""C05980"": 1, ""C00055"": 1"	CDP-diacylglycerol:phosphatidylglycerol 3-phosphatidyltransferase	Saro_1335 or Saro_3068	SBO:0000176
+R02035	FALSE	"""C01236"": -1, ""C00001"": -1, ""C00345"": 1"	"6-Phospho-D-glucono-1,5-lactone lactonohydrolase"	Saro_1894	SBO:0000176
+R02036	FALSE	"""C00345"": -1, ""C04442"": 1, ""C00001"": 1"	6-Phospho-D-gluconate hydro-lyase(2-dehydro-3-deoxy-6-phospho-D-gluconate-forming)	Saro_1895	SBO:0000176
+R02037	FALSE	"""C00019"": -1, ""C00346"": -1, ""C00021"": 1, ""C01210"": 1"	S-Adenosyl-L-methionine ethanolamine-phosphate N-methyltransferase	none	SBO:0000176
+R02052	FALSE	"""C00350"": -1, ""C00001"": -1, ""C00641"": 1, ""C00346"": 1"	Phosphatidylethanolamine ethanolaminephosphohydrolase	Saro_1552	SBO:0000176
+R02053	FALSE	"""C00350"": -1, ""C00001"": -1, ""C04438"": 1, ""C00162"": 1"	phosphatidylethanolamine 2-acylhydrolase	none	SBO:0000176
+R02054	FALSE	"""C00350"": -1, ""C00001"": -1, ""C05973"": 1, ""C00162"": 1"	phosphatidylethanolamine 1-acylhydrolase	none	SBO:0000176
+R02055	FALSE	"""C02737"": -1, ""C00350"": 1, ""C00011"": 1"	Phosphatidyl-L-serine carboxy-lyase	Saro_1366	SBO:0000176
+R02059	TRUE	"""C00357"": -1, ""C00001"": -1, ""C00352"": 1, ""C00033"": 1"	N-Acetyl-D-glucosamine-6-phosphate amidohydrolase	Saro_2414	SBO:0000176
+R02060	TRUE	"""C06156"": -1, ""C00352"": 1"	"D-Glucosamine 1-phosphate 1,6-phosphomutase"	Saro_0481	SBO:0000176
+R02061	FALSE	"""C00448"": -1, ""C00129"": -1, ""C00013"": 1, ""C00353"": 1"	"trans,trans-Farnesyl-diphosphate:isopentenyl-diphosphate farnesyltranstransferase"	none	SBO:0000176
+R02065	FALSE	"""C00353"": -2, ""C00013"": 1, ""C03427"": 1"	geranylgeranyl-diphosphate:geranylgeranyl-diphosphate geranylgeranyltransferase	Saro_1814 or Saro_1913	SBO:0000176
+R02085	TRUE	"""C00356"": -1, ""C03231"": 1, ""C00001"": 1"	(S)-3-Hydroxy-3-methylglutaryl-CoA hydro-lyase	none	SBO:0000176
+R02088	TRUE	"""C00360"": -1, ""C00001"": -1, ""C00559"": 1, ""C00009"": 1"	2'-deoxyadenosine 5'-monophosphate phosphohydrolase	Saro_0559	SBO:0000176
+R02090	TRUE	"""C00002"": -1, ""C00362"": -1, ""C00008"": 1, ""C00361"": 1"	ATP:dGMP phosphotransferase	Saro_1003	SBO:0000176
+R02093	TRUE	"""C00002"": -1, ""C00363"": -1, ""C00008"": 1, ""C00459"": 1"	ATP:dTDP phosphotransferase	Saro_0894	SBO:0000176
+R02094	TRUE	"""C00002"": -1, ""C00364"": -1, ""C00008"": 1, ""C00363"": 1"	ATP:dTMP phosphotransferase	Saro_1941	SBO:0000176
+R02098	TRUE	"""C00002"": -1, ""C00365"": -1, ""C00008"": 1, ""C01346"": 1"	ATP:dUMP phosphotransferase	Saro_1941	SBO:0000176
+R02099	TRUE	"""C00002"": -1, ""C00526"": -1, ""C00008"": 1, ""C00365"": 1"	ATP:deoxyuridine 5'-phosphotransferase	Saro_2487	SBO:0000176
+R02101	FALSE	"""C00365"": -1, ""C00143"": -1, ""C00415"": 1, ""C00364"": 1"	"5,10-Methylenetetrahydrofolate:dUMP C-methyltransferase"	Saro_1977	SBO:0000176
+R02164a	TRUE	"""C17569"": -1, ""C00042"": -1, ""C17569b"": 1, ""C00122"": 1"	succinate:quinone oxidoreductase1	Saro_1744 or Saro_1745 or Saro_1746 or Saro_2322	SBO:0000176
+R02199a	FALSE	"""C00671"": -1, ""C00025"": -1, ""C00407"": 1, ""C00026"": 1"	L-Isoleucine:2-oxoglutarate aminotransferase1	Saro_2671	SBO:0000176
+R02199b	TRUE	"""C00407"": -1, ""C00026"": -1, ""C00671"": 1, ""C00025"": 1"	L-Isoleucine:2-oxoglutarate aminotransferase2	Saro_2671	SBO:0000176
+R02237	FALSE	"""C00002"": -1, ""C00921"": -1, ""C00025"": -1, ""C00008"": 1, ""C00009"": 1, ""C00415"": 1"	"7,8-dihydropteroate:L-glutamate ligase (ADP-forming)"	Saro_1299	SBO:0000176
+R02241	FALSE	"""C00681"": -1, ""C00040"": -1, ""C00416"": 1, ""C00010"": 1"	acyl-CoA:1-acyl-sn-glycerol-3-phosphate 2-O-acyltransferase	Saro_0698 or Saro_0983	SBO:0000176
+R02282	TRUE	"""C00437"": -1, ""C00025"": -1, ""C00077"": 1, ""C00624"": 1"	N2-Acetyl-L-ornithine:L-glutamate N-acetyltransferase	Saro_1993	SBO:0000176
+R02283	FALSE	"""C01250"": -1, ""C00025"": -1, ""C00437"": 1, ""C00026"": 1"	N2-Acetyl-L-ornithine:2-oxoglutarate aminotransferase	Saro_3141	SBO:0000176
+R02291	FALSE	"""C03082"": -1, ""C00005"": -1, ""C00080"": -1, ""C00441"": 1, ""C00009"": 1, ""C00006"":1"	L-Aspartate-4-semialdehyde:NADP+ oxidoreductase	Saro_1410	SBO:0000176
+R02322	FALSE	"""C00455"": -1, ""C00001"": -1, ""C00080"": -1, ""C01185"": 1, ""C00014"": 1"	nicotinamide-D-ribonucleotide amidohydrolase	Saro_1923	SBO:0000176
+R02325	FALSE	"""C00458"": -1, ""C00001"": -1, ""C00460"": 1, ""C00014"": 1"	dCTP aminohydrolase	Saro_0146	SBO:0000176
+R02326	TRUE	"""C00002"": -1, ""C00705"": -1, ""C00008"": 1, ""C00458"": 1"	ATP:dCDP phosphotransferase	Saro_0894	SBO:0000176
+R02331	TRUE	"""C00002"": -1, ""C01346"": -1, ""C00008"": 1, ""C00460"": 1"	ATP:dUDP phosphotransferase	Saro_0894	SBO:0000176
+R02340	TRUE	"""C03506"": -1, ""C00463"": 1, ""C00118"": 1"	"(1S,2R)-1-C-(indol-3-yl)glycerol 3-phosphate D-glyceraldehyde-3-phosphate-lyase"	Saro_1301	SBO:0000176
+R02412	FALSE	"""C00002"": -1, ""C00493"": -1, ""C00008"": 1, ""C03175"": 1"	ATP:shikimate 3-phosphotransferase	Saro_1900	SBO:0000176
+R02413	TRUE	"""C00493"": -1, ""C00006"": -1, ""C02637"": 1, ""C00005"": 1, ""C00080"": 1"	Shikimate:NADP+ 3-oxidoreductase	Saro_0115 or Saro_1590	SBO:0000176
+R02454	TRUE	"""C00514"": -1, ""C00003"": -1, ""C00905"": 1, ""C00004"": 1, ""C00080"": 1"	D-Mannonate:NAD+ 5-oxidoreductase	Saro_3524 or Saro_3678	SBO:0000176
+R02472	TRUE	"""C00522"": -1, ""C00006"": -1, ""C00966"": 1, ""C00005"": 1, ""C00080"": 1"	(R)-Pantoate:NADP+ 2-oxidoreductase	Saro_1677 or Saro_3892 or Saro_3896	SBO:0000176
+R02473	FALSE	"""C00002"": -1, ""C00522"": -1, ""C00041"": -1, ""C00020"": 1, ""C00013"": 1, ""C00864"": 1"	(R)-Pantoate:beta-alanine ligase (AMP-forming)	Saro_3319	SBO:0000176
+R02484	FALSE	"""C00526"": -1, ""C00009"": -1, ""C00106"": 1, ""C00672"": 1"	deoxyuridine:orthophosphate 2-deoxy-D-ribosyltransferase	Saro_3581	SBO:0000176
+R02485	TRUE	"""C00881"": -1, ""C00001"": -1, ""C00526"": 1, ""C00014"": 1"	deoxycytidine aminohydrolase	Saro_0145	SBO:0000176
+R02508	FALSE	"""C01118"": -1, ""C00097"": -1, ""C02291"": 1, ""C00042"": 1"	unnamed3	Saro_2665	SBO:0000176
+R02601	FALSE	"""C00596"": -1, ""C00001"": -1, ""C03589"": 1"	4-hydroxy-2-oxopentanoate hydrolase	Saro_3854 or Saro_3511 or Saro_3689	SBO:0000176
+R02604	FALSE	"""C00682"": -1, ""C00001"": -1, ""C00596"": 1, ""C00058"": 1"	2-hydroxymuconate semialdehydee formyl hydrolase	Saro_3858	SBO:0000176
+R02649	FALSE	"""C00002"": -1, ""C00624"": -1, ""C00008"": 1, ""C04133"": 1"	ATP:N-acetyl-L-glutamate 5-phosphotransferase	Saro_3297	SBO:0000176
+R02661	TRUE	"""C00630"": -1, ""C00080"": 2, ""C03460"": 1,"	"2-methylpropanoyl-CoA:(acceptor) 2,3-oxidoreductase"	Saro_0858 or Saro_1705 or Saro_2511	SBO:0000176
+R02662	FALSE	"""C00010"": -1, ""C15977"": -1, ""C00630"": 1, ""C15973"": 1"	2-methylpropanoyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-(2-methylpropanoyl)transferase	Saro_1974	SBO:0000176
+R02722	TRUE	"""C00065"": -1, ""C03506"": -1, ""C00078"": 1, ""C00118"": 1, ""C00001"": 1"	L-serine hydro-lyase [adding 1-C-(indol-3-yl)glycerol 3-phosphate	Saro_1301 or Saro_1302	SBO:0000176
+R02734	FALSE	"""C04421"": -1, ""C00001"": -1, ""C00042"": 1, ""C00666"": 1"	"N-Succinyl-LL-2,6-diaminoheptanedioate amidohydrolase"	Saro_0581	SBO:0000176
+R02735	TRUE	"""C00666"": -1, ""C00680"": 1"	"LL-2,6-Diaminoheptanedioate 2-epimerase"	Saro_1402	SBO:0000176
+R02736	FALSE	"""C01172"": -1, ""C00006"" : -1, ""C01236"": 1, ""C00005"": 1, ""C00080"": 1"	beta-D-glucose-6-phosphate:NADP+ 1-oxoreductase	Saro_1893	SBO:0000176
+R02739	TRUE	"""C00668"": -1, ""C01172"": 1"	alpha-D-Glucose 6-phosphate ketol-isomerase1	Saro_1809	SBO:0000176
+R02740	TRUE	"""C00668"": -1, ""C05345"": 1"	alpha-D-Glucose 6-phosphate ketol-isomerase2	Saro_1809	SBO:0000176
+R02765	TRUE	"""C01213"": -1, ""C00683"": 1"	Methylmalonyl-CoA epimerase	Saro_0810 or Saro_3426	SBO:0000176
+R02783	FALSE	"""C00002"": -1, ""C01212"": -1, ""C00217"": -1, ""C00008"": 1, ""C00009"": 1, ""C00692"": 1 "	UDP-N-acetylmuramoyl-L-alanine:D-glutamate ligase(ADP-forming)	Saro_1131	SBO:0000176
+R02788	FALSE	"""C00002"": -1, ""C00692"": -1, ""C00680"": -1, ""C00008"": 1, ""C00009"": 1, ""C04877"": 1"	"UDP-N-acetylmuramoyl-L-alanyl-D-glutamate:(L)-meso-2,6-diaminoheptanedioate gamma-ligase (ADP-forming)"	Saro_1128	SBO:0000176
+R02990	FALSE	"""C00091"": -1, ""C00846"": -1, ""C00042"": 1, ""C02232"": 1"	succinyl-CoA 3-oxoadipate CoA transferase	none	SBO:0000176
+R02991	FALSE	"""C03586"": -1, ""C00001"": -1, ""C00846"": 1"	4-carboxymethylbut-3-en-4 olide enol-lactonohydralase	Saro_3826	SBO:0000176
+R03004	FALSE	"""C00857"": -1, ""C00001"": -1, ""C00020"": 1, ""C01185"": 1"	Deamino-NAD+ nucleotidohydrolase	Saro_0962	SBO:0000176
+R03005	TRUE	"""C00002"": -1, ""C01185"": -1, ""C00013"": 1, ""C00857"": 1"	ATP:nicotinamide-nucleotide adenylyltransferase2	Saro_0059	SBO:0000176
+R03013	FALSE	"""C01100"": -1, ""C00001"": -1, ""C00860"": 1, ""C00009"": 1"	L-histidinol-phosphate phosphohydrolase	none	SBO:0000176
+R03018	FALSE	"""C00002"": -1, ""C00864"": -1, ""C00008"": 1, ""C03492"": 1"	ATP:pantothenate 4'-phosphotransferase	Saro_2285	SBO:0000176
+R03035	TRUE	"""C00002"": -1, ""C01134"": -1, ""C00013"": 1, ""C00882"": 1"	ATP:pantetheine-4'-phosphate adenylyltransferase	Saro_2252	SBO:0000176
+R03066	FALSE	"""C01300"": -1, ""C00568"": -1, ""C00921"": 1, ""C00001"": 1"	"6-(hydroxymethyl)-7,8-dihydropterin:4-aminobenzoate 2-amino-4-hydroxydihydropteridine-6-methenyltransferase"	Saro_1841	SBO:0000176
+R03067	FALSE	"""C04807"": -1, ""C00568"": -1, ""C00013"": 1, ""C00921"": 1"	"(7,8-dihydropterin-6-yl)methyl diphosphate:4-aminobenzoate 2-amino-4-hydroxy-7,8-dihydropteridine-6-methenyltransferase"	Saro_1841	SBO:0000176
+R03083	FALSE	"""C04691"": -1, ""C00944"": 1, ""C00009"": 1"	2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate phosphate-lyase	Saro_1899	SBO:0000176
+R03084	TRUE	"""C00944"": -1, ""C02637"": 1, ""C00001"": 1"	3-Dehydroquinate hydro-lyase	Saro_2077	SBO:0000176
+R03105	FALSE	"""C00957"": -1, ""C00342"": -1, ""C00283"": 1, ""C00022"": 1, ""C00343"": 1"	3-mercaptopyruvate:sulfide sulfurtransferase	Saro_2553	SBO:0000176
+R03165	FALSE	"""C01024"": -1, ""C01051"": 1, ""C00001"": 1"	Hydroxymethylbilane hydro-lyase(cyclizing)	Saro_2787	SBO:0000176
+R03172	TRUE	"""C15980"": -1, ""C03345"": 1, ""C00080"": 2"	"(S)-2-methylbutanoyl-CoA:acceptor 2,3-oxidoreductase"	Saro_0858 or Saro_1705 or Saro_2511	SBO:0000176
+R03174	FALSE	"""C00010"": -1, ""C15979"": -1, ""C15980"": 1, ""C15973"": 1"	(S)-2-methylbutanoyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-(2-methylbutanoyl)transferase	Saro_1974	SBO:0000176
+R03182	FALSE	"""C00002"": -1, ""C01037"": -1, ""C00011"": -1, ""C00008"": 1, ""C00009"": 1, ""C01909"": 1"	"7,8-Diaminononanoate:carbon-dioxide cyclo-ligase"	Saro_0717	SBO:0000176
+R03192	FALSE	"""C04631"": -1, ""C00005"": -1, ""C00080"": -1, ""C01050"": 1, ""C00006"": 1"	UDP-N-acetylmuramate:NADP+ oxidoreductase	Saro_1135	SBO:0000176
+R03193	FALSE	"""C00002"": -1, ""C01050"": -1, ""C00041"": -1, ""C00008"": 1, ""C00009"": 1, ""C01212"": 1"	UDP-N-acetylmuramate:L-alanine ligase (ADP-forming)	Saro_1134 or Saro_1425	SBO:0000176
+R03197	FALSE	"""C01051"": -1, ""C03263"": 1, ""C00011"": 4"	Uroporphyrinogen-III carboxy-lyase	Saro_0118	SBO:0000176
+R03220	FALSE	"""C03263"": -1, ""C00007"": -1, ""C01079"": 1, ""C00011"": 2, ""C00001"": 2"	Coproporphyrinogen:oxygen oxidoreductase(decarboxylating)	Saro_2536 or Saro_2063 or Saro_2569	SBO:0000176
+R03222	FALSE	"""C01079"": -1, ""C00007"": -3, ""C02191"": 1, ""C00027"": 3"	protoporphyrinogen-IX:oxygen oxidoreductase	none	SBO:0000176
+R03231	FALSE	"""C00019"": -1, ""C01092"": -1, ""C00080"": -1, ""C04425"": 1, ""C01037"": 1"	S-Adenosyl-L-methionine:8-amino-7-oxononanoate aminotransferase	Saro_1343	SBO:0000176
+R03243	TRUE	"""C01100"": -1, ""C00026"": -1, ""C01267"": 1, ""C00025"": 1"	5-Amino-2-oxopentanoate:2-oxoglutarate aminotransferase	Saro_0695	SBO:0000176
+R03269	FALSE	"""C04352"": -1, ""C01134"": 1, ""C00011"": 1"	N-[(R)-4'-Phosphopantothenoyl]-L-cysteine carboxy-lyase	Saro_0591	SBO:0000176
+R03270	TRUE	"""C05125"": -1, ""C15972"": -1, ""C16255"": 1, ""C00068"": 1 "	part 2 of R00014	Saro_1908 or Saro_1909 or Saro_3558 or Saro_3559 or Saro_3741 or Saro_3742	SBO:0000176
+R03313	FALSE	"""C03287"":-1, ""C00005"": -1, ""C00080"": -1, ""C01165"": 1, ""C00009"": 1, ""C00006"": 1"	L-glutamate-5-semialdehyde:NADP+ 5-oxidoreductase (phosphorylating)	Saro_0060	SBO:0000176
+R03317	FALSE	"""C01170"": -1, ""C00003"": -2, ""C00001"": -1, ""C06240"": 1, ""C00004"": 2, ""C00080"": 2"	UDP-N-acetyl-alpha-D-mannosamine:NAD+ 6-oxidoreductase	Saro_3148	SBO:0000176
+R03321	TRUE	"""C01172"": -1, ""C05345"": 1"	beta-D-Glucose 6-phosphate ketol-isomerase	Saro_1809	SBO:0000176
+R03348	FALSE	"""C03722"": -1, ""C00119"": -1, ""C00080"": -1, ""C01185"": 1, ""C00013"": 1, ""C00011"": 1"	Nicotinate-nucleotide:pyrophosphate phosphoribosyltransferase (carboxylating)	Saro_0226	SBO:0000176
+R03409	TRUE	"""C04494"": -1, ""C00001"": -1, ""C01228"": 1, ""C00009"": 1"	guanosine 3'-diphosphate 5'-triphosphate 5'-phosphohydrolase	Saro_0473	SBO:0000176
+R03416	FALSE	"""C04438"": -1, ""C00001"": -1, ""C01233"": 1, ""C00162"": 1"	1-Acyl-sn-glycero-3-phosphoethanolamine aldehydohydrolase	Saro_1082	SBO:0000176
+R03425	FALSE	"""C00037"": -1, ""C02051"": -1, ""C01242"": 1, ""C00011"": 1"	glycine:lipoylprotein oxidoreductase	Saro_1852 and Saro_1853	SBO:0000176
+R03443	FALSE	"""C04133"": -1, ""C00005"": -1, ""C00080"": -1, ""C01250"": 1, ""C00009"": 1, ""C00006"": 1"	N-acetyl-L-glutamate-5-semialdehyde:NADP+ 5-oxidoreductase (phosphrylating)	Saro_1114	SBO:0000176
+R03457	FALSE	"""C04666"": -1, ""C01267"": 1, ""C00001"": 1"	D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate hydro-lyase	Saro_1006	SBO:0000176
+R03458	FALSE	"""C04454"": 1, ""C00006"": 1, ""C01268"": -1, ""C00005"": -1, ""C00080"": -1"	5-amino-6-(5-phosphoribitylamino)uracil:NADP+ 1'-oxidoreductase	Saro_2857	SBO:0000176
+R03459	FALSE	"""C01304"": -1, ""C00001"": -1, ""C01268"": 1, ""C00014"": 1"	"2,5-Diamino-6-hydroxy-4-(5-phosphoribosylamino)-pyrimidine 2-aminohydrolase"	Saro_2857	SBO:0000176
+R03460	TRUE	"""C00074"": -1, ""C03175"": -1, ""C00009"": 1, ""C01269"": 1"	Phosphoenolpyruvate:3-phosphoshikimate 5-O-(1-carboxyvinyl)-transferase	Saro_1326	SBO:0000176
+R03472	FALSE	"""C03373"": -1, ""C00019"": -1, ""C04556"": 1, ""C05198"": 1, ""C00073"": 1, ""C00058"": 1, ""C00237"": 1"	"5-amino-1-(5-phospho-D-ribosyl)imidazole formate-lyase (decarboxylating, 4-amino-2-methyl-5-phosphomethylpyrimidine-forming)"	Saro_1824	SBO:0000176
+R03504	FALSE	"""C04874"": -1, ""C00266"": 1, ""C01300"": 1"	"7,8-dihydroneopterin glycolaldehyde-lyase [6-(hydroxymethyl)-7,8-dihydropterin-forming]"	Saro_0923	SBO:0000176
+R03508	TRUE	"""C01302"": -1, ""C03506"": 1, ""C00011"": 1, ""C00001"": 1"	1-(2-Carboxyphenylamino)-1-deoxy-D-ribulose-5-phosphate carboxy-lyase	Saro_2024	SBO:0000176
+R03509	TRUE	"""C04302"": -1, ""C01302"": 1"	N-(5-Phospho-beta-D-ribosyl)anthranilate ketol-isomerase	Saro_1304	SBO:0000176
+R03815	FALSE	"""C02972"": -1, ""C00003"": -1, ""C02051"": 1, ""C00004"": 1, ""C00080"": 1"	dihydrolipoylprotein:NAD+ oxidoreductase	Saro_1178 or Saro_1945	SBO:0000176
+R03824	FALSE	"""C05435"": -1, ""C02094"": 1"	carotenoid beta-end group lyase1	Saro_1817	SBO:0000176
+R03896	FALSE	"""C02612"": -1, ""C02226"": 1, ""C00001"": 1"	R-2-Methylmalate hydro-lyase	Saro_1170 and Saro_1173	SBO:0000176
+R03898	FALSE	"""C02226"": -1, ""C00001"": -1, ""C06032"": 1"	2-methylmaleate hydratase	Saro_1170 and Saro_1173	SBO:0000176
+R03968	TRUE	"""C02504"": -1, ""C02631"": 1, ""C00001"": 1"	2-Isopropylmalate hydro-lyase	Saro_1170 and Saro_1173	SBO:0000176
+R04001	TRUE	"""C04411"": -1, ""C02631"": 1, ""C00001"": 1"	3-Isopropylmalate hydro-lyase	Saro_1170 and Saro_1173	SBO:0000176
+R04035	FALSE	"""C02739"": -1, ""C00001"": -1, ""C02741"": 1, ""C00013"": 1"	Phosphoribosyl-ATP pyrophosphohydrolase	Saro_1011	SBO:0000176
+R04037	FALSE	"""C02741"": -1, ""C00001"": -1, ""C04896"": 1"	"1-(5-phospho-D-ribosyl)-AMP 1,6-hydrolase"	Saro_2107	SBO:0000176
+R04095	TRUE	"""C02939"": -1, ""C00016"": -1, ""C03069"": 1, ""C01352"": 1"	"3-methylbutanoyl-CoA:electron-transfer flavoprotein 2,3-oxidoreductase"	Saro_1645 or Saro_0858 or Saro_1705 or Saro_2511	SBO:0000176
+R04097	FALSE	"""C00010"": -1, ""C15975"": -1, ""C02939"": 1, ""C15973"": 1"	3-methylbutanoyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-(3-methylbutanoyl)transferase	Saro_1974	SBO:0000176
+R04125	FALSE	"""C01242"": -1, ""C00101"": -1, ""C02972"": 1, ""C00143"": 1, ""C00014"": 1"	S-aminomethyldihydrolipoylprotein:(6S)-tetrahydrofolate aminomethyltransferase	Saro_1850	SBO:0000176
+R04137	TRUE	"""C05998"": -1, ""C03069"": 1, ""C00001"": 1"	3-hydroxyisovaleryl-CoA hydro-lyase	Saro_0518 or Saro_0859 or Saro_0860 or Saro_1283 or Saro_1417 or Saro_1464 or Saro_1532 or Saro_1562 or Saro_3753 or Saro_3755	SBO:0000176
+R04138	FALSE	"""C03231"": -1, ""C00080"": 1, ""C00009"": -1, ""C00008"": -1, ""C00288"": 1, ""C03069"": 1, ""C00002"": 1"	3-Methylcrotonoyl-CoA:carbon-dioxide ligase	Saro_1642 or Saro_1643	SBO:0000176
+R04144	FALSE	"""C00002"": -1, ""C03090"": -1, ""C00037"": -1, ""C00008"": 1, ""C00009"": 1, ""C03838"": 1"	5-Phospho-D-ribosylamine:glycine ligase (ADP-forming)	Saro_0172	SBO:0000176
+R04173	TRUE	"""C01005"": -1, ""C00026"": -1, ""C03232"": 1, ""C00025"": 1"	3-Phosphoserine:2-oxoglutarate aminotransferase	Saro_2679	SBO:0000176
+R04198	FALSE	"""C20258"": -1, ""C00004"": -1, ""C00080"": -1, ""C03972"": 1, ""C00003"": 1, ""C00001"": 1"	"2,3,4,5-tetrahydrodipicolinate:NAD+ 4-oxidoreductase"	Saro_0004	SBO:0000176
+R04203	TRUE	"""C04405"": -1, ""C00003"": -1, ""C03344"": 1, ""C00004"": 1, ""C00080"": 1"	"(2S,3S)-3-hydroxy-2-methylbutanoyl-CoA:NAD+ oxidoreductase"	none	SBO:0000176
+R04204	FALSE	"""C03345"": -1, ""C00001"": -1, ""C04405"": 1"	"(2S,3S)-3-Hydroxy-2-methylbutanoyl-CoA hydro-lias"	Saro_0518 or Saro_0859 or Saro_0860 or Saro_1283 or Saro_1417 or Saro_1464 or Saro_1532 or Saro_1562 or Saro_3753 or Saro_3755	SBO:0000176
+R04208	FALSE	"""C00002"": -1, ""C04640"": -1, ""C00008"": 1, ""C00009"": 1, ""C03373"": 1"	2-(Formamido)-N1-(5-phosphoribosyl)acetamidine cyclo-ligase (ADP-forming)	Saro_0899	SBO:0000176
+R04218	FALSE	"""C03427"": -1, ""C00013"": 1, ""C05421"": 1"	prephytoene diphosphate:geranylgeranyl-diphosphate geranylgeranyltransferase	Saro_1814 or Saro_1913	SBO:0000176
+R04224	FALSE	"""C03460"": -1, ""C00001"": -1, ""C06000"": 1"	S)-3-Hydroxyisobutyryl-CoA hydro-lyase	Saro_0518 or Saro_0859 or Saro_0860 or Saro_1283 or Saro_1417 or Saro_1464 or Saro_1532 or Saro_1562 or Saro_3753 or Saro_3755	SBO:0000176
+R04231	FALSE	"""C00063"": -1, ""C03492"": -1, ""C00097"": -1, ""C00055"": 1, ""C00013"": 1, ""C04352"": 1"	(R)-4'-phosphopantothenate:L-cysteine ligase	Saro_0591	SBO:0000176
+R04292	FALSE	"""C05840"": -1, ""C00111"": -1, ""C03722"": 1, ""C00001"": 2, ""C00009"": 1"	glycerone phosphate:iminosuccinate alkyltransferase (cyclizing)	Saro_0089	SBO:0000176
+R04325	FALSE	"""C00234"": -1, ""C03838"": -1, ""C00101"": 1, ""C04376"": 1"	10-formyltetrahydrofolate:5'-phosphoribosylglycinamide formyltransferase	Saro_0898	SBO:0000176
+R04365	FALSE	"""C00091"": -1, ""C03972"": -1, ""C00001"": -1, ""C00010"": 1, ""C04462"": 1"	"Succinyl-CoA:2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase"	Saro_1835	SBO:0000176
+R04378	TRUE	"""C04677"": -1, ""C00013"": -1, ""C04051"": 1, ""C00119"": 1"	1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide:pyrophosphate phosphoribosyltransferase	Saro_0675	SBO:0000176
+R04426	TRUE	"""C04411"": -1, ""C00003"": -1, ""C04236"": 1, ""C00004"": 1, ""C00080"": 1"	"(2R,3S)-3-isopropylmalate:NAD+ oxidoreductase"	Saro_2662	SBO:0000176
+R04428	TRUE	"""C04618"": -1, ""C04246"": 1, ""C00001"": 1"	(3R)-3-hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase	Saro_1379	SBO:0000176
+R04429	TRUE	"""C05745"": -1, ""C00003"": -1, ""C04246"": 1, ""C00004"": 1, ""C00080"": 1"	butyryl-[acp] NAD+ trans-2-oxidoreductase	Saro_0051 or Saro_3306	SBO:0000176
+R04439	FALSE	"""C06010"": -1, ""C00005"": -1, ""C00080"": -1, ""C04272"": 1, ""C00006"": 1"	"(R)-2,3-dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)"	Saro_2263	SBO:0000176
+R04440	TRUE	"""C04272"": -1, ""C00006"": -1, ""C04181"": 1, ""C00005"": 1, ""C00080"": 1"	"R-2,3-Dihydroxy-3-methylbutanoate:NADP+ oxidoreductase"	Saro_2263	SBO:0000176
+R04441	FALSE	"""C04272"": -1, ""C00141"": 1, ""C00001"": 1"	"(R)-2,3-Dihydroxy-3-methylbutanoate hydro-lyase"	Saro_1784	SBO:0000176
+R04457	FALSE	"""C04732"": -1, ""C15556"": -1, ""C04332"": 1, ""C00001"": 2, ""C00009"": 1"	5-amino-6-(D-ribitylamino)uracil butanedionetransferase	Saro_2216	SBO:0000176
+R04463	FALSE	"""C00002"": -1, ""C04376"": -1, ""C00064"": -1, ""C00001"": -1, ""C00008"": 1, ""C00009"": 1, ""C04640"": 1, ""C00025"": 1"	5'-Phosphoribosylformylglycinamide:L-glutamine amido-ligase (ADP-forming)	Saro_1032 or Saro_1033 or Saro_2256	SBO:0000176
+R04475	TRUE	"""C04421"": -1, ""C00026"": -1, ""C04462"": 1, ""C00025"": 1"	"N-Succinyl-L-2,6-diaminoheptanedioate:2-oxoglutarate amino-transferase"	Saro_3141	SBO:0000176
+R04509	FALSE	"""C00002"": -1, ""C04556"": -1, ""C00008"": 1, ""C04752"": 1"	ATP:4-amino-2-methyl-5-phosphomethylpyrimidine phosphotransferase	Saro_0479	SBO:0000176
+R04533	TRUE	"""C04618"": -1, ""C00006"": -1, ""C05744"": 1, ""C00005"": 1, ""C00080"": 1"	(3R)-3-hydroxybutanoyl-[acyl-carrier protein] NADP+ oxidoreductase	Saro_1428	SBO:0000176
+R04534	TRUE	"""C04619"": -1, ""C00006"": -1,  ""C00080"": 1, ""C05753"": 1, ""C00005"": 1"	3R)-3-hydroxydecanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase	Saro_1428	SBO:0000176
+R04535	TRUE	"""C04619"": -1, ""C05754"": 1, ""C00001"": 1"	(3R)-3-hydroxydecanoyl-[acyl-carrier-protein] hydro-lyase	Saro_1379	SBO:0000176
+R04536	TRUE	"""C04620"": -1, ""C00006"": -1, ""C05750"": 1, ""C00005"": 1, ""C00080"": 1"	(3R)-3-hydroxyoctanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase	Saro_1428	SBO:0000176
+R04537	TRUE	"""C04620"": -1, ""C05751"": 1, ""C00001"": 1"	(3R)-3-hydroxyoctanoyl-[acyl-carrier-protein] hydro-lyase	Saro_1379	SBO:0000176
+R04543	TRUE	"""C04633"": -1, ""C00006"": -1, ""C05762"": 1, ""C00005"": 1, ""C00080"": 1"	(3R)-3-hydroxypalmitoyl-[acyl-carrier-protein]:NADP+ oxidoreductase	Saro_1428	SBO:0000176
+R04544	TRUE	"""C04633"": -1, ""C05763"": 1, ""C00001"": 1"	(3R)-3-hydroxypalmitoyl-[acyl-carrier-protein] hydro-lyase	Saro_1379	SBO:0000176
+R04558	FALSE	"""C04916"": -1, ""C00064"": -1, ""C04666"": 1, ""C04677"": 1, ""C00025"": 1"	5-[(5-phospho-1-deoxy-D-ribulos-1-ylamino)methylideneamino]-1-(5-phospho-beta-D-ribosyl)imidazole-4-carboxamide D-erythro-1-(imidazol-4-yl)glycerol 3-phosphate-lyase	Saro_1010 or Saro_1007	SBO:0000176
+R04559	TRUE	"""C04823"": -1, ""C00122"": 1, ""C04677"": 1"	1-(5'-Phosphoribosyl)-5-amino-4-(N-succinocarboxamide)-imidazole AMP-lyase	Saro_1309	SBO:0000176
+R04560	FALSE	"""C00234"": -1, ""C04677"": -1, ""C00101"": 1, ""C04734"": 1"	10-Formyltetrahydrofolate:5'-phosphoribosyl-5-amino-4-imidazolecarboxamide formyltransferase	Saro_0106	SBO:0000176
+R04566	TRUE	"""C04688"": -1, ""C00006"": -1, ""C05759"": 1, ""C00005"": 1, ""C00080"": 1"	(3R)-3-hydroxytetradecanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase	Saro_1428	SBO:0000176
+R04568	TRUE	"""C04688"": -1, ""C05760"": 1, ""C00001"": 1"	(3R)-3-hydroxytetradecanoyl-[acyl-carrier-protein] hydro-lyase	Saro_1379	SBO:0000176
+R04591	TRUE	"""C00002"": -1, ""C04751"": -1, ""C00049"": -1, ""C00008"": 1, ""C00009"": 1, ""C04823"": 1"	1-(5-Phosphoribosyl)-5-amino-4-carboxyimidazole:L-aspartate ligase (ADP-forming)	Saro_1041	SBO:0000176
+R04617	FALSE	"""C00002"": -1, ""C04877"": -1, ""C00993"": -1, ""C00008"": 1, ""C00009"": 1, ""C04882"": 1"	"UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminoheptanedioate:D-alanyl-D-alanine ligase(ADP-forming)"	Saro_1129	SBO:0000176
+R04620	FALSE	"""C04895"": -1, ""C00001"": -3, ""C04874"": 1, ""C00009"": 3"	"7,8-dihydroneopterin-3'-triphosphate phosphohydrolase (alkaline optimum)"	none	SBO:0000176
+R04640	FALSE	"""C04896"": -1, ""C04916"": 1"	N-(5'-phospho-D-ribosylformimino)-5-amino-1- (5''-phospho-D-ribosyl)-4-imidazolecarboxamide ketol-isomerase	Saro_1009	SBO:0000176
+R04724	TRUE	"""C05223"": -1, ""C00003"": -1, ""C05758"": 1, ""C00004"": 1, ""C00080"": 1"	dodecanoyl-[acp]:NAD+ trans-2-oxidoreductase	Saro_0051 or Saro_3306	SBO:0000176
+R04726	FALSE	"""C05223"": -1, ""C01209"": -1, ""C05759"": 1, ""C00011"": 1, ""C00229"": 1"	dodecanoyl-[acyl-carrier-protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)	Saro_1340	SBO:0000176
+R04780	TRUE	"""C05378"": -1, ""C00001"": -1, ""C05345"": 1, ""C00009"": 1"	beta-D-Fructose 1-6-bisphosphate 1-phosphohydrolase	Saro_0021	SBO:0000176
+R04787	FALSE	"""C05414"": -1, ""C00004"": 1, ""C00080"": 1, ""C05430"": 1, ""C00003"": -1"	15-cis-phytoene:acceptor oxidoreductase1	Saro_1816	SBO:0000176
+R04798	FALSE	"""C05430"": -1, ""C00004"": -1, ""C00007"": -1, ""C00080"": -1, ""C05431"": 1, ""C00001"": 2, ""C00003"": 1"	"zeta-Carotene, hydrogen-donor:oxygen oxidoreductase"	Saro_1816	SBO:0000176
+R04800	FALSE	"""C05431"": -1, ""C00004"": -1, ""C00007"": -1, ""C00080"": -1, ""C05432"": 1, ""C00003"": 1, ""C00001"": 2"	"Neurosporene, hydrogen-donor:oxygen oxidoreductase"	Saro_1816	SBO:0000176
+R04952	FALSE	"""C05745"": -1, ""C01209"": -1, ""C05746"": 1, ""C00011"": 1, ""C00229"": 1"	butyryl-[acyl-carrier protein] malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)	Saro_1340	SBO:0000176
+R04953	TRUE	"""C05747"": -1, ""C00006"": -1, ""C05746"": 1, ""C00005"": 1, ""C00080"": 1"	(3R)-3-hydroxyhexanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase	Saro_1428	SBO:0000176
+R04954	TRUE	"""C05747"": -1, ""C05748"": 1, ""C00001"": 1"	(3R)-3-hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase	Saro_1379	SBO:0000176
+R04955	TRUE	"""C05749"": -1, ""C00003"": -1, ""C05748"": 1, ""C00004"": 1, ""C00080"": 1"	hexanoyl-[acp]:NAD+ trans-2-oxidoreductase	Saro_0051 or Saro_3306	SBO:0000176
+R04957	FALSE	"""C05749"": -1, ""C01209"": -1, ""C05750"": 1, ""C00011"": 1, ""C00229"": 1"	hexanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)	Saro_1340	SBO:0000176
+R04958	TRUE	"""C05752"": -1, ""C00003"": -1, ""C05751"": 1, ""C00004"": 1, ""C00080"": 1"	octanoyl-[acp]:NAD+ trans-2-oxidoreductase	Saro_0051 or Saro_3306	SBO:0000176
+R04960	FALSE	"""C05752"": -1, ""C01209"": -1, ""C05753"": 1, ""C00011"": 1, ""C00229"": 1"	Octanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)	Saro_1340	SBO:0000176
+R04961	TRUE	"""C05755"": -1, ""C00003"": -1, ""C05754"": 1, ""C00004"": 1, ""C00080"": 1"	decanoyl-[acp]:NAD+ trans-2-oxidoreductase	Saro_0051 or Saro_3306	SBO:0000176
+R04963	FALSE	"""C05755"": -1, ""C01209"": -1, ""C05756"": 1, ""C00011"": 1, ""C00229"": 1"	Decanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)	Saro_1340	SBO:0000176
+R04964	TRUE	"""C05757"": -1, ""C00006"": -1, ""C05756"": 1, ""C00005"": 1, ""C00080"": 1"	(3R)-3-hydroxydodecanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase	Saro_1428	SBO:0000176
+R04965	TRUE	"""C05757"": -1, ""C05758"": 1, ""C00001"": 1"	(3R)-3-hydroxydodecanoyl-[acyl-carrier-protein] hydro-lyase	Saro_1379	SBO:0000176
+R04966	TRUE	"""C05761"": -1, ""C00003"": -1, ""C05760"": 1, ""C00004"": 1, ""C00080"": 1"	tetradecanoyl-[acp]:NAD+ trans-2-oxidoreductase	Saro_0051 or Saro_3306	SBO:0000176
+R04968	FALSE	"""C05761"": -1, ""C01209"": -1, ""C05762"": 1, ""C00229"": 1, ""C00011"": 1"	Tetradecanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)	Saro_1340	SBO:0000176
+R04969	TRUE	"""C05764"": -1, ""C00003"": -1, ""C05763"": 1, ""C00004"": 1, ""C00080"": 1"	hexadecanoyl-[acp]:NAD+ trans-2-oxidoreductase	Saro_0051 or Saro_3306	SBO:0000176
+R04986	FALSE	"""C05809"": -1, ""C05810"": 1, ""C00011"": 1"	3-octaprenyl-4-hydroxybenzoate carboxy-lyase	Saro_3873	SBO:0000176
+R04987	FALSE	"""C05810"": -1, ""C00007"": -1, ""C00005"": -1, ""C00080"": -1, ""C05811"": 1, ""C00006"": 1, ""C00001"": 1"	unnamed4	none	SBO:0000176
+R04988	FALSE	"""C05811"": -1, ""C00019"": -1, ""C05812"": 1, ""C00021"": 1"	"S-adenosyl-L-methionine:3-(all-trans-octaprenyl)benzene-1,2-diol 2-O-methyltransferase"	Saro_2888 or Saro_3303	SBO:0000176
+R04989	FALSE	"""C05812"": -1, ""C00007"": -1, ""C00005"": -1, ""C05813"": 1, ""C00006"": 1, ""C00001"": 1, ""C00080"": 1"	unnamed5	Saro_2789	SBO:0000176
+R04990	FALSE	"""C05813"": -1, ""C00019"": -1, ""C05814"": 1, ""C00021"": 1"	UDP-L-rhamnose:flavonol-3-O-D-glucoside L-rhamnosyltransferase	Saro_0595	SBO:0000176
+R05032	FALSE	"""C05897"": -1, ""C00043"": -1, ""C05898"": 1, ""C00015"": 1"	"UDP-N-acetyl-D-glucosamine:undecaprenyl-diphospho-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine 4-beta-N-acetylglucosaminlytransferase"	Saro_1133	SBO:0000176
+R05064	FALSE	"""C06000"": -1, ""C00001"": -1, ""C00010"": 1, ""C06001"": 1"	(S)-3-Hydroxyisobutyryl-CoA hydrolase	none	SBO:0000176
+R05066	TRUE	"""C06001"": -1, ""C00003"": -1, ""C06002"": 1, ""C00004"": 1, ""C00080"": 1"	3-Hydroxy-2-methylpropanoate:NAD+ oxidoreductase	Saro_0861 or Saro_1098	SBO:0000176
+R05068	TRUE	"""C06007"": -1, ""C00006"": -1, ""C14463"": 1, ""C00005"": 1, ""C00080"": 1"	"R-2,3-Dihydroxy-3-methylpentanoate:NADP+ oxidoreductase"	Saro_2263	SBO:0000176
+R05069	TRUE	"""C06006"": -1, ""C14463"": 1"	S-2-Aceto-2-hydroxybutanoate:NADP+ oxidoreductase	Saro_2263	SBO:0000176
+R05070	FALSE	"""C06007"": -1, ""C00671"": 1, ""C00001"": 1"	"R-2,3-Dihydroxy-3-methylpentanoate hydro-lyase"	Saro_1784	SBO:0000176
+R05071	TRUE	"""C06010"": -1, ""C04181"": 1"	S-2-Acetolactate methylmutase	Saro_2263	SBO:0000176
+R05332	FALSE	"""C00024"": -1, ""C06156"": -1, ""C00010"": 1, ""C04501"": 1"	Acetyl-CoA:D-glucosamine-1-phosphate N-acetyltransferase	Saro_1199	SBO:0000176
+R05431	FALSE	"""C05432"": -1, ""C05435"": 1"	carotenoid beta-end group lyase2	Saro_1817	SBO:0000176
+R05553	FALSE	"""C11355"": -1, ""C00568"": 1, ""C00022"": 1"	4-amino-4-deoxychorismate pyruvate-lyase	Saro_0445	SBO:0000176
+R05605	TRUE	"""C04442"": -1, ""C00118"": 1, ""C00022"": 1"	D-glyceraldehyde-3-phosphate-lyase (pyruvate-forming)	Saro_2568	SBO:0000176
+R05606	TRUE	"""C00514"": -1, ""C00204"": 1, ""C00001"": 1"	D-mannonate hydro-lyase	Saro_3675	SBO:0000176
+R05614	FALSE	"""C05815"": -1, ""C00019"": -1, ""C17569"": 1, ""C00021"": 1"	unnamed6	Saro_2888 or Saro_3303	SBO:0000176
+R05615	FALSE	"""C04146"": -1, ""C00156"": -1, ""C05809"": 1, ""C00013"": 1"	all-trans-octaprenyl-diphosphate:4-hydroxybenzoate 3-octaprenyltransferase	Saro_0951	SBO:0000176
+R05621	FALSE	"""C00180"": -1, ""C00004"": -1, ""C00080"": -1, ""C00007"": -1, ""C06321"": 1, ""C00003"": 1"	benzoic acid reduction	Saro_0538 or Saro_0539 or Saro_1680 or Saro_1681 or Saro_3863 or Saro_3864	SBO:0000176
+R05627	FALSE	"""C04574"": -1, ""C00001"": -1, ""C17556"": 1, ""C00009"": 1"	undecaprenyl-diphosphate phosphohydrolase	Saro_2461 or Saro_3184	SBO:0000176
+R05630	FALSE	"""C04882"": -1, ""C17556"": -1, ""C00105"": 1, ""C05897"": 1"	"UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine:undecaprenyl-phosphate phospho-N-acetylmuramoyl-pentapeptide-transferase"	Saro_1130	SBO:0000176
+R05633	FALSE	"""C11434"": -1, ""C00063"": -1, ""C11435"": 1, ""C00013"": 1"	CTP: 2-C-Methyl-D-erythritol 4-phosphate cytidylyltransferase	Saro_1925	SBO:0000176
+R05634	FALSE	"""C11435"": -1, ""C00002"": -1, ""C11436"": 1, ""C00008"": 1"	ATP:4-(Cytidine 5'-diphospho)-2-C-methyl-D-erythritol 2-phosphotransferase	Saro_1782	SBO:0000176
+R05636	FALSE	"""C00022"": -1, ""C00118"": -1, ""C11437"": 1, ""C00011"": 1"	1-Deoxy-D-xylulose-5-phosphate pyruvate-lyase	Saro_0161	SBO:0000176
+R05637	FALSE	"""C11436"": -1, ""C11453"": 1, ""C00055"": 1"	2-Phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol CMP-lyase	Saro_1925	SBO:0000176
+R05688	FALSE	"""C11437"": -1, ""C00005"": -1, ""C00080"": -1, ""C11434"": 1, ""C00006"": 1"	1-Deoxy-D-xylulose-5-phosphate isomeroreductase	Saro_1375	SBO:0000176
+R05884	FALSE	"""C11811"": -1, ""C00138"": -2, ""C00080"": -2, ""C00129"": 1, ""C00139"": 2, ""C00001"": 1"	isopentenyl-diphosphate:ferredoxin oxidoreductase	Saro_1087	SBO:0000176
+R06146	FALSE	"""C05814"": -1, ""C00005"": -1, ""C00007"": -1, ""C00080"": -1, ""C05815"": 1, ""C00006"": 1, ""C00001"": 1"	"2-octaprenyl-3-methyl-6-methoxy-1,4-benzoquinone,acceptor:oxygen oxidoreductase (5-hydroxylating)"	Saro_0053	SBO:0000176
+R06447	FALSE	"""C00448"": -1, ""C00129"": -8, ""C04574"": 1, ""C00013"": 8"	"(2E,6E)-farnesyl-diphosphate:isopentenyl-diphosphate cistransferase"	Saro_1373	SBO:0000176
+R06868	FALSE	"""C00019"": -1, ""C01210"": -1, ""C00021"": 1, ""C13482"": 1"	S-Adenosyl-L-methionine methylethanolamine phosphate N-methyltransferase	none	SBO:0000176
+R06869	FALSE	"""C00019"": -1, ""C13482"": -1, ""C00080"": -1, ""C00021"": 1, ""C00588"": 1"	S-Adenosyl-L-methionine phosphodimethylethanolamine N-methyltransferase	none	SBO:0000176
+R06982	TRUE	"""C00051"": -1, ""C00067"": -1, ""C14180"": 1"	S-hydroxymethylglutathione formaldehyde-lyase	unknown	SBO:0000176
+R06983	FALSE	"""C14180"": -1, ""C00003"": -1, ""C01031"": 1, ""C00004"": 1, ""C00080"": 1"	S-hydroxymethylglutathione dehydrogenase	Saro_0874 or Saro_0995 or Saro_3679	SBO:0000176
+R06989	TRUE	"""C02480"": -1, ""C14610"": 1"	"2,5-dihydro-5-oxofuran-2-acetate lyase"	Saro_3828	SBO:0000176
+R06990	TRUE	"""C14610"": -1, ""C03586"": 1"	"S-5-oxo-2,5-dihydrofuran-2-acetate delta3-delta2-isomerase"	Saro_3829	SBO:0000176
+R07168	FALSE	"""C00143"": -1, ""C00004"": -1, ""C00080"": -1, ""C00440"": 1, ""C00003"": 1"	5-methyltetrahydrofolate:NAD+ oxidoreductase	Saro_2860 or Saro_3208	SBO:0000176
+R07280	FALSE	"""C04454"": -1, ""C00001"": -1, ""C04732"": 1, ""C00009"": 1"	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphohydrolase	none	SBO:0000176
+R07281	FALSE	"""C00199"": -1, ""C15556"": 1, ""C00058"": 1"	"D-ribulose 5-phosphate formate-lyase (L-3,4-dihydroxybutan-2-one 4-phosphate-forming)"	Saro_0520 or Saro_1473 or Saro_1582	SBO:0000176
+R07399	FALSE	"""C00024"": -1, ""C00022"": -1, ""C00001"": -1, ""C02612"": 1, ""C00010"": 1"	2-methylmalate synthesis	none	SBO:0000176
+R07404	FALSE	"""C00002"": -1, ""C03373"": -1, ""C00288"": -1, ""C00080"": -1, ""C00008"": 1, ""C00009"": 1, ""C15667"": 1"	5-amino-1-(5-phospho-D-ribosyl)imidazole:carbon-dioxide ligase (ADP-forming)	Saro_3263	SBO:0000176
+R07405	TRUE	"""C15667"": -1, ""C04751"": 1"	5-carboxyamino-1-(5-phospho-D-ribosyl)imidazole carboxymutase	Saro_3264	SBO:0000176
+R07411	FALSE	"""C00032"": -1, ""C00001"": -1, ""C00448"": -1, ""C15672"": 1, ""C00013"": 1"	"(2E,6E)-farnesyl-diphosphate:protoheme IX farnesyltranstransferase"	Saro_0915	SBO:0000176
+R07558	FALSE	"""C02094"": -1, ""C00138"": -2, ""C00007"": -1, ""C00080"": -2, ""C08591"": 1, ""C00139"": 2, ""C00001"": 1"	"beta-carotene,reduced ferredoxin [iron-sulfur] cluster:oxygen 3-oxidoreductase"	Saro_1168	SBO:0000176
+R07559	FALSE	"""C08591"": -1, ""C00138"": -2, ""C00080"": -2, ""C00007"": -1, ""C06098"": 1, ""C00139"": 2, ""C00001"": 1 "	"beta-cryptoxanthin,reduced ferredoxin [iron-sulfur] cluster:oxygen 3-oxidoreductase"	Saro_1168	SBO:0000176
+R07599	FALSE	"""C00141"": -1, ""C00068"": -1, ""C15976"": 1, ""C00011"": 1"	unnamed7	Saro_1045 or Saro_1975 or Saro_1976 or Saro_3742	SBO:0000176
+R07600	FALSE	"""C15976"": -1, ""C15972"": -1, ""C15977"": 1, ""C00068"": 1"	unnamed8	Saro_1974	SBO:0000176
+R07601	FALSE	"""C00233"": -1, ""C00068"": -1, ""C15974"": 1, ""C00011"": 1"	unnamed9	Saro_1045 or Saro_1975 or Saro_1976 or Saro_3742	SBO:0000176
+R07602	FALSE	"""C15974"": -1, ""C15972"": -1, ""C15975"": 1, ""C00068"": 1"	unnamed10	Saro_1045 or Saro_1975 or Saro_1976 or Saro_3742	SBO:0000176
+R07603	FALSE	"""C00671"": -1, ""C00068"": -1, ""C15978"": 1, ""C00011"": 1"	unnamed11	Saro_1045 or Saro_1975 or Saro_1976 or Saro_3742	SBO:0000176
+R07604	FALSE	"""C15978"": -1, ""C15972"": -1, ""C15979"": 1, ""C00068"": 1"	unnamed12	Saro_1045 or Saro_1975 or Saro_1976 or Saro_3742	SBO:0000176
+R07618	FALSE	"""C15973"": -1, ""C00003"": -1, ""C15972"": 1, ""C00004"": 1, ""C00080"": 1"	enzyme N6-(dihydrolipoyl)lysine:NAD+ oxidoreductase	Saro_1178 or Saro_1945	SBO:0000176
+R07762	FALSE	"""C05764"": -1, ""C01209"": -1, ""C16219"": 1, ""C00229"": 1, ""C00011"": 1"	oxostearoyl-acp formation	Saro_1340	SBO:0000176
+R07763	TRUE	"""C16219"": -1, ""C00005"": -1, ""C00080"": -1, ""C16220"": 1, ""C00006"": 1"	oxostearoyl-acp reduction	Saro_1428	SBO:0000176
+R07764	TRUE	"""C16220"": -1, ""C16221"": 1, ""C00001"": 1"	hydroxyoctadecanoyl-asp hydrolase	Saro_1379	SBO:0000176
+R07765	TRUE	"""C16221"": -1, ""C00004"": -1, ""C00080"": -1, ""C04088"": 1, ""C00003"": 1"	octadecanoyl-[acp]:NAD+ trans-2-oxidoreductase	Saro_0051 or Saro_3306	SBO:0000176
+R08157	TRUE	"""C05752"": -1, ""C00001"": -1, ""C00229"": 1, ""C06423"": 1"	Octanoic acid generation	none	SBO:0000176
+R08159	FALSE	"""C05761"": -1, ""C00001"": -1, ""C00229"": 1, ""C06424"": 1"	tetradecanoyl-[acyl-carrier protein] hydrolase	unknown	SBO:0000176
+R08163	FALSE	"""C04088"": -1, ""C00001"": -1, ""C00229"": 1, ""C01530"": 1"	octadecanoyl-[acyl-carrier protein] hydrolase	unknown	SBO:0000176
+R08210	FALSE	"""C11811"": -1, ""C00138"": -2, ""C00080"": -2, ""C00235"": 1, ""C00139"": 2, ""C00001"": 1"	dimethylallyl diphosphate:ferredoxin oxidoreductase	Saro_1087	SBO:0000176
+R08468	FALSE	"""C00022"": -1, ""C00109"": -1, ""C06006"":1, ""C00011"": 1"	pyruvate:2-oxobutanoate acetaldehydetransferase	Saro_2261 or Saro_2262 or Saro_2379	SBO:0000176
+R08689	FALSE	"""C00080"": -2, ""C11453"": -1, ""C00138"": -2, ""C11811"": 1, ""C00001"": 1, ""C00139"": 2"	(E)-4-hydroxy-3-methylbut-2-en-1-yl-diphosphate:oxidized ferredoxin oxidoreductase	Saro_0417 and Saro_0417	SBO:0000176
+R08968	FALSE	"""C00140"": -1, ""C00002"": -1, ""C04501"": 1, ""C00008"": 1"	ATP:N-acetyl-D-glucosamine 1-phosphotransferase	Saro_2000	SBO:0000176
+R09079	FALSE	"""C00134"": -1, ""C00441"": -1, ""C00005"": -1, ""C00080"": -1, ""C18172"": 1, ""C00001"": 1, ""C00006"": 1"	carboxyspermidine:NADP+ oxidoreductase	none	SBO:0000176
+R09081	FALSE	"""C18172"": -1, ""C00315"": 1, ""C00011"": 1"	carboxyspermidine carboxy-lyase (spermidine-forming)	Saro_1792	SBO:0000176
+R09248	FALSE	"""C00448"": -1, ""C00129"": -5, ""C04146"": 1, ""C00013"": 5"	"(2E,6E)-farnesyl-diphosphate:isopentenyl-diphosphate farnesyltranstransferase"	Saro_1353	SBO:0000176
+R09543	FALSE	"""C00019"": -1, ""C01209"": -1, ""C00021"": 1, ""C19673"": 1"	S-adenosyl-L-methionine:malonyl-[acyl-carrier protein] O-methyltransferase	none	SBO:0000176
+R09692	FALSE	"""C05421"": -1, ""C00003"": -1, ""C00080"": 1, ""C05414"": 1, ""C00004"": 1"	15-cis-phytoene:acceptor oxidoreductase2	Saro_1816	SBO:0000176
+R09725	FALSE	"""C19846"": -1, ""C00001"": -1, ""C19845"": 1, ""C00132"": 1"	pimeloyl-[acyl-carrier protein]-methyl-ester hydrolase	none	SBO:0000176
+R09748	FALSE	"""C00016"": -1, ""C00004"": -1, ""C00080"": -1, ""C01352"": 1, ""C00003"": 1"	FADH2:NAD+ oxidoreductase	none	SBO:0000176
+R10092	FALSE	"""C00288"": 1, ""C00080"": 1, ""C00011"": -1, ""C00001"": -1"	carbonate hydro-lyase (carbon-dioxide-forming)	Saro_1920 or Saro_2617	SBO:0000176
+R10115	FALSE	"""C19673"": -1, ""C01209"": -1, ""C20372"": 1, ""C00011"": 1, ""C00229"": 1"	malonyl-[acyl-carrier protein]-methyl-ester:malonyl-[acyl-carrier protein] C-acyltransferase	Saro_1340	SBO:0000176
+R10116	FALSE	"""C20372"": -1, ""C00005"": -1, ""C00080"": -1, ""C20373"": 1, ""C00006"": 1"	3-hydroxyglutaryl-[acp]-methyl-ester:NADP+ oxidoreductase	Saro_1428 or Saro_1560 or Saro_1564 or Saro_2510 or Saro_3475 or Saro_3608 or Saro_3763 or Saro_3807	SBO:0000176
+R10117	FALSE	"""C20373"": -1, ""C20374"": 1, ""C00001"": 1"	3-hydroxyglutaryl-[acp]-methyl-ester hydro-lyase	Saro_1379	SBO:0000176
+R10118	FALSE	"""C20374"": -1, ""C00005"": -1, ""C00080"": -1, ""C20375"": 1, ""C00006"": 1"	glutaryl-[acp]-methyl-ester:NADP+ oxidoreductase	Saro_0051	SBO:0000176
+R10119	FALSE	"""C20375"": -1, ""C01209"": -1, ""C20376"": 1, ""C00011"": 1, ""C00229"": 1"	glutaryl-[acp]-methyl-ester:malonyl-[acyl-carrier protein] C-acyltransferase (decarboxylating)	Saro_1340	SBO:0000176
+R10120	FALSE	"""C20376"": -1, ""C00005"": -1, ""C00080"": -1, ""C20377"": 1, ""C00006"": 1"	3-hydroxypimeloyl-[acp]-methyl-ester:NADP+ oxidoreductase	Saro_1428 or Saro_1560 or Saro_1564 or Saro_2510 or Saro_3475 or Saro_3608 or Saro_3763 or Saro_3807	SBO:0000176
+R10121	FALSE	"""C20377"": -1, ""C20378"": 1, ""C00001"": 1"	3-hydroxypimeloyl-[acp]-methyl-ester hydro-lyase	Saro_1379	SBO:0000176
+R10122	FALSE	"""C20378"": -1, ""C00005"": -1, ""C00080"": -1, ""C19846"": 1, ""C00006"": 1"	pimelyl-[acyl-carrier protein]-methyl-ester:NADP+ oxidoreductase	Saro_0051	SBO:0000176
+R10124	FALSE	"""C19845"": -1, ""C00041"": -1, ""C01092"": 1, ""C00229"": 1, ""C00011"": 1"	pimeloyl-[acyl-carrier protein]:L-alanine C-pimeloyltransferase (decarboxylating)	Saro_0718 or Saro_3111	SBO:0000176
+R10147	FALSE	"""C00441"": -1, ""C00022"": -1, ""C20258"": 1, ""C00001"": 1"	L-aspartate-4-semialdehyde hydro-lyase	Saro_1443 or Saro_3897	SBO:0000176
+R10619	TRUE	"""C00124p"": -1, ""C00984p"": 1"	galactose 1-epimerase	Saro_0819	SBO:0000176
+R10685	FALSE	"""C00003"": -1, ""C00037"": -1, ""C00097"": -1, ""C00080"": -1, ""C20784"": 1, ""C00153"": 1, ""C00041"": 1, ""C00001"": 3"	NAD+:glycine ADP-D-ribosyltransferase (dehydroalanine-producing)	none	SBO:0000176
+R10707	FALSE	"""C00024"": -1, ""C01209"": -1, ""C05744"": 1, ""C00010"": 1, ""C00011"": 1"	acetyl-CoA malonyl-[acyl-carrier protein] C-acetyltransferase (decarboxylating)	Saro_2366	SBO:0000176
+R10711	FALSE	"""C20784"": -1, ""C00001"": -1, ""C20247"": 1, ""C00020"": 1"	unnamed16	spontaneous	SBO:0000176
+R10712	FALSE	"""C04752"": -1, ""C20247"": -1, ""C00080"": -1, ""C01081"": 1, ""C00013"": 1, ""C00011"": 1"	2-methyl-4-amino-5-hydroxymethylpyrimidine-diphosphate:2-(2-carboxy-4-methylthiazol-5-yl)ethyl phosphate 2-methyl-4-aminopyrimidine-5-methenyltransferase	Saro_0434 or Saro_1962	SBO:0000176
+R11319	TRUE	"""C00068"": -1, ""C00008"": -1, ""C03028"": 1, ""C00020"": 1"	ADP:thiamin-diphosphate phosphotransferase	Saro_1270	SBO:0000176
+R11945	FALSE	"""C00004"": -1, ""C17569"": -1, ""C00080"": -5, ""C00003"": 1, ""C00080p"": 4, ""C17569b"": 1"	NADH:ubiquinone oxidoreductase	Saro_2287 and Saro_2288 and Saro_2289 and Saro_2290 and Saro_2291 and Saro_2292 and Saro_2293 and Saro_2294 and Saro_2295 and Saro_2296 and Saro_2300 and Saro_2301 and Saro_2302 and Saro_2303 and Saro_2476 or Saro_3081	SBO:0000176
+s01	TRUE	"""C01165"": -1, ""C00001"": 1, ""C03912"": 1"	spontaneous1	none	SBO:0000176
+s02	TRUE	"""C00217"": 1, ""C00025"": -1"	L to D glutamate	spontaneous	SBO:0000176
+s03	FALSE	"""C00266"": -4, ""C00014"": -1, ""C00080"": -2, ""C00314"": 1, ""C00001"": 5"	spontaneous2	none	SBO:0000176
+SL01	FALSE	"""C01530"": -1, ""C00065"": -1, ""SL"": 1"	sphingolipid biosynthesis	none	SBO:0000176
+SL02	FALSE	"""SL"": -1, ""C05764"": -1, ""CM"": 1, ""C01134"": 1"	ceramide biosynthesis	none	SBO:0000176
+SL03	FALSE	"""CM"": -1, ""C00029"": -1, ""C00001"": -2, ""SGL-1"": 1, ""C00015"": 1, ""C00080"": 2"	sphingoglycolipid biosynthesis	none	SBO:0000176
+t0001	FALSE	"""pHBAp"": -1, ""C00002"": -1, ""C00001"": -1,  ""C00009"": 1, ""C00008"": 1, ""pHBA"": 1"	p-HBA transport	none	SBO:0000185
+t0002	FALSE	"""PCAp"": -1, ""C00002"": -1, ""C00001"": -1, ""C00009"": 1,  ""C00008"": 1, ""PCA"": 1"	PCA transport	none	SBO:0000185
+t0003	FALSE	"""exPCA"": -1, ""C00080p"": -1, ""C00080"": 1, ""PCAp"": 1"	PCA transport	none	SBO:0000185
+t0004	TRUE	"""exC00001"": -1, ""C00001p"": 1"	water diffusion1	none	SBO:0000185
+t0005	TRUE	"""C00001p"": -1, ""C00001"": 1"	water diffusion2	none	SBO:0000185
+t0006	FALSE	"""VAp"": -1, ""C00002"": -1, ""C00001"": -1,  ""C00009"": 1,  ""C00008"": 1, ""VA"": 1"	vanillic acid transport	none	SBO:0000185
+t0007	FALSE	"""Vp"": -1, ""C00002"": -1, ""C00001"": -1, ""C00009"": 1,  ""C00008"": 1, ""V"": 1"	vanillin transport	none	SBO:0000185
+t0008	TRUE	"""exC00007"": -1, ""C00007p"": 1"	oxygen diffusion1	none	SBO:0000185
+t0009	TRUE	"""C00007p"": -1, ""C00007"": 1"	oxygen diffusion2	none	SBO:0000185
+t0010	TRUE	"""exC14818"": -1,""C00080p"": -1, ""C14818p"": 1, ""exC00080"": 1"	iron transport1	none	SBO:0000185
+t0011	TRUE	"""C14818p"": -1, ""C00002"": -1, ""C00001"": -1, ""C00009"": 1, ""C00008"": 1, ""C14818"": 1"	iron transport2	none	SBO:0000185
+t0012	TRUE	"""exC00014"": -1, ""C00014p"": 1"	ammonia transport1	none	SBO:0000185
+t0013	TRUE	"""C00014p"": -1, ""C00014"": 1"	ammonia transport2	none	SBO:0000185
+t0014	TRUE	"""exC00009"": -1, ""exC00080"": -1, ""C00080p"": 1, ""C00009"": 1"	phosphate transport1	none	SBO:0000185
+t0015	TRUE	"""C00009p"": -1, ""C00002"": -1, ""C00001"": -1, ""C00008"": 1, ""C00009"": 2"	phosphate transport2	none	SBO:0000185
+t0016	TRUE	"""exC00059"": -1, ""C00059"": 1"	sulfate transport1	none	SBO:0000185
+t0017	TRUE	"""C00059p"": -1, ""C00002"": -1, ""C00001"": -1, ""C00008"": 1, ""C00059"": 1, ""C00009"": 1"	sulfate transport2	none	SBO:0000185
+t0018	TRUE	"""exC00080"": -1, ""C00080p"": 1"	hydrogen transport	none	SBO:0000185
+t0019	TRUE	"""C00139p"": -1, ""C00002"": -1, ""C00001"": -1, ""C00009"": 1,  ""C00008"": 1, ""C00139"": 1"	ferredoxin transport1	none	SBO:0000185
+t0020	TRUE	"""exC00139"": -1, ""C00139p"": 1"	ferredoxin transport2	none	SBO:0000185
+t0021	TRUE	"""C00011"": -1, ""C00011p"": 1"	Carbon dioxide diffusion1	none	SBO:0000185
+t0022	FALSE	"""C00011p"": -1, ""exC00011"": 1"	Carbon dioxide diffusion2	none	SBO:0000185
+t0023	TRUE	"""exC00031"": -1, ""C00031p"": 1"	glucose transport1	none	SBO:0000185
+t0024	FALSE	"""FAp"": -1, ""C00002"": -1, ""C00001"": -1, ""C00009"": 1,  ""C00008"": 1, ""FA"": 1"	ferulate transport	none	SBO:0000185
+t0025	FALSE	"""SAp"": -1, ""C00002"": -1, ""C00001"": -1, ""C00009"": 1,  ""C00008"": 1, ""SA"": 1"	SA transport	none	SBO:0000185
+t0026	FALSE	"""SRGGEp"": -1, ""C00002"": -1, ""C00001"": -1, ""C00009"": 1,  ""C00008"": 1, ""SRGGE"": 1"	SR-GGE transport	none	SBO:0000185
+t0027	FALSE	"""RSGGEp"": -1, ""C00002"": -1, ""C00001"": -1, ""C00009"": 1,  ""C00008"": 1, ""RSGGE"": 1"	SR-GGE transport	none	SBO:0000185
+t0028	FALSE	"""RRGGEp"": -1, ""C00002"": -1, ""C00001"": -1, ""C00009"": 1,  ""C00008"": 1, ""RRGGE"": 1"	SR-GGE transport	none	SBO:0000185
+t0029	FALSE	"""SSGGEp"": -1, ""C00002"": -1, ""C00001"": -1, ""C00009"": 1,  ""C00008"": 1, ""SSGGE"": 1"	SR-GGE transport	none	SBO:0000185
+t0030	FALSE	"""expHBA"": -1, ""C00080p"": -1, ""C00080"": 1, ""pHBAp"": 1"	p-HBA transport	none	SBO:0000185
+t0031	FALSE	"""exVA"": -1, ""C00080p"": -1, ""C00080"": 1, ""VAp"": 1"	vanillic acid transport	none	SBO:0000185
+t0032	FALSE	"""exV"": -1, ""C00080p"": -1, ""C00080"": 1, ""Vp"": 1"	vanillin transport	none	SBO:0000185
+t0033	FALSE	"""exFA"": -1, ""C00080p"": -1, ""C00080"": 1, ""FAp"": 1"	ferulate transport	none	SBO:0000185
+t0034	TRUE	"""C00132p"": -1, ""C00132"": 1"	methanol transport	spontaneous	SBO:0000185
+t0035	FALSE	"""exSA"": -1, ""C00080p"": -1, ""C00080"": 1, ""SAp"": 1"	SA transport	none	SBO:0000185
+t0036	FALSE	"""exSRGGE"": -1, ""C00080p"": -1, ""C00080"": 1, ""SRGGEp"": 1"	SR-GGE transport	none	SBO:0000185
+t0037	FALSE	"""exRSGGE"": -1, ""C00080p"": -1, ""C00080"": 1, ""RSGGEp"": 1"	SR-GGE transport	none	SBO:0000185
+t0038	FALSE	"""exRRGGE"": -1, ""C00080p"": -1, ""C00080"": 1, ""RRGGEp"": 1"	SR-GGE transport	none	SBO:0000185
+t0039	FALSE	"""exSSGGE"": -1, ""C00080p"": -1, ""C00080"": 1, ""SSGGEp"": 1"	SR-GGE transport	none	SBO:0000185
+t0040	FALSE	"""PDC"": -1, ""C00002"": -1, ""C00001"": -1, ""C00009"": 1,  ""C00008"": 1, ""PDCp"": 1"	PDC export	none	SBO:0000185
+t0041	FALSE	"""PDCp"": -1, ""C00080p"": -1, ""C00080"": 1, ""exPDC"": 1"	PDC export	none	SBO:0000185
+t0042	TRUE	"""exC00033"": -1,""C00080p"": -1, ""C00080"": 1, ""C00033p"": 1"	acetate transport	none	SBO:0000185
+t0043	TRUE	"""C00033p"": -1, ""C00002"": -1, ""C00001"": -1, ""C00009"": 1, ""C00008"": 1, ""C00033"": 1"	acetate transport	none	SBO:0000185
+t0044	TRUE	"""exC00181"": -1, ""exC00080"": -1, ""C00080p"": 1, ""C00181"": 1"	xylose transport	none	SBO:0000185
+t0045	TRUE	"""exC00095"": -1, ""exC00080"": -1, ""C00080p"": 1, ""C00095p"": 1"	fructose transport	none	SBO:0000185
+t0046	TRUE	"""exC00022"": -1, ""exC00080"": -1, ""C00080p"": 1, ""C00022"": 1"	pyruvate transport	none	SBO:0000185
+t0047	FALSE	"""exC00208"": -1, ""exC00080"": -1, ""C00080p"": 1, ""C00208p"": 1"	maltose transport	none	SBO:0000185
+t0048	FALSE	"""exC00185"": -1, ""exC00080"": -1, ""C00080p"": 1, ""C00185p"": 1"	cellobiose transport	none	SBO:0000185
+t0049	FALSE	"""exC00243"": -1, ""exC00080"": -1, ""C00080p"": 1, ""C00243p"": 1"	lactose transport	none	SBO:0000185
+t0050	FALSE	"""exS"": -1, ""C00080p"": -1, ""C00080"": 1, ""Sp"": 1"	syringaldehyde transport	none	SBO:0000185
+t0051	FALSE	"""Sp"": -1, ""C00002"": -1, ""C00001"": -1, ""C00009"": 1,  ""C00008"": 1, ""S"": 1"	syringaldehyde transport	none	SBO:0000185
+t0052	FALSE	"""exSDK"": -1, ""C00080p"": -1, ""C00080"": 1, ""SDKp"": 1"	S-diketone transport	none	SBO:0000185
+t0053	FALSE	"""SDKp"": -1, ""C00002"": -1, ""C00001"": -1, ""C00009"": 1,  ""C00008"": 1, ""SDK"": 1"	S-diketone transport	none	SBO:0000185
+t0054	FALSE	"""exGDK"": -1, ""C00080p"": -1, ""C00080"": 1, ""GDKp"": 1"	G-diketone transport	none	SBO:0000185
+t0055	FALSE	"""GDKp"": -1, ""C00002"": -1, ""C00001"": -1, ""C00009"": 1,  ""C00008"": 1, ""GDK"": 1"	G-diketone transport	none	SBO:0000185
+t0056	FALSE	"""exC00633"": -1, ""C00080p"": -1, ""C00080"": 1, ""C00633p"": 1"	4-hydroxybenzaldehyde transport	none	SBO:0000185
+t0057	FALSE	"""C00633p"": -1, ""C00002"": -1, ""C00001"": -1, ""C00009"": 1,  ""C00008"": 1, ""C00633"": 1"	4-hydroxybenzaldehyde transport	none	SBO:0000185
+t0058	FALSE	"""exC00180"": -1, ""C00080p"": -1, ""C00080"": 1, ""C00180p"": 1"	benzoic acid transport	none	SBO:0000185
+t0059	FALSE	"""C00180p"": -1, ""C00002"": -1, ""C00001"": -1, ""C00009"": 1,  ""C00008"": 1, ""C00180"": 1"	benzoic acid transport	none	SBO:0000185
+t0060	FALSE	"""exC00156"": -1, ""C00080p"": -1, ""C00080"": 1, ""C00156p"": 1"	4-hydroxybenzoic acid transport	none	SBO:0000185
+t0061	FALSE	"""C00156p"": -1, ""C00002"": -1, ""C00001"": -1, ""C00009"": 1,  ""C00008"": 1, ""C00156"": 1"	4-hydroxybenzoic acid transport	none	SBO:0000185
+engR00449	FALSE	"""C00047"": -1, ""C00007"": -1, ""C00990"": 1, ""C00011"": 1, ""C00001"": 1"	L-lysine:oxygen 2-oxidoreductase (decarboxylating)	engineered	SBO:0000176
+engR00728	TRUE	"""C00082"": -1, ""C00001"": -1, ""C00146"": 1, ""C00022"": 1, ""C00014"": 1"	L-tyrosine phenol-lyase (deaminating; pyruvate-forming)	engineered	SBO:0000176
+engR00841	FALSE	"""C00093"": -1, ""C00001"": -1, ""C00116"": 1, ""C00009"": 1"	sn-glycerol-3-phosphate phosphohydrolase	engineered	SBO:0000176
+engR01171	TRUE	"""C00136"": -1, ""C00003"": -1, ""C00877"": 1, ""C00004"": 1, ""C00080"": 1"	butanoyl-CoA:NAD+ trans-2-oxidoreductase	engineered	SBO:0000176
+engR01179	TRUE	"""C00136"": -1, ""C00033"": -1, ""C00246"": 1, ""C00024"": 1"	butanoyl-CoA:acetate CoA-transferase	engineered	SBO:0000176
+engR01704	TRUE	"""C00517"": -1, ""C00003"": -1, ""C00001"": -1, ""C00249"": 1, ""C00004"": 1, ""C00080"": 1"	Palmitaldehyde:NAD+ oxidoreductase	engineered	SBO:0000176
+engR01976	TRUE	"""C01144"": -1, ""C00006"": -1, ""C00332"": 1, ""C00005"": 1, ""C00080"": 1"	(S)-3-Hydroxybutanoyl-CoA:NADP+ oxidoreductase	engineered	SBO:0000176
+engR02273	FALSE	"""C00990"": -1, ""C00001"": -1, ""C00431"": 1, ""C00014"": 1"	5-aminopentanamide amidohydrolase	engineered	SBO:0000176
+engR02274	TRUE	"""C00431"": -1, ""C00026"": -1, ""C03273"": 1, ""C00025"": 1"	5-aminopentanoate:2-oxoglutarate aminotransferase	engineered	SBO:0000176
+engR02401	TRUE	"""C03273"": -1, ""C00003"": -1, ""C00001"": -1, ""C00489"": 1, ""C00004"": 1, ""C00080"": 1"	glutarate-semialdehyde:NAD+ oxidoreductase	engineered	SBO:0000176
+engR02462	TRUE	"""C00823"": -1, ""C00003"": -1, ""C00517"": 1, ""C00004"": 1, ""C00080"": 1"	Hexadecanol:NAD+ oxidoreductase	engineered	SBO:0000176
+engR03026	TRUE	"""C01144"": -1, ""C00877"": 1, ""C00001"": 1"	(S)-3-hydroxybutanoyl-CoA hydro-lyase	engineered	SBO:0000176
