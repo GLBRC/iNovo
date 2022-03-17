@@ -40,6 +40,8 @@ media_components = {"exC14818": [45.54], "exC00014": [1.0], "exC00009": [26.1], 
 enviro = {"C00282": [10], "exC00001": [10], "exC00007": [10]}
 outfluxes = {"C00067": [0], "C00058": [0], "C00033": [0], "C00010": [1], "C00162": [1], "C00010": [1], "C00132": [0], "C00054": [0], "C00011": [0], "C05198": [0], "C04425": [0], "C00266": [0], "C00153": [0]}
 
+
+
 ##############
 
 # Kinetic parameters in mmol/L per min - these are estimates from related bacteria in the literature and not experimentally verified
@@ -107,6 +109,16 @@ SA_flux = Novo_model.problem.Constraint(
     lb=0,
     ub=0, name = 'SA_flux')
 Novo_model.add_cons_vars(SA_flux)
+
+# For a run without guaiacol degradation
+#outfluxes["Guaiacol"] = [0]
+Novo_model.remove_reactions(["A045"])
+#Novo_model.add_boundary(Novo_model.metabolites.get_by_id("Guaiacol"), ub=1000., type="demand", #reaction_id="DM_Guaiacol")
+
+# For a run without HPV degradation
+#outfluxes["HPV"] = [0]
+#Novo_model.remove_reactions(["A022"])
+#Novo_model.add_boundary(Novo_model.metabolites.get_by_id("HPV"), ub=1000., type="demand", #reaction_id="DM_HPV")
 
 
 # Combine all tracked items into the tracking dictionary
