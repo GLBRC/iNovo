@@ -25,15 +25,19 @@ CONTENTS
 
 -Code
 
-	-biomass_yield.py	#Predicts biomass yield for given substrates
+	-Run_instructions.MD	#Instructions for running the code in this directory
 	
-	-build_model.py		#Takes a file of compound IDs and a file of reaction IDs and builds a model object
+	-PDC_dFBA.py		#Use dFBA to test aromatic:glucose ratios for maximizing PDC yield
 	
-	-run_standard_dFBA.py	#Runs dFBA on a given model and set of substrates with no modifications
+	-bioproduct_dFBA.py	#Use dFBA to assess various bioproduct yields
 	
-	-run_PDC_dFBA.py	#Run a version of dFBA that simulates PDC production
+	-calculate_biomass_yield.py	#Determine biomass yield from various substrates
 	
-	-iNovo_figures.R	#Generates the figures in the manuscript
+	-cometabolism_dFBA.py	#Use dFBA to determine how multiple substrates are consumed
+	
+	-iNovo_figures.R	#Generate figures from the manuscript
+	
+	-iNovo.xml files	#Included copies of the models in Model_builds/Models/ for ease of use in these scripts
 
 -Model_builds
 
@@ -61,8 +65,10 @@ CONTENTS
 		
 -Model_results
 
-	-glu_SA_VA_pHBA_dFBA_results.csv	#Co-metabolism of these substrates from run_standard_dFBA.py
+	-SA_VA_pHBA_dFBA_results-2022.csv	#Cometabolism of G, S, and H aromatics
 	
-	-SA_VA_pHBA_dFBA_results.csv	#See above
+	-glu_SA_VA_pHBA_dFBA_results-2022.csv	#Cometabolism of G, S, and H aromatics and glucose
 	
-	-aromatic_glucose_ratios.csv	#Aggregated results from run_PDC_dFBA.py
+	-hypothetical_glu_SA_VA_pHBA_dFBA_results-2022.csv	#Cometabolism of G, S, and H aromatics with hypothetical demethylation reaction
+	
+	-vanAB_glu_
