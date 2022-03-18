@@ -1,0 +1,23 @@
+﻿Substrate,Data_Type,Yield,Error
+D-glucose,Experimental,119,19
+p-Hydroxybenozoic acid,Experimental,64,8
+Syringic acid,Experimental,88,11
+Syringaldehyde,Experimental,96,4
+Vanillic acid,Experimental,126,1
+Protocatechuic acid,Experimental,117,17
+Vanillin,Experimental,126,1
+Ferulic acid,Experimental,166,4
+G-diketone,Experimental,NA,NA
+S-diketone,Experimental,NA,NA
+GGE,Experimental,133,NA
+D-glucose,Modelled,114,NA
+p-Hydroxybenozoic acid,Modelled,88,NA
+Syringic acid,Modelled,116,NA
+Syringaldehyde,Modelled,125,NA
+Vanillic acid,Modelled,114,NA
+Protocatechuic acid,Modelled,95,NA
+Vanillin,Modelled,123,NA
+Ferulic acid,Modelled,154,NA
+G-diketone,Modelled,126,NA
+S-diketone,Modelled,126,NA
+GGE,Modelled,282,NA
