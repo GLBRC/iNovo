@@ -87,3 +87,7 @@ Then use "while read line" in a Unix environment to run everything in the file. 
 This script will output several items - the time stopped (it will stop when all substrate is consumed), the production rate in mmol/L/hr of bioproduct, and the rate in g/L/hr of bioproduct. Both the overexpression amount and the g/L/hr are useful for comparing bioproducts. This script will also output a file called "bioproduct_dFBA_results.csv" with the amounts of substrates and products over time in the simulation.
 
 The currently allowed bioproducts to test are C00489 (glutarate), C06098 (zeaxanthin), C02480 (cis-cis muconic acid), C00158 (citrate), C00163 (propanoate), C00084 (acetaldehyde), C00116 (glycerol), C00246 (butanoate), C00823 (1-hexadecanol), C00146 (phenol), C00086 (urea), C00033 (acetate), and C00189 (ethanolamine).
+
+INOVO_FIGURES.R
+
+This R script is not necessarily intended to be run by other users, but it provides all of the R code used to generate the figures in our manuscript. It takes input files from Model_results/ and outputs plots to a directory called Plots_and_Tables/ (not included here). It is intended to be a resource for making figures.
