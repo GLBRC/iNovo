@@ -27,7 +27,7 @@ CONTENTS
 
 	-biomass_yield.py	#Predicts biomass yield for given substrates
 	
-	-build_model.py	#Takes a file of compound IDs and a file of reaction IDs and builds a model object
+	-build_model.py		#Takes a file of compound IDs and a file of reaction IDs and builds a model object
 	
 	-run_standard_dFBA.py	#Runs dFBA on a given model and set of substrates with no modifications
 	
@@ -37,21 +37,27 @@ CONTENTS
 
 -Model_builds
 
+	-build_iNovo.py		#Script for building models from input files
+
 	-Input_files
 	
-		-hypothetical_demethylation_minimal_reactions_2021-12-09.txt	#Hypothetical demethylation with no energy gain
+		-hypothetical_demethylation_minimal_reactions_2022-03-02.txt	#Hypothetical demethylation with no energy gain
 		
-		-minimal_compounds_2021-10-07.csv	#Shared compound IDs file for all models
+		-minimal_compounds_2022-03-03.csv		#Shared compound IDs file for all models
 		
-		-minimal_reactions_2021-12-04.txt	#Reaction IDs in the base iNovo model
+		-minimal_reactions_2022-02-11.txt		#Reaction IDs in the base iNovo model
 		
-		-vanAB_minimal_reactions_2021-12-09.txt	#Novo’s demethylation replaced with P. putida’s 
+		-vanAB_minimal_reactions_2022-03-03.txt		#Novo’s demethylation replaced with P. putida’s 
+		
+		-engineered_minimal_reactions_2022-03-02.txt	#Additional reactions added to allow new bioproducts
 	-Models
-		-hypothetical_demethylation_iNovo.json/xml	#Hypothetical demethylation with no energy gain
+		-iNovo_hypo_demeth_2022.json/xml	#Hypothetical demethylation with no energy gain
 		
-		-iNovo.json/xml	#Base model
+		-iNovo_base_2022.json/xml	#Base model
 		
-		-vanAB_iNovo.json/xml	#Novo’s demethylation replaced with P. putida’s 
+		-iNovo_vanAB_2022.json/xml	#Novo’s demethylation replaced with P. putida’s 
+		
+		-iNovo_engineered_2022.json/xml	#Base model + additional reactions to allow new bioproducts
 		
 -Model_results
 
@@ -60,11 +66,3 @@ CONTENTS
 	-SA_VA_pHBA_dFBA_results.csv	#See above
 	
 	-aromatic_glucose_ratios.csv	#Aggregated results from run_PDC_dFBA.py
-	
--Plots_and_Tables
-
-	-input plots and tables from iNovo_figures.R and Excel. Used in the manuscript.
-	
--Supplemental_Files
-
-	-Supplemental files included with the manuscript
