@@ -69,6 +69,10 @@ CONTENTS
 	
 	-glu_SA_VA_pHBA_dFBA_results-2022.csv	#Cometabolism of G, S, and H aromatics and glucose
 	
-	-hypothetical_glu_SA_VA_pHBA_dFBA_results-2022.csv	#Cometabolism of G, S, and H aromatics with hypothetical demethylation reaction
+	-hypothetical_SA_VA_pHBA_dFBA_results-2022.csv	#Cometabolism of G, S, and H aromatics with hypothetical demethylation reaction
 	
-	-vanAB_glu_
+	-vanAB_SA_VA_pHBA_dFBA_results-2022.csv	#Cometabolism of G, S, and H aromatics with P. putida demethylation
+	
+	-aromatic_glucose_ratios-2022.csv	#PDC producion rate results of varying aromatic:glucose ratios
+	
+	-biomass_yields.csv			#Biomass yield predictions and experimental yields for aromatic substrates
